@@ -86,11 +86,21 @@ def extract_tags(reviews):
         "gluten_free_options": has(["gluten-free"])
     }
 
+def get_existing_ids(filename):
+    if not os.path.exists(filename):
+        return set()
+
+    with open(filename, "r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        return {row["Yelp ID"] for row in reader if row.get("Yelp ID")}
+
 
 def build_csv(filename="copenhagen_restaurants.csv"):
+    existing_ids = get_existing_ids(filename)
     businesses = search_businesses()
 
     fieldnames = [
+        "Yelp ID",
         "Business name",
         "Business address",
         "Category",
@@ -113,16 +123,25 @@ def build_csv(filename="copenhagen_restaurants.csv"):
         "Gluten-free options"
     ]
 
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
+    file_exists = os.path.exists(filename)
+
+    with open(filename, mode="a", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames)
-        writer.writeheader()
+
+        if not file_exists:
+            writer.writeheader()
 
         for b in businesses:
+            if b["id"] in existing_ids:
+                print(f"Skipping already saved: {b['name']}")
+                continue
+
             details = get_details(b["id"])
             reviews = get_reviews(b["id"])
             tags = extract_tags(reviews)
 
             row = {
+                "Yelp ID": b["id"],
                 "Business name": b["name"],
                 "Business address": " ".join(b["location"]["display_address"]),
                 "Category": ", ".join([c["title"] for c in b["categories"]]),
@@ -148,8 +167,12 @@ def build_csv(filename="copenhagen_restaurants.csv"):
             }
 
             writer.writerow(row)
+            existing_ids.add(b["id"])
 
-    print(f"Saved to {filename}")
+            print(f"Saved: {b['name']}")
+            time.sleep(0.2)
+
+    print(f"Finished updating {filename}")
 
 
 if __name__ == "__main__":
