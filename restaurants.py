@@ -13,34 +13,23 @@ DETAILS_URL = "https://api.yelp.com/v3/businesses/{}"
 REVIEWS_URL = "https://api.yelp.com/v3/businesses/{}/reviews"
 
 
-# ---- API CALLS ----
-def search_restaurants(location="Copenhagen", limit=20):
-    params = {
-        "location": location,
-        "categories": "restaurants",
-        "limit": limit
-    }
-    res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
-    return res.json().get("businesses", [])
-
-def search_cafes(location="Copenhagen", limit=1):
-    params = {
-        "location": location,
-        "categories": "cafes",  # 👈 key change
-        "limit": limit
-    }
-    res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
-    return res.json().get("businesses", [])
-
-def search_businesses(location="Copenhagen", categories="restaurants", limit=1):
+def search_businesses(location="Copenhagen", categories="restaurants", limit=20):
     params = {
         "location": location,
         "categories": categories,
         "limit": limit
     }
     res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
-    return res.json().get("businesses", [])
 
+    businesses = res.json().get("businesses", [])
+    filtered = []
+    for b in businesses:
+        aliases = [c["alias"] for c in b["categories"]]
+
+        if not any(x in aliases for x in ["cafes", "bakeries", "coffee", "tea"]):
+            filtered.append(b)
+
+    return filtered
 
 def get_details(business_id):
     return requests.get(DETAILS_URL.format(business_id), headers=HEADERS).json()
@@ -50,7 +39,21 @@ def get_reviews(business_id):
     return requests.get(REVIEWS_URL.format(business_id), headers=HEADERS).json().get("reviews", [])
 
 
-# ---- SIMPLE NLP TAGGING ----
+def get_business_type(categories):
+    mapping = {
+        "cafes": "Cafe",
+        "bakeries": "Bakery",
+        "restaurants": "Restaurant"
+    }
+
+    labels = []
+    for c in categories:
+        if c["alias"] in mapping:
+            labels.append(mapping[c["alias"]])
+
+    return ", ".join(labels) if labels else "Other"
+
+
 def extract_tags(reviews):
     text = " ".join([r["text"].lower() for r in reviews])
 
@@ -59,26 +62,21 @@ def extract_tags(reviews):
 
     return {
         "ambience": "cozy" if has(["cozy", "romantic"]) else None,
-        "noise_level": "loud" if has(["loud", "noisy"]) else "quiet" if has(["quiet"]) else None,
         "outdoor_seating": has(["outdoor", "patio"]),
         "vegan_options": has(["vegan"]),
         "vegetarian_options": has(["vegetarian"]),
-        "gluten_free_options": has(["gluten-free"]),
-        "alcohol_served": has(["wine", "beer", "cocktail"]),
-        "happy_hour_special": has(["happy hour"]),
-        "best_nights": "weekend" if has(["friday", "saturday"]) else None
+        "gluten_free_options": has(["gluten-free"])
     }
 
 
-# ---- MAIN ----
 def build_csv(filename="copenhagen_restaurants.csv"):
-    businesses = search_businesses(categories="restaurants/cafes")
+    businesses = search_businesses()
 
-    # Your exact variables as columns
     fieldnames = [
         "Business name",
         "Business address",
         "Category",
+        "Business Type",
         "Phone number",
         "Average star rating",
         "Hours of operation",
@@ -94,9 +92,7 @@ def build_csv(filename="copenhagen_restaurants.csv"):
         "Outdoor seating",
         "Vegan options",
         "Vegetarian options",
-        "Gluten-free options",
-        "Alcohol served",
-        "Happy hour special"
+        "Gluten-free options"
     ]
 
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
@@ -112,6 +108,7 @@ def build_csv(filename="copenhagen_restaurants.csv"):
                 "Business name": b["name"],
                 "Business address": " ".join(b["location"]["display_address"]),
                 "Category": ", ".join([c["title"] for c in b["categories"]]),
+                "Business Type": get_business_type(b["categories"]),
                 "Phone number": b.get("display_phone"),
                 "Average star rating": b["rating"],
                 "Hours of operation": str(details.get("hours")),
@@ -121,19 +118,15 @@ def build_csv(filename="copenhagen_restaurants.csv"):
                 "Price": b.get("price"),
                 "Business website URL": details.get("url"),
 
-                # Reviews
                 "Review Highlights": " | ".join([r["text"] for r in reviews]),
                 "Business summary": reviews[0]["text"] if reviews else "",
                 "Customer Experience": reviews[0]["text"] if reviews else "",
 
-                # Tags
                 "Ambience": tags["ambience"],
                 "Outdoor seating": tags["outdoor_seating"],
                 "Vegan options": tags["vegan_options"],
                 "Vegetarian options": tags["vegetarian_options"],
-                "Gluten-free options": tags["gluten_free_options"],
-                "Alcohol served": tags["alcohol_served"],
-                "Happy hour special": tags["happy_hour_special"]
+                "Gluten-free options": tags["gluten_free_options"]
             }
 
             writer.writerow(row)
@@ -142,4 +135,4 @@ def build_csv(filename="copenhagen_restaurants.csv"):
 
 
 if __name__ == "__main__":
-    build_csv(filename="copenhagen_cafes.csv")
+    build_csv(filename="copenhagen_restaurants.csv")
