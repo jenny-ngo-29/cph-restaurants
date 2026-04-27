@@ -1,5 +1,9 @@
 import os
 import requests
+import csv
+from dotenv import load_dotenv
+
+load_dotenv()
 
 API_KEY = os.getenv("YELP_API_KEY")
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
@@ -9,7 +13,8 @@ DETAILS_URL = "https://api.yelp.com/v3/businesses/{}"
 REVIEWS_URL = "https://api.yelp.com/v3/businesses/{}/reviews"
 
 
-def search_restaurants(location="Copenhagen", limit=10):
+# ---- API CALLS ----
+def search_restaurants(location="Copenhagen", limit=20):
     params = {
         "location": location,
         "categories": "restaurants",
@@ -20,16 +25,14 @@ def search_restaurants(location="Copenhagen", limit=10):
 
 
 def get_details(business_id):
-    res = requests.get(DETAILS_URL.format(business_id), headers=HEADERS)
-    return res.json()
+    return requests.get(DETAILS_URL.format(business_id), headers=HEADERS).json()
 
 
 def get_reviews(business_id):
-    res = requests.get(REVIEWS_URL.format(business_id), headers=HEADERS)
-    return res.json().get("reviews", [])
+    return requests.get(REVIEWS_URL.format(business_id), headers=HEADERS).json().get("reviews", [])
 
 
-# --- SIMPLE NLP TAGGING ---
+# ---- SIMPLE NLP TAGGING ----
 def extract_tags(reviews):
     text = " ".join([r["text"].lower() for r in reviews])
 
@@ -44,64 +47,89 @@ def extract_tags(reviews):
         "vegetarian_options": has(["vegetarian"]),
         "gluten_free_options": has(["gluten-free"]),
         "alcohol_served": has(["wine", "beer", "cocktail"]),
-        "happy_hour": has(["happy hour"]),
+        "happy_hour_special": has(["happy hour"]),
         "best_nights": "weekend" if has(["friday", "saturday"]) else None
     }
 
 
-def build_dataset():
+# ---- MAIN ----
+def build_csv(filename="copenhagen_restaurants.csv"):
     businesses = search_restaurants()
-    dataset = []
 
-    for b in businesses:
-        details = get_details(b["id"])
-        reviews = get_reviews(b["id"])
-        tags = extract_tags(reviews)
+    # Your exact variables as columns
+    fieldnames = [
+        "Business name",
+        "Business address",
+        "Category",
+        "Phone number",
+        "Average star rating",
+        "Hours of operation",
+        "Review count",
+        "Closure status",
+        "Yelp profile URL",
+        "Yelp menu URL",
+        "Hot & New Status",
+        "Price",
+        "Business website URL",
+        "Review Highlights",
+        "Business summary",
+        "Customer Experience",
+        "Ambience",
+        "Best nights",
+        "Noise level",
+        "Outdoor seating",
+        "Vegan options",
+        "Vegetarian options",
+        "Gluten-free options",
+        "Alcohol served",
+        "Happy hour special"
+    ]
 
-        entry = {
-            # Core
-            "business_name": b["name"],
-            "business_address": " ".join(b["location"]["display_address"]),
-            "category": [c["title"] for c in b["categories"]],
-            "phone_number": b.get("display_phone"),
-            "average_star_rating": b["rating"],
-            "review_count": b["review_count"],
-            "closure_status": b["is_closed"],
-            "yelp_profile_url": b["url"],
-            "price": b.get("price"),
+    with open(filename, mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
 
-            # Details
-            "hours_of_operation": details.get("hours"),
-            "business_website_url": details.get("url"),
-            "yelp_menu_url": details.get("menu_url", None),
+        for b in businesses:
+            details = get_details(b["id"])
+            reviews = get_reviews(b["id"])
+            tags = extract_tags(reviews)
 
-            # Derived / Missing
-            "review_highlights": [r["text"] for r in reviews],
-            "business_summary": reviews[0]["text"] if reviews else None,
-            "customer_experience": reviews[0]["text"] if reviews else None,
+            row = {
+                "Business name": b["name"],
+                "Business address": " ".join(b["location"]["display_address"]),
+                "Category": ", ".join([c["title"] for c in b["categories"]]),
+                "Phone number": b.get("display_phone"),
+                "Average star rating": b["rating"],
+                "Hours of operation": str(details.get("hours")),
+                "Review count": b["review_count"],
+                "Closure status": b["is_closed"],
+                "Yelp profile URL": b["url"],
+                "Yelp menu URL": details.get("menu_url", ""),
+                "Hot & New Status": "",  # not available
+                "Price": b.get("price"),
+                "Business website URL": details.get("url"),
 
-            # NLP-derived tags
-            "ambience": tags["ambience"],
-            "noise_level": tags["noise_level"],
-            "outdoor_seating": tags["outdoor_seating"],
-            "vegan_options": tags["vegan_options"],
-            "vegetarian_options": tags["vegetarian_options"],
-            "gluten_free_options": tags["gluten_free_options"],
-            "alcohol_served": tags["alcohol_served"],
-            "happy_hour_special": tags["happy_hour"],
-            "best_nights": tags["best_nights"],
+                # Reviews
+                "Review Highlights": " | ".join([r["text"] for r in reviews]),
+                "Business summary": reviews[0]["text"] if reviews else "",
+                "Customer Experience": reviews[0]["text"] if reviews else "",
 
-            # Not available from Yelp API
-            "hot_and_new_status": None  # not exposed
-        }
+                # Tags
+                "Ambience": tags["ambience"],
+                "Best nights": tags["best_nights"],
+                "Noise level": tags["noise_level"],
+                "Outdoor seating": tags["outdoor_seating"],
+                "Vegan options": tags["vegan_options"],
+                "Vegetarian options": tags["vegetarian_options"],
+                "Gluten-free options": tags["gluten_free_options"],
+                "Alcohol served": tags["alcohol_served"],
+                "Happy hour special": tags["happy_hour_special"]
+            }
 
-        dataset.append(entry)
+            writer.writerow(row)
 
-    return dataset
+    print(f"Saved to {filename}")
 
 
 if __name__ == "__main__":
-    data = build_dataset()
-    for d in data:
-        print(d)
-        print("-" * 80)
+    build_csv()
