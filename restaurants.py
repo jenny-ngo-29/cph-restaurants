@@ -13,23 +13,41 @@ DETAILS_URL = "https://api.yelp.com/v3/businesses/{}"
 REVIEWS_URL = "https://api.yelp.com/v3/businesses/{}/reviews"
 
 
-def search_businesses(location="Copenhagen", categories="restaurants", limit=20):
-    params = {
-        "location": location,
-        "categories": categories,
-        "limit": limit
-    }
-    res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
+import time
 
-    businesses = res.json().get("businesses", [])
-    filtered = []
-    for b in businesses:
-        aliases = [c["alias"] for c in b["categories"]]
+def search_businesses(location="Copenhagen", categories="restaurants", limit=50):
+    all_businesses = []
+    offset = 0
+    MAX_TOTAL = 240
+    while offset + limit <= MAX_TOTAL:
+        params = {
+            "location": location,
+            "categories": categories,
+            "limit": limit,
+            "offset": offset
+        }
 
-        if not any(x in aliases for x in ["cafes", "bakeries", "coffee", "tea"]):
-            filtered.append(b)
+        res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
 
-    return filtered
+        if res.status_code != 200:
+            print("API Error:", res.status_code, res.text)
+            break
+
+        businesses = res.json().get("businesses", [])
+
+        if not businesses:
+            break
+
+        for b in businesses:
+            aliases = [c["alias"] for c in b["categories"]]
+
+            if not any(x in aliases for x in ["cafes", "bakeries", "coffee", "tea"]):
+                all_businesses.append(b)
+
+        offset += limit
+        time.sleep(0.2)
+
+    return all_businesses
 
 def get_details(business_id):
     return requests.get(DETAILS_URL.format(business_id), headers=HEADERS).json()
