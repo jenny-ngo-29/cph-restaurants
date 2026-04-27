@@ -23,6 +23,24 @@ def search_restaurants(location="Copenhagen", limit=20):
     res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
     return res.json().get("businesses", [])
 
+def search_cafes(location="Copenhagen", limit=1):
+    params = {
+        "location": location,
+        "categories": "cafes",  # 👈 key change
+        "limit": limit
+    }
+    res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
+    return res.json().get("businesses", [])
+
+def search_businesses(location="Copenhagen", categories="restaurants", limit=1):
+    params = {
+        "location": location,
+        "categories": categories,
+        "limit": limit
+    }
+    res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
+    return res.json().get("businesses", [])
+
 
 def get_details(business_id):
     return requests.get(DETAILS_URL.format(business_id), headers=HEADERS).json()
@@ -54,7 +72,7 @@ def extract_tags(reviews):
 
 # ---- MAIN ----
 def build_csv(filename="copenhagen_restaurants.csv"):
-    businesses = search_restaurants()
+    businesses = search_businesses(categories="restaurants/cafes")
 
     # Your exact variables as columns
     fieldnames = [
@@ -67,16 +85,12 @@ def build_csv(filename="copenhagen_restaurants.csv"):
         "Review count",
         "Closure status",
         "Yelp profile URL",
-        "Yelp menu URL",
-        "Hot & New Status",
         "Price",
         "Business website URL",
         "Review Highlights",
         "Business summary",
         "Customer Experience",
         "Ambience",
-        "Best nights",
-        "Noise level",
         "Outdoor seating",
         "Vegan options",
         "Vegetarian options",
@@ -104,8 +118,6 @@ def build_csv(filename="copenhagen_restaurants.csv"):
                 "Review count": b["review_count"],
                 "Closure status": b["is_closed"],
                 "Yelp profile URL": b["url"],
-                "Yelp menu URL": details.get("menu_url", ""),
-                "Hot & New Status": "",  # not available
                 "Price": b.get("price"),
                 "Business website URL": details.get("url"),
 
@@ -116,8 +128,6 @@ def build_csv(filename="copenhagen_restaurants.csv"):
 
                 # Tags
                 "Ambience": tags["ambience"],
-                "Best nights": tags["best_nights"],
-                "Noise level": tags["noise_level"],
                 "Outdoor seating": tags["outdoor_seating"],
                 "Vegan options": tags["vegan_options"],
                 "Vegetarian options": tags["vegetarian_options"],
@@ -132,4 +142,4 @@ def build_csv(filename="copenhagen_restaurants.csv"):
 
 
 if __name__ == "__main__":
-    build_csv()
+    build_csv(filename="copenhagen_cafes.csv")
