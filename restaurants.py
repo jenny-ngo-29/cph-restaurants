@@ -15,11 +15,19 @@ REVIEWS_URL = "https://api.yelp.com/v3/businesses/{}/reviews"
 
 import time
 
-def search_businesses(location="Copenhagen", categories="restaurants", limit=50):
+def search_businesses(
+    location="Copenhagen",
+    categories="restaurants",
+    limit=50,
+    exclude_categories=None
+):
+    exclude_categories = exclude_categories or []
+
     all_businesses = []
     offset = 0
     MAX_TOTAL = 240
-    while offset + limit <= MAX_TOTAL:
+
+    while offset < MAX_TOTAL:
         params = {
             "location": location,
             "categories": categories,
@@ -30,7 +38,7 @@ def search_businesses(location="Copenhagen", categories="restaurants", limit=50)
         res = requests.get(SEARCH_URL, headers=HEADERS, params=params)
 
         if res.status_code != 200:
-            print("API Error:", res.status_code, res.text)
+            handle_yelp_error(res)
             break
 
         businesses = res.json().get("businesses", [])
@@ -41,8 +49,10 @@ def search_businesses(location="Copenhagen", categories="restaurants", limit=50)
         for b in businesses:
             aliases = [c["alias"] for c in b["categories"]]
 
-            if not any(x in aliases for x in ["cafes", "bakeries", "coffee", "tea"]):
-                all_businesses.append(b)
+            if any(x in aliases for x in exclude_categories):
+                continue
+
+            all_businesses.append(b)
 
         offset += limit
         time.sleep(0.2)
@@ -50,11 +60,19 @@ def search_businesses(location="Copenhagen", categories="restaurants", limit=50)
     return all_businesses
 
 def get_details(business_id):
-    return requests.get(DETAILS_URL.format(business_id), headers=HEADERS).json()
+    res = requests.get(DETAILS_URL.format(business_id), headers=HEADERS)
+    if res.status_code != 200:
+        handle_yelp_error(res)
+        return {}
+    return res.json()
 
 
 def get_reviews(business_id):
-    return requests.get(REVIEWS_URL.format(business_id), headers=HEADERS).json().get("reviews", [])
+    res = requests.get(REVIEWS_URL.format(business_id), headers=HEADERS)
+    if res.status_code != 200:
+        handle_yelp_error(res)
+        return []
+    return res.json().get("reviews", [])
 
 
 def get_business_type(categories):
@@ -94,10 +112,54 @@ def get_existing_ids(filename):
         reader = csv.DictReader(file)
         return {row["Yelp ID"] for row in reader if row.get("Yelp ID")}
 
+def get_existing_ids_from_files(*filenames):
+    ids = set()
 
-def build_csv(filename="copenhagen_restaurants.csv"):
-    existing_ids = get_existing_ids(filename)
-    businesses = search_businesses()
+    for filename in filenames:
+        if not os.path.exists(filename):
+            continue
+
+        with open(filename, "r", encoding="utf-8") as file:
+            reader = csv.DictReader(file)
+            ids.update(row["Yelp ID"] for row in reader if row.get("Yelp ID"))
+
+    return ids
+
+def handle_yelp_error(response):
+    try:
+        error_data = response.json().get("error", {})
+        code = error_data.get("code")
+        desc = error_data.get("description")
+
+        print(f"Yelp API Error → {code}: {desc}")
+
+        if code == "TOO_MANY_REQUESTS_PER_DAY":
+            print("Daily API limit reached. Stop execution.")
+            exit()
+
+        elif code == "TOO_MANY_REQUESTS_PER_SECOND":
+            print("Rate limit hit. Sleeping for 2 seconds...")
+            time.sleep(2)
+
+        elif code == "INVALID_API_KEY":
+            print("Invalid API Key. Check your .env file.")
+            exit()
+
+        else:
+            print("Unhandled Yelp error.")
+
+    except Exception:
+        print("Unknown error:", response.text)
+
+def build_csv(filename="copenhagen_restaurants.csv", categories="restaurants", exclude_files=None):
+    exclude_files = exclude_files or []
+
+    existing_ids = get_existing_ids_from_files(filename, *exclude_files)
+
+    businesses = search_businesses(categories=categories,
+                                   exclude_categories=["cafes", "bakeries", "coffee", "tea"]
+                                   if categories == "restaurants"
+                                   else [])
 
     fieldnames = [
         "Yelp ID",
@@ -176,4 +238,14 @@ def build_csv(filename="copenhagen_restaurants.csv"):
 
 
 if __name__ == "__main__":
-    build_csv(filename="copenhagen_restaurants.csv")
+    build_csv(
+        filename="copenhagen_cafes.csv",
+        categories="cafes,bakeries,coffee,tea"
+    )
+
+    # 2. Scrape restaurants, skipping anything already in cafes CSV
+    build_csv(
+        filename="copenhagen_restaurants.csv",
+        categories="restaurants",
+        exclude_files=["copenhagen_cafes.csv"]
+    )
