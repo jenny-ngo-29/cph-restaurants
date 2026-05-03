@@ -12,11 +12,23 @@ SEARCH_URL = "https://api.yelp.com/v3/businesses/search"
 DETAILS_URL = "https://api.yelp.com/v3/businesses/{}"
 REVIEWS_URL = "https://api.yelp.com/v3/businesses/{}/reviews"
 
-
 import time
 
+NEIGHBORHOODS = [
+    "Nørrebro, Copenhagen",
+    "Vesterbro, Copenhagen",
+    "Østerbro, Copenhagen",
+    "Frederiksberg, Copenhagen",
+    "Amager, Copenhagen",
+    "Indre By, Copenhagen",
+    "Christianshavn, Copenhagen",
+    "Valby, Copenhagen",
+    "Vanløse, Copenhagen",
+    "Brønshøj, Copenhagen"
+]
+
 def search_businesses(
-    location="Copenhagen",
+    location=NEIGHBORHOODS,
     categories="restaurants",
     limit=50,
     exclude_categories=None
@@ -25,7 +37,7 @@ def search_businesses(
 
     all_businesses = []
     offset = 0
-    MAX_TOTAL = 240
+    MAX_TOTAL = 1000
 
     while offset < MAX_TOTAL:
         params = {
@@ -43,6 +55,9 @@ def search_businesses(
 
         businesses = res.json().get("businesses", [])
 
+        if len(businesses) < limit:
+            break
+
         if not businesses:
             break
 
@@ -55,7 +70,7 @@ def search_businesses(
             all_businesses.append(b)
 
         offset += limit
-        time.sleep(0.2)
+        # time.sleep(0.)
 
     return all_businesses
 
@@ -151,16 +166,109 @@ def handle_yelp_error(response):
     except Exception:
         print("Unknown error:", response.text)
 
-def build_csv(filename="copenhagen_restaurants.csv", categories="restaurants", exclude_files=None):
-    exclude_files = exclude_files or []
+# def build_csv(filename="copenhagen_restaurants.csv", categories="restaurants", exclude_files=None):
+#     exclude_files = exclude_files or []
 
+#     existing_ids = get_existing_ids_from_files(filename, *exclude_files)
+
+#     businesses = search_businesses(categories=categories,
+#                                    exclude_categories=["cafes", "bakeries", "coffee", "tea"]
+#                                    if categories == "restaurants"
+#                                    else [])
+
+#     fieldnames = [
+#         "Yelp ID",
+#         "Business name",
+#         "Business address",
+#         "Category",
+#         "Business Type",
+#         "Phone number",
+#         "Average star rating",
+#         "Hours of operation",
+#         "Review count",
+#         "Closure status",
+#         "Yelp profile URL",
+#         "Price",
+#         "Business website URL",
+#         "Review Highlights",
+#         "Business summary",
+#         "Customer Experience",
+#         "Ambience",
+#         "Outdoor seating",
+#         "Vegan options",
+#         "Vegetarian options",
+#         "Gluten-free options"
+#     ]
+
+#     file_exists = os.path.exists(filename)
+
+#     with open(filename, mode="a", newline="", encoding="utf-8") as file:
+#         writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+#         if not file_exists:
+#             writer.writeheader()
+
+#         for b in businesses:
+#             if b["id"] in existing_ids:
+#                 print(f"Skipping already saved: {b['name']}")
+#                 continue
+
+#             details = get_details(b["id"])
+#             reviews = get_reviews(b["id"])
+#             tags = extract_tags(reviews)
+
+#             row = {
+#                 "Yelp ID": b["id"],
+#                 "Business name": b["name"],
+#                 "Business address": " ".join(b["location"]["display_address"]),
+#                 "Category": ", ".join([c["title"] for c in b["categories"]]),
+#                 "Business Type": get_business_type(b["categories"]),
+#                 "Phone number": b.get("display_phone"),
+#                 "Average star rating": b["rating"],
+#                 "Hours of operation": str(details.get("hours")),
+#                 "Review count": b["review_count"],
+#                 "Closure status": b["is_closed"],
+#                 "Yelp profile URL": b["url"],
+#                 "Price": b.get("price"),
+#                 "Business website URL": details.get("url"),
+
+#                 "Review Highlights": " | ".join([r["text"] for r in reviews]),
+#                 "Business summary": reviews[0]["text"] if reviews else "",
+#                 "Customer Experience": reviews[0]["text"] if reviews else "",
+
+#                 "Ambience": tags["ambience"],
+#                 "Outdoor seating": tags["outdoor_seating"],
+#                 "Vegan options": tags["vegan_options"],
+#                 "Vegetarian options": tags["vegetarian_options"],
+#                 "Gluten-free options": tags["gluten_free_options"]
+#             }
+
+#             writer.writerow(row)
+#             existing_ids.add(b["id"])
+
+#             print(f"Saved: {b['name']}")
+#             time.sleep(0.2)
+
+#     print(f"Finished updating {filename}")
+        
+
+def build_csv_by_neighborhood(filename, categories, exclude_files=None):
+    exclude_files = exclude_files or []
     existing_ids = get_existing_ids_from_files(filename, *exclude_files)
 
-    businesses = search_businesses(categories=categories,
-                                   exclude_categories=["cafes", "bakeries", "coffee", "tea"]
-                                   if categories == "restaurants"
-                                   else [])
+    for neighborhood in NEIGHBORHOODS:
+        print(f"\nSearching in {neighborhood}...\n")
 
+        businesses = search_businesses(
+            location=neighborhood,
+            categories=categories,
+            exclude_categories=["cafes", "bakeries", "coffee", "tea"]
+            if categories == "restaurants" else []
+        )
+
+        write_businesses_to_csv(filename, businesses, existing_ids)
+
+def write_businesses_to_csv(filename, businesses, existing_ids):
     fieldnames = [
         "Yelp ID",
         "Business name",
@@ -195,7 +303,6 @@ def build_csv(filename="copenhagen_restaurants.csv", categories="restaurants", e
 
         for b in businesses:
             if b["id"] in existing_ids:
-                print(f"Skipping already saved: {b['name']}")
                 continue
 
             details = get_details(b["id"])
@@ -203,8 +310,8 @@ def build_csv(filename="copenhagen_restaurants.csv", categories="restaurants", e
             tags = extract_tags(reviews)
 
             row = {
-                "Yelp ID": b["id"],
                 "Business name": b["name"],
+                "Yelp ID": b["id"],
                 "Business address": " ".join(b["location"]["display_address"]),
                 "Category": ", ".join([c["title"] for c in b["categories"]]),
                 "Business Type": get_business_type(b["categories"]),
@@ -216,11 +323,9 @@ def build_csv(filename="copenhagen_restaurants.csv", categories="restaurants", e
                 "Yelp profile URL": b["url"],
                 "Price": b.get("price"),
                 "Business website URL": details.get("url"),
-
                 "Review Highlights": " | ".join([r["text"] for r in reviews]),
                 "Business summary": reviews[0]["text"] if reviews else "",
                 "Customer Experience": reviews[0]["text"] if reviews else "",
-
                 "Ambience": tags["ambience"],
                 "Outdoor seating": tags["outdoor_seating"],
                 "Vegan options": tags["vegan_options"],
@@ -232,19 +337,16 @@ def build_csv(filename="copenhagen_restaurants.csv", categories="restaurants", e
             existing_ids.add(b["id"])
 
             print(f"Saved: {b['name']}")
-            time.sleep(0.2)
-
-    print(f"Finished updating {filename}")
+            # time.sleep(0.2)
 
 
 if __name__ == "__main__":
-    build_csv(
+    build_csv_by_neighborhood(
         filename="copenhagen_cafes.csv",
         categories="cafes,bakeries,coffee,tea"
     )
 
-    # 2. Scrape restaurants, skipping anything already in cafes CSV
-    build_csv(
+    build_csv_by_neighborhood(
         filename="copenhagen_restaurants.csv",
         categories="restaurants",
         exclude_files=["copenhagen_cafes.csv"]
