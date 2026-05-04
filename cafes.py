@@ -6,14 +6,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv("YELP_API_KEY")
-HEADERS = {"Authorization": f"Bearer {API_KEY}"}
+HEADERS = {"Authorization": f"{API_KEY}"}
 
 SEARCH_URL = "https://api.yelp.com/v3/businesses/search"
 DETAILS_URL = "https://api.yelp.com/v3/businesses/{}"
 REVIEWS_URL = "https://api.yelp.com/v3/businesses/{}/reviews"
 
-
-import time
 
 import time
 

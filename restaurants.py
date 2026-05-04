@@ -349,5 +349,5 @@ if __name__ == "__main__":
     build_csv_by_neighborhood(
         filename="copenhagen_restaurants.csv",
         categories="restaurants",
-        exclude_files=["copenhagen_cafes.csv"]
+        # exclude_files=["copenhagen_cafes.csv"]
     )
