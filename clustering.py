@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-df = pd.read_csv("copenhagen_restaurants.csv", on_bad_lines="skip")
+df = pd.read_csv("copenhagen_places_merged.csv", on_bad_lines="skip")
 def price_to_num(price):
     if isinstance(price, str):
         return len(price)
@@ -32,10 +32,10 @@ features = [
     "Average star rating",
     "Review count",
     "Price",
-    "Outdoor seating",
-    "Vegan options",
-    "Vegetarian options",
-    "Gluten-free options"
+    # "Outdoor seating",
+    # "Vegan options",
+    # "Vegetarian options",
+    # "Gluten-free options"
 ]
 
 X = df[features]
@@ -59,7 +59,7 @@ plt.ylabel("Inertia")
 plt.title("Elbow Method")
 plt.show()
 
-optimal_k = 3
+optimal_k = 4
 
 kmeans = KMeans(n_clusters=optimal_k, random_state=42, n_init=10)
 df["Cluster"] = kmeans.fit_predict(X_scaled)
