@@ -341,10 +341,10 @@ def write_businesses_to_csv(filename, businesses, existing_ids):
 
 
 if __name__ == "__main__":
-    build_csv_by_neighborhood(
-        filename="copenhagen_cafes.csv",
-        categories="cafes,bakeries,coffee,tea"
-    )
+    # build_csv_by_neighborhood(
+    #     filename="copenhagen_cafes.csv",
+    #     categories="cafes,bakeries,coffee,tea"
+    # )
 
     build_csv_by_neighborhood(
         filename="copenhagen_restaurants.csv",
