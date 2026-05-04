@@ -125,7 +125,18 @@ def summarise_by_business(df: pd.DataFrame) -> pd.DataFrame:
     agg["pct_neutral"]    = (agg["pct_neutral"]   * 100).round(1)
     agg["pct_negative"]   = (agg["pct_negative"]  * 100).round(1)
 
-    agg = agg.sort_values("mean_compound", ascending=False)
+    m = agg["review_snippets"].median()  # confidence threshold
+    # m = agg["review_snippets"].mean()
+    global_mean = (
+        df.groupby("Yelp ID")["vader_compound"].mean().mean()
+    )
+
+    agg["weighted_compound"] = (
+        (agg["review_snippets"] / (agg["review_snippets"] + m)) * agg["mean_compound"]
+        + (m / (agg["review_snippets"] + m)) * global_mean
+    )
+
+    agg = agg.sort_values("weighted_compound", ascending=False)
     return agg
 
 
