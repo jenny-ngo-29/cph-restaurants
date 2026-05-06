@@ -1,0 +1,1309 @@
+Yelp ID,Business name,Category,Average star rating,Review count,Price,Ambience,mean_compound,pct_positive,pct_negative,cluster
+t_0nFc2QD_vlw-MYpKQG9A,WarPigs,"Bars, Barbeque, Beer, Wine & Spirits",3.9,237,$$,,0.301,71.4,28.6,1
+RWu431JRkV57wcHhB8aDcg,Paté Paté,"Brasseries, Wine Bars",4.0,104,$$,,0.597,85.7,14.3,6
+F3CDtajZHnDNTPFVxeB8hg,Madklubben Vesterbro,Scandinavian,4.0,115,$$,cozy,0.603,85.7,14.3,6
+9X8evo7osTgJrSbWcUj4Iw,Falernum,"Tapas/Small Plates, Wine Bars",4.3,40,$$,,0.563,71.4,0.0,5
+qG3nbT9OsbHfbIAxmyxgkg,Bodil et Spisested,Scandinavian,4.6,22,$,cozy,0.77,100.0,0.0,0
+AVyQoQZPJvHcEmm1jpT2Yw,Chicky Grill,Danish,4.7,39,$,,0.734,85.7,0.0,0
+P6pt-cDH5gnNaKGaA4mm3g,KöD Vesterbro,Steakhouses,4.4,34,$$$,,0.83,100.0,0.0,2
+2nljRohmwgMSAK3DZJgbDQ,Kebabistan,Kebab,4.4,48,$,,0.681,100.0,0.0,0
+OqCKxabox2V4QOnsDz96tQ,Restaurant Beyzade,"Halal, Turkish",4.7,6,$,,0.823,100.0,0.0,0
+ScHATAnPeqztKx_SgRzEuQ,Osteria 16,Italian,4.0,21,$$,,0.429,85.7,14.3,5
+LCqH2Bp8ztUab25PebIm3Q,STUDIO,"Scandinavian, Modern European, Japanese",4.8,44,$$$$,,0.406,71.4,14.3,2
+ZlC10jcPNTBd8V0hJp3WTA,Ramen to Bíiru,Ramen,4.0,27,$,cozy,0.584,85.7,0.0,0
+k1RXZBCXjmC1NNmyrNPptg,Cofoco,Modern European,4.4,58,$$$,,0.428,85.7,14.3,2
+XDzWxMtk5ijLrM3WSlYsCA,Malbeck,"Wine Bars, Argentine, Beer, Wine & Spirits",4.4,25,$$,,0.642,85.7,0.0,3
+-8SFaU76VMSZ4Wefxd2biA,Issa,Japanese,4.0,54,$,cozy,0.634,100.0,0.0,0
+d1B16iz4Y30ywlfZCMk5QQ,[ba'sta'ds] - Bastards,"Bars, Gastropubs",4.2,15,$$,,0.528,85.7,14.3,5
+T3shDWbi_F_v4w2R3734Ng,Grød,Breakfast & Brunch,4.3,13,,,,,,3
+8N33CA_d7bOoWIjWBpFOmA,Fontana Di Trevi,Pizza,4.4,19,$,,0.485,85.7,14.3,0
+1I1CmrwVKd-nShQumDGUmA,Vinbaren Vesterbro Torv,"Wine Bars, Tapas/Small Plates",4.4,19,$$,cozy,0.789,100.0,0.0,3
+4q79IjHziRh3_covXpAjUw,Ibu,"Malaysian, Indonesian",4.0,4,,,,,,5
+IpLR4D03X1PcIATox384oA,John's Hotdog Deli,Hot Dogs,4.6,15,$,,0.338,71.4,14.3,0
+5cvm39902_hhUdSQQeMmPA,WEDOFOOD - Kødbyen,"Salad, Vegetarian, Caterers",4.1,56,$,,0.418,71.4,14.3,6
+LlOGvq8ME_bziFUJcMKuLw,Grøften,"Danish, Scandinavian, Beer Gardens",3.6,46,$$,cozy,0.468,71.4,0.0,5
+mOY-EFL-GDD7OuLSj84ruw,Halifax,Burgers,4.0,25,$,,0.642,85.7,0.0,0
+kAWO1joO0n9Yx920GqkTfw,Restaurant Tight,"Danish, Scandinavian, Modern European",4.3,183,$$,cozy,0.606,100.0,0.0,1
+6jZuKParESrjASictp7t2g,Restaurant Fridas,Danish,3.7,11,$$,cozy,0.567,85.7,14.3,5
+X-R5bAQGSvNgsM24nfvVNA,Hallernes Smørrebrød,"Breakfast & Brunch, Scandinavian, Open Sandwiches",4.2,25,,,,,,5
+VjI7QQVhpmtUf95tFwx3yQ,MASH Penthouse,"Steakhouses, Burgers",4.1,24,$$$,cozy,0.762,100.0,0.0,2
+HjG1KbnNXH6VAregjDdwOA,Je t'aime,French,4.0,12,$,cozy,0.696,100.0,0.0,0
+0Xa2J8Dh0qw48URqe-sVyA,Cafe Dyrehaven,"Bars, Breakfast & Brunch, Open Sandwiches",4.1,123,$,,0.183,42.9,42.9,6
+z0e0JL8EkkLUWxERYTiXow,Grillen Vesterbro,Burgers,4.0,11,$,,0.599,85.7,14.3,0
+U7CZ3o2hbn2cwoV6pk0CSg,Noodle House,Chinese,3.9,16,$,,0.693,100.0,0.0,0
+GwbF7jsjO1BzsNit7ifgYg,Café Royal,Scandinavian,4.0,8,$$,,0.765,100.0,0.0,5
+jdVXlY3bD8LFp8QlW7wHww,Pony,"Modern European, Scandinavian",4.2,41,$$$,cozy,0.646,85.7,0.0,2
+RMSIajJMvhfIs5AJIIX2AQ,Magasasa Dim Sum & Cocktails,"Cocktail Bars, Dim Sum",3.5,39,$$,,0.42,71.4,14.3,5
+6i68LsbMZCcN_8WFLA7Qlg,Ristorante Buono,Italian,4.7,13,$$,,0.756,100.0,0.0,3
+_OlJxoKsvEUrOjBVW4lqfQ,Nimb Terrasse,"Scandinavian, French",4.1,15,$$$,,0.582,85.7,14.3,2
+-LxQ56ziISpAy6Snx7YZ3A,Reef N'Beef,Australian,4.1,27,$$,cozy,0.85,100.0,0.0,5
+Nm4Br4EUQZAXT_EvexR5JQ,Pizzeria Mamemi & Wine Bar,"Pizza, Italian, Wine Bars",4.8,11,,,,,,3
+XPJUFw62-d3lqH7fNNki7g,Ristorante L'Appetito,Italian,4.1,15,$$,,0.466,71.4,14.3,5
+BAx8K5uj-_1qv9Ka1raRiA,BOB - BioMio Organic Bistro,"Modern European, Scandinavian, Organic Stores",3.3,98,$$,,0.217,57.1,14.3,6
+Lq17O6C4UQBB4Noi42gBhg,Øl & Brød by Mikkeller,Restaurants,4.0,17,$$$,,0.225,71.4,14.3,2
+YdBKHVCOxDz_pC7UhDMHZg,Sticks 'n' Sushi,"Sushi Bars, Japanese",4.2,105,$$$,,0.419,71.4,28.6,6
+xwqhZeJVA5oFPZ4_yc9glg,Pho Hanoi,Vietnamese,3.9,76,$,,0.55,100.0,0.0,6
+jeNR0xCt42G9OHToTiisTQ,Wok,Thai,4.0,29,$,,0.759,100.0,0.0,0
+-TnG72eT8zM3dY8Kio134A,Tapas Huset,"Spanish, Tapas Bars, Wine Bars",4.1,19,$$,,0.305,71.4,28.6,5
+jJoaGe7_iQeAopDjAIeEMg,NOSE2TAIL Madbodega,"Modern European, Danish",3.8,44,$$,,0.453,71.4,14.3,5
+V-4K9eMBxz62qoIQzRbagw,Baan Thai Isarn,Thai,4.2,30,$,,0.652,85.7,0.0,0
+iy4OrJexaV1PU2hrAWRonA,Nimb Bar'n'Grill,"Steakhouses, Cocktail Bars",4.3,20,$$$,,0.576,71.4,14.3,2
+UT3Qj4C8rFS8qK2fZmdRMw,Spuntino,Italian,3.9,39,$$,,0.586,71.4,14.3,5
+k2v5OE7siUCZq4SuBFDJYQ,Madglads Cafeteria,"Cafeteria, Vegetarian, Caterers",4.2,18,$,,0.569,100.0,0.0,0
+h7XGZctXWRydpuBcCYH6-g,Rumbles,Burgers,3.8,5,,,,,,5
+HK0SOlqr-TDA3Eu2qZ8wRA,Frk. Barners Kælder,Danish,3.5,62,$$,,0.47,71.4,14.3,6
+PuwX4xp15CZLislIflpJ1Q,Japansk Restaurant Sukiyaki,Japanese,3.8,13,$$$,,0.301,71.4,0.0,2
+nZsXFeMvLw5fRRCx0XIvAA,Karma Sushi,"Sushi Bars, Japanese, Asian Fusion",4.0,3,,,,,,5
+Fi-PjfEHni_tS1O8cdPZsw,Jensens Bøfhus,Steakhouses,2.8,31,$,cozy,0.383,71.4,28.6,0
+SRpjkfzZ9zsdaYa3Jf5tHw,Mother,"Italian, Pizza, Breakfast & Brunch",3.3,247,$$,,0.434,71.4,28.6,1
+HBrBZP3EDDjR5xSvvAvZKA,The Harbour,Restaurants,3.6,5,,,,,,5
+RuN5mpToZTtpnN60ENXZYA,Café Patina,Greek,5.0,4,,cozy,,,,3
+oXMxaEak5xBZ_9l8Beg7yw,Pornsak,Thai,4.1,19,$$,,0.509,71.4,14.3,5
+E2U5BXRTEJ8p6p83xDkQBA,Restaurant Gorilla,"Italian, French",3.6,71,$$$,cozy,0.637,85.7,0.0,2
+6AbjUvWcDX-wu_7jyAwhuA,Spisehuset,Scandinavian,4.5,2,,,,,,3
+PLeAFLzoq5JdY5D-IeX2cA,Itzi Pitzi Pizza,Pizza,3.6,32,$,,0.466,71.4,14.3,0
+9yU5C1-eJinzEdsA8g-XEw,Leo's Pizza,Pizza,4.0,21,$,,0.476,85.7,14.3,0
+VtBI8rNT8xfamFKpvm2r4w,Jolene Bar,"Dance Clubs, Restaurants",2.8,27,$$,,0.13,42.9,28.6,5
+6vf30L922zoPSOGILd7kKg,Thai Home Take Away,Thai,4.3,8,$,,0.546,75.0,25.0,0
+M77Zp0zQZrFIv7ILfOKDow,Sticks 'n' Sushi,Sushi Bars,3.9,50,$$,,0.703,100.0,0.0,5
+CYGAwrOaS0-8idz24J8OAA,Jagger Fast Food,"American, Burgers, Fast Food",3.6,41,$,,0.521,71.4,14.3,0
+C-YN61XazAU2KSyWAvZE2g,Frederik VI,"Gastropubs, Pubs, Open Sandwiches",3.8,21,$,,0.609,85.7,0.0,0
+IIeOJQFvIatrp2-POVEKpA,Krøgers Have,Danish,4.1,11,$$,,0.293,42.9,28.6,5
+mJoi9z_IUjkcM5AQftZR3g,Miga,"Japanese, Korean",4.2,9,$$,,0.571,100.0,0.0,3
+08IO91LhxWosl94XM9qJAw,Vesterbro Bryghus,"Burgers, Brewpubs",4.5,8,,,,,,3
+QRTERmWzrM39IdzwasbpLQ,Carne Famo,Italian,4.4,9,$$$,,0.565,80.0,20.0,2
+1vp-75Ky5feOmFVO2etrnQ,Nimb Bar,"Champagne Bars, Scandinavian, Breakfast & Brunch",4.7,15,$$,,0.8,100.0,0.0,3
+SfgJUQkdVQTQoh54Xbem7w,Papa Ramen,"Ramen, Soup",3.8,46,$,cozy,0.748,100.0,0.0,0
+wawbC-_cUtlHUWQQL2atRQ,Boy's Shawarma & Kylling,"Middle Eastern, Chicken Shop",5.0,5,$,,0.626,66.7,0.0,0
+9oc4qvMuoNIM14LM8XKbLg,Nicecream Copenhagen,"Organic Stores, Vegan, Ice Cream & Frozen Yogurt",4.4,8,$$$,,0.669,100.0,0.0,2
+Cn1CN-m6TVDO6zn0rnG0Lg,Hija de Sanchez,"Mexican, Fast Food",4.1,62,$,,0.63,85.7,14.3,6
+2xTCzUypNzs3j4zT-qFk1A,Husmann's Vinstue,"Danish, Open Sandwiches",4.9,7,$$,,0.863,100.0,0.0,3
+GnSL4u2SJFL_dwV1MPVFcA,Tivolihallen,Scandinavian,4.0,13,$$,,0.71,85.7,14.3,5
+ibzuyz9Oo7JJtzwX4vX3Jw,Slice of San Francisco,"Desserts, American, Mexican",4.6,89,$,,0.443,71.4,14.3,6
+oVm0eGsN2bCLIWSvp-Aleg,Scandic Copenhagen,"Hotels, Scandinavian",3.6,33,$$,,0.459,85.7,0.0,5
+TYCTIlkJ_bPFTJQW_o9Qtg,Hansens Gamle Familiehave,Scandinavian,3.8,14,$$,,0.211,40.0,20.0,5
+ETqWLBffUYn6_8sLL7Lw7A,Restaurant Royal Garden,Dim Sum,4.0,49,$$,cozy,0.318,57.1,42.9,5
+qIiMq_2vrtpA_6ABFAL3jQ,Færgekroen Bryghus,"Danish, Breweries",3.4,21,$$,,0.467,71.4,14.3,5
+NsbGX5K0Xw1pV2-00L3fvA,Poulet,"Salad, Chicken Shop",5.0,3,,,,,,3
+X7VnGhCxI4pIAVjqNyW7TA,Bento,Japanese,4.2,50,$$,,0.693,85.7,0.0,5
+pe5FWVars1vxlBip14N25w,Tommi's Burger Joint,Burgers,4.0,103,$,,0.596,85.7,14.3,6
+r1zHu9qILM03inumhl_r9w,Sanchez,Mexican,3.6,33,,,,,,5
+6vmoOjHsxxT2VrsrarfFsQ,Al-Diwan,"Pakistani, Indian, Halal",4.2,52,$$,,0.622,100.0,0.0,5
+PE3v_Nt2omdkfjdwz7qiPQ,Hatoba,Japanese,4.5,30,$$,,0.83,100.0,0.0,3
+t7r898m6zBYLK1_yUtzyRw,Vaffelbageriet,"Desserts, Ice Cream & Frozen Yogurt, Waffles",4.1,7,$$,cozy,0.382,83.3,16.7,5
+RJfAtO6Upq0H8C7A1K-S9g,Il Buco,Italian,4.1,22,$$,,0.42,57.1,14.3,5
+8F-kZJD0469Hb_rCMm3LRQ,Encke & Duers,"Sandwiches, Vegetarian, Meat Shops",4.6,16,$,,0.838,100.0,0.0,0
+K_Rkq5YuKzTH2t5vMV-lmQ,Kanal Caféen,"Open Sandwiches, Danish",4.3,21,$$,,0.565,85.7,0.0,3
+0gInoPNojP0tj5QZ-Xy4CA,Fu Hao,"Dim Sum, Asian Fusion",3.6,43,$,,0.271,57.1,28.6,0
+jhCfpjsM3uqJAJkYaSRbdQ,Made In Italy,"Pizza, Italian",4.9,10,$,,0.774,100.0,0.0,0
+FH5jNuLDx4n0IxEIkR-wdg,La Galette,"Creperies, French",4.1,39,$,,0.708,85.7,0.0,0
+OpEXzkZ9-mEnvujwXtUCUg,Hot Pot Republic,"Chinese, Pan Asian",3.8,4,,,,,,5
+iJB11vo9oN6HuZ-qpxKseQ,Oscar Bar Cafe,"Gay Bars, Danish, Party & Event Planning",4.0,24,$,cozy,0.473,71.4,0.0,0
+qAk2DMJgnQkubc76kupVIg,LêLê Street Kitchen Vesterbro,"Vietnamese, Food Delivery Services",3.6,28,$,,0.133,42.9,42.9,0
+BizDrQ47YKN9_ZmcMHVG_w,Il Grappolo Blu,Italian,4.1,9,,,,,,5
+ah8-o7ePvYlDGq6swW9LPw,Johns Hotdog Deli,Hot Dogs,4.4,16,,,,,,3
+sToVJMxsbFGd_Rp9ITtBNA,Fredco's Deli,"Salad, Sandwiches",4.4,5,$,,,,,0
+-XBzl8A6j31bUfj0Thes9Q,Café Trold,"Breakfast & Brunch, Bars, Danish",4.0,6,,,,,,5
+Ql6OilkTKwjrtzDgSPfAJg,PUBLIC - The Italian Social Dining Bar,Italian,5.0,3,,,,,,3
+bHSgWYf8tFLnP_z1pBfknQ,La Mensa Di Benito,"Food, Pizza",4.3,7,$$,,,,,3
+L81UmGObLGrwNOx8jIzwLA,Lundgren V.I.P.,"Beer, Wine & Spirits, Tapas/Small Plates, Delis",3.9,23,$$,,0.455,80.0,20.0,5
+cpSY6riPU6ev7cQhGI-EHQ,Cocks & Cows,Burgers,3.4,139,$$,,0.601,85.7,0.0,6
+bKAJ1aOCA6AJTrZUb8l6Yg,Pho Saigon,Vietnamese,3.7,56,$,,0.611,100.0,0.0,6
+DBDMpjrIM32ouTobKL3RNw,Da Salvo,"Pizza, Italian",3.7,15,$,,0.451,71.4,28.6,0
+10P1VnQlyxFY8sKCR5x_eA,Floras Steakhouse,Steakhouses,3.8,16,$$,,0.817,100.0,0.0,5
+6-M4t5b-HlxQkZyeNRqimA,Gasoline Grill,"Burgers, Fast Food",4.8,5,,,,,,3
+u1i1EJbonoTQD0FsqOgH9w,Les Trois Cochons,French,3.9,51,$$$,cozy,0.784,100.0,0.0,2
+4My2yhGh8kIuMIiV23l7nA,Sticks'n'Sushi,"Sushi Bars, Lounges, Cocktail Bars",4.2,9,,,,,,3
+ILSKTOnVyJkZ37g3Rh3jlw,Thai Corner,Thai,3.9,18,$,,0.482,85.7,14.3,0
+OlyZUbwTZ2SGKPinEh7efQ,Restaurant Flammen,"Salad, Buffets, Barbeque",3.6,35,$$,,0.282,57.1,28.6,5
+-hgFcHfSe56HSll2kyS_ug,La Fiesta Mexicana,Mexican,3.6,19,$$,,0.163,57.1,28.6,5
+lgodTpuCucirKKpFpsg2YA,Kiin Kiin Tok Tok,Thai,4.7,3,,,,,,3
+7J6CZJX-xabrytCgF7P-Zw,Restaurant Sultan,Restaurants,4.3,3,$,,0.852,100.0,0.0,0
+kJtIGAoNJ6yuaNE5Er16dg,Birthes Smørrebrød,Open Sandwiches,5.0,2,,,,,,3
+Kz617M-ghSoGC9KDSLxEQA,The American Pie Company,"American, Desserts",4.5,92,$,,0.634,85.7,0.0,6
+yHCImZFK75Pbsksq2JuUTg,Isted Grill,"Fast Food, Imported Food",4.3,29,$,,0.429,85.7,0.0,0
+HlncUJWMRsHZq6dA-Xrdzw,Københavner Cafeen,"Bars, Danish, Open Sandwiches",4.0,49,$,,0.498,71.4,0.0,0
+A22O6Xd9AKT49UvxvA-9wg,Bryggeriet Apollo,"Restaurants, Beer, Wine & Spirits, Breweries",3.3,8,$$$,,0.102,50.0,50.0,2
+RX-N1kSl2JN9XVGB9LrcvA,The Silo,"Cocktail Bars, Bistros",4.3,11,,,,,,3
+FZYTd9p8OVmNX4-RkKk-EA,Østerbro Madhus,Restaurants,5.0,1,,,,,,3
+e_rAIXOi59j1XgHxbtKrpw,Sushi Anaba,"Sushi Bars, Japanese",5.0,5,,,,,,3
+AX_zR1XaELPhj7P0YLa_Wg,Buvette Nordhavn,"French, Wine Bars",4.0,3,,,,,,5
+CIgTdIjsXaiC1FVtPVLTCA,Co-ma,"Italian, French, Cocktail Bars",4.0,9,$$,,0.523,66.7,16.7,5
+gPIDM2H6y_eSly3vc5jIYQ,Restaurant Taormina,Italian,5.0,7,,cozy,,,,3
+Xu3gMeCBuvQj8ytU6A71BA,Reffen Skøjteøen - Copenhagen Street Food,"Public Markets, Food Stands",4.8,51,$,,0.528,85.7,0.0,0
+MQNELlGuUPqxxLux3JHbmg,Cap Horn,Scandinavian,3.9,99,$$,,0.134,57.1,42.9,6
+n1SK8zMzbGrwrWLKKCanFw,Det Simrer,"Breakfast & Brunch, Danish",4.6,7,,,,,,3
+1v5HhnqcOQ_6mnqTY5gP0w,Toldboden,"Breakfast & Brunch, Fish & Chips, Cocktail Bars",3.5,61,$$,,0.615,100.0,0.0,6
+dYjsMKzXYPx8C0sXOjI_cg,2fresh,"Sandwiches, Bagels, Juice Bars & Smoothies",4.5,6,$,,0.313,50.0,50.0,0
+PvSXC4ff8qkMH7-ss7flTw,The Union Kitchen,"Breakfast & Brunch, Cocktail Bars, Modern European",4.1,240,$$,,0.745,85.7,0.0,1
+C061Z9JMNtHuivJi3EMfGA,Frihavn Pizzaria,Pizza,4.2,6,$,,0.795,100.0,0.0,0
+CpP26NoqAePCd5A4ZBX6ig,Restaurant Vietnam,Vietnamese,3.7,3,$$,,0.953,100.0,0.0,5
+ki-5x0hQ73QKWaDIgqJXvQ,Brasserie Barner,"French, Brasseries",4.8,5,,,,,,3
+7aAvVtbCmt4IdLvEtmTNZQ,Nordisk Falafel,"Falafel, Vegan, Vegetarian",4.4,7,,,,,,3
+oE2LbMCk_JRGAstqtmapSw,Pizza D'Italia,"Pizza, Italian, Sandwiches",5.0,4,$,,0.674,100.0,0.0,0
+pjfPRpyaHm7nwloRDejrjA,The Vietnamese,Vietnamese,4.6,17,,,,,,3
+CD-0ZTk98D27gEJ8XHkl8A,Alchemist,Restaurants,4.5,23,,,,,,3
+mMDq90p0RUytcmrlrPDzoQ,Cafe Oscar,"Open Sandwiches, Breakfast & Brunch",4.1,30,$$,cozy,0.316,71.4,28.6,5
+JI0zGTU1mrWStWATzGuqTw,Østerbros Originale Burgerrestaurant,Burgers,2.8,24,$,,0.484,66.7,0.0,0
+jjmQEZpFcChy_L7lXFhCng,Yuca Taco,"Mexican, Food Trucks",4.3,12,$$,,0.532,85.7,14.3,3
+rCh0EfG9C1n6aWOqG1fwoQ,Iki Sushi,"Sushi Bars, Japanese",3.8,21,$$,,0.462,80.0,20.0,5
+2di_YHxnj8i68jG1O1t4pA,Izumi Østerbro,Sushi Bars,4.2,14,$$,,0.496,85.7,14.3,5
+i45KynHOMWXBJtevd2_F-Q,The Pescatarian,"Seafood, Danish, Scandinavian",5.0,10,,,,,,3
+JS1H2-_yTIsGV6bAmSzLkg,Hachi Sushi,"Sushi Bars, Japanese",4.6,7,$$,,0.839,100.0,0.0,3
+2qYBnWxPd-26kg1RiayooA,Noma,"Modern European, Danish, Scandinavian",4.4,76,$$$$,,0.671,85.7,14.3,2
+b2amu72HeR0HFzvn1KxLJg,SALT Bar & Restaurant,"Modern European, Bars, Scandinavian",3.6,26,$$,,0.324,71.4,28.6,5
+7F1957mvoWoYrMyvPyJ6Hg,The Taco Shop 2,Mexican,3.1,38,$,,0.298,71.4,28.6,0
+l5ylSmPAOK6gFXNQVCVoZg,Hummer,Seafood,4.2,46,$$$,,0.445,71.4,14.3,2
+EPFMU8Sz1lDqwbDpucLyYw,Oranje,Bistros,4.3,11,$$,,0.748,100.0,0.0,3
+iLVnegujv80sLbtIPF4V6w,Restaurant Marv og Ben,Scandinavian,4.7,40,,cozy,,,,3
+Nx45B9EnDsAgtZi-t8JZQA,OTTO,Modern European,4.1,22,$$,,0.626,80.0,0.0,5
+pFvI3g1696qTnfRURM2KYg,The Red Box,"French, Asian Fusion",4.6,40,$$,,0.764,85.7,0.0,3
+tP1EcpiJaiwAmKsh53I1pg,Famo Metro,Italian,4.4,13,$$$,,0.564,71.4,0.0,2
+Rwf-04v-R8Y3QHpmjGX99g,Sticks'n'Sushi,"Sushi Bars, Cocktail Bars",4.4,37,$$,,0.652,85.7,14.3,5
+uFX3W-60kFl3Bjlr-5XneA,Venezia,Italian,4.3,20,$$$,,0.757,100.0,0.0,2
+2UYHNOfah_bu7SyuMSsPlw,Kebabistan,"Kebab, Pizza, Imported Food",3.9,10,,,,,,5
+ueg4UPGLIQXjPeJL_2VDcw,Marchal,"Scandinavian, French",4.4,39,$$$$,,0.677,100.0,0.0,2
+pV2FbfM8szaUWKlEzv3lTQ,Mo's Pizza,"Italian, Pizza",3.3,11,$,,0.661,100.0,0.0,0
+YINogRFgK-KyazW8dGANSg,Palæ Bar,"Dive Bars, Restaurants",3.9,21,$$,,0.633,100.0,0.0,5
+6POs0yPjaYaogWjm18rGPQ,Sam's Pizza,Pizza,4.0,5,,,,,,5
+sMNs5QThzwxpRADLrqrXJg,Il Gusto Giusto,"Italian, Pizza",4.1,9,,,,,,5
+PAcgJp-snmbNFOpRMZaJcg,Restaurant Paustian,Restaurants,5.0,1,,,,,,3
+9jP_S4A4PBvevdrZUaFJRQ,Ravage,"French, Bistros",3.8,28,$$,,0.48,85.7,14.3,5
+AYqdfMYHJOBzHNeYiA5BbQ,Khun Juk Oriental,Thai,4.5,26,$$,cozy,0.657,85.7,14.3,3
+vjkBt6FmMrUroSPEP4xs0w,Restaurant Koefoed,Danish,4.6,34,$$$,,0.775,100.0,0.0,2
+gDDBcd3CEVdp5_AyDT05mQ,Bar'vin,"Tapas/Small Plates, Brasseries, Wine Bars",4.3,24,$$,cozy,0.365,71.4,14.3,5
+tCF2CAnypL9EjEeadxOqFg,Iki Sushi,"Japanese, Sushi Bars",4.2,5,$$,,0.726,100.0,0.0,3
+1yZqy0O5C3d-n4OhX0DBDQ,Nærvær,"Restaurants, Wine Bars",4.8,6,$$,,0.658,75.0,0.0,3
+fuip3TOordirBcsqcqaOkQ,Gasoline Grill,Burgers,4.6,21,$,,0.586,85.7,14.3,0
+YKI-nG39bI1Jb0_wJR9Euw,Thai Curry,"Thai, Wok",3.7,9,$$,,0.637,100.0,0.0,5
+T8u5Ze-KcXts6sl9xP-_dw,Amalie,Danish,4.5,17,$$,,0.724,83.3,0.0,3
+xj1cgF8xUqEn3MSB96HrJA,Hafnia Bar,"Salad, Vegetarian, Vegan",4.2,54,$,cozy,0.379,71.4,28.6,0
+LkBEFkFAgzcwjyHnObh_Vg,Alouette,Restaurants,4.7,9,,,,,,3
+hYWTEuRIVosWlKCt2Gm71w,Restaurant Ida Davidsen,Scandinavian,3.8,21,$$,,0.458,85.7,0.0,5
+EjoU5v0xKwElLUu7L8rYxg,Zio&Nonna,"Italian, Pizza",4.4,5,,cozy,,,,3
+pBmBHI_wuoxSj446bCOGLA,Hyttefadet,Modern European,3.9,18,$$,,0.844,100.0,0.0,5
+4wlCf4vtIkZKiVwBml-3Ew,Cafe Sundet,Restaurants,2.3,9,$,,,,,0
+G9Y9Vs2LDTkWlLDn25zHpA,Crazy Chicken,"Danish, Fast Food",3.7,6,$,,0.941,100.0,0.0,0
+haU818Cq7NW8vaP1wW79Mg,Christianshavns Færgecafé,"Open Sandwiches, Danish, Brasseries",4.5,22,$$,,0.743,100.0,0.0,3
+v_ONL4ewpRl92C8VsL35EQ,DØP,"Hot Dogs, Organic Stores",4.2,74,$,,0.676,85.7,0.0,6
+yclt1P8Px0Hn9-zgmLs7fg,Restaurant Biom,"Organic Stores, Breakfast & Brunch, Scandinavian",4.7,18,$$,,0.54,85.7,0.0,3
+p3WN7WTe0OcH13qurPFLeA,Maven restaurant & vinbar,"Danish, Wine Bars",3.9,50,$$,,0.363,71.4,28.6,5
+kfll5bnCbMrJB31ODtuspA,Papadum,Indian,4.0,5,,,,,,5
+dhARyK1iDpE5hz2sPn-fgw,Illum Rooftop,Restaurants,4.2,11,$$,,0.662,83.3,0.0,3
+BXAXgVKEIEwwpbHwbwZucg,Amass Restaurant,"Scandinavian, Modern European",4.4,71,$$$$,,0.463,85.7,0.0,2
+TTmDYkjQGRAnD1gtduj_ug,Restaurant Palægade,Open Sandwiches,4.3,16,$$$,,0.378,71.4,14.3,2
+NIgIv8hUDLAJPA1YGmXiig,Retour Steak,"Steakhouses, Beer, Wine & Spirits, Cocktail Bars",4.3,52,$$,,0.667,85.7,14.3,5
+TWHzNyrOjZdqmZnR3gNXng,Restaurant Vita,Scandinavian,3.9,30,$$,cozy,0.568,85.7,14.3,5
+nTAF5Syge1k3aCngakeRxQ,Pizzeria Cavallino,"Italian, Pizza, Sandwiches",3.8,6,$,,,,,0
+tbjZvFHGXoRfK-cdA7zXbQ,Quattro Fontane 4,"Specialty Food, Delis",4.4,5,,,,,,3
+qLikhypg5flNOxsaVblZsg,Holberg no. 19,"Sandwiches, Mediterranean",4.1,35,$,,0.599,85.7,14.3,0
+T7cnA63aujMdfjRCHkgqTA,The Shrimp,Modern European,5.0,6,,,,,,3
+uxJ4GDZx9s4aQ0EgxHefPQ,Restaurant Sejlklubben Frem,Danish,3.3,3,$,,,,,0
+CEm48sIr-PJNrw4sKsKejA,Veggie Heroes,"Chinese, Vegan, Vegetarian",4.8,4,,,,,,3
+BEU6KgxOfFlEoQNcA437Dw,Sporvejen,"Burgers, Themed Cafes",3.9,50,$,cozy,0.645,85.7,0.0,0
+uRCvUWDGqkKn7R7cXVpQ0w,Bistro 23,"Seafood, French, Bistros",3.4,14,$$$,,0.34,71.4,28.6,2
+S7UIuIh9mXCejML1EtWfpg,Halifax,Burgers,4.0,63,$$,,0.015,42.9,28.6,6
+o5mJ-jjGnXXbVL2xgOc5-A,La Tradizionale,"Pizza, Italian, Sandwiches",4.3,17,$,,0.582,83.3,16.7,0
+UO4Hb7sYINKU3jTDotpkFg,Frederiks Have Restaurant,Modern European,4.2,6,$$$,,0.658,100.0,0.0,2
+I4msAYlj82WFU_5qxMW6lQ,Bartof Cafe,"Bars, Jazz & Blues, Restaurants",4.0,18,$,,0.792,100.0,0.0,0
+-iaDPugtxB0dd3cmPDY_fg,Mêlée,"Wine Bars, French, Brasseries",4.2,43,$$$,cozy,0.825,100.0,0.0,2
+bMD38zQtzZQ4KQRA8rskKg,GRØD,"Breakfast & Brunch, Scandinavian",4.4,10,$,cozy,0.725,100.0,0.0,0
+FIjjaxW4OU1I1L6MGW0eUw,Restaurant Da Claudio,Italian,4.1,13,$$,,0.478,50.0,0.0,5
+ShnRRch4sashDtu4Vsfz3Q,Deligreco,"Delicatessen, Greek",4.2,13,$$,,0.654,85.7,0.0,3
+k6Tzvte26r_CTXovaYOoHg,Mielcke & Hurtigkarl,Modern European,4.6,27,$$$$,,0.765,100.0,0.0,2
+D2bL3V9dUwJrysrEV4slkg,Bangkok,Thai,4.0,1,$,,0.574,100.0,0.0,0
+qr2sZCgVv7aRbJaCxuJeCg,Falcon Kebab Shop,"Kebab, Falafel",5.0,3,$,,0.916,100.0,0.0,0
+mV_kF7m6GcIhU-SiyIUF6Q,formel B,"Modern European, Scandinavian",4.3,55,$$$$,,0.366,85.7,14.3,2
+ipg634saX2cEDxmMHFWEVg,Bjørnekælderen,"Scandinavian, Open Sandwiches",4.7,7,,,,,,3
+fUrdQnkfwdHwNHxJRWDpVw,Pause,"Breakfast & Brunch, Gluten-Free, Italian",5.0,1,,,,,,3
+t3j1A8YPW9Xx3I5jah0rWQ,Restaurant India,Indian,4.4,8,$,,0.946,100.0,0.0,0
+CkMqUfNDQqcx_8QdOpYE-g,WEDOFOOD - Frederiksberg,"Food, Salad",4.0,11,$,,0.925,100.0,0.0,0
+HSNS-TjYC0Q76YQ9VCD2Hg,MG Petersens familiehave,Danish,3.4,5,$$$,,0.718,100.0,0.0,2
+PsJn1XSuyd4JjLGWdOMBuw,Acacia,"Patisserie/Cake Shop, Vegan, Breakfast & Brunch",4.3,10,$$,cozy,0.662,85.7,14.3,3
+LdLojsOFwjKMgQsEMnQENw,Mæsk,"Food, Restaurants",4.3,4,,,,,,3
+kipfBB2A5tbMXAfIUhT2uQ,Sale e Pepe,Italian,4.3,4,$$$,,0.912,100.0,0.0,2
+h-5YvgKOLsfU-ig_Ri0LRQ,Wagamama,Japanese,3.0,22,$$,,0.56,83.3,16.7,5
+q609IE6zRY1Ex3ojz-twOQ,Sticks 'n' Sushi,Sushi Bars,4.1,26,$$$,,0.633,85.7,14.3,2
+wGmkCfUMgFTfXnJley0LHw,Satang Thai Bistro,Thai,4.8,4,,,,,,3
+LJ737M6RcHYtks4SBIWUxQ,Da Cavallino pizzeria,Pizza,5.0,4,,,,,,3
+gHjKigZKATuUXHLVJJ3rJg,Fitnesso,"Restaurants, Juice Bars & Smoothies",4.0,12,$,,0.117,50.0,50.0,0
+RKraihLrhCjO8UbDIAtUwA,Restaurant Radio,Scandinavian,4.4,42,$$$,cozy,0.506,71.4,0.0,2
+2c-k2ezELjj2DtuIPGfS9A,Børma Bar,"Dive Bars, Restaurants",4.2,5,$,,0.0,0.0,0.0,0
+nRkVwUnSlK0aAF7yGCRpww,Omakase,"Sushi Bars, Japanese",4.0,11,$$,,0.648,100.0,0.0,5
+4wPlKZzaZCh_H6O4Xr_98w,Wokshop,"Thai, Wok",3.3,27,$$,,0.806,100.0,0.0,5
+C2_OEW8YKQpdF556Wcvwxg,Sushi Factory,Sushi Bars,4.1,12,$,,0.361,100.0,0.0,0
+yJM7lY89ynHrq64VB2ZkYA,Cafe on the Six,"Breakfast & Brunch, Sandwiches",4.8,9,$,cozy,0.744,100.0,0.0,0
+cFOZOaswxXBs5yMqU6YBNw,The secret Mad&Vin Frederiksberg,"Beer, Wine & Spirits, Modern European",5.0,1,,,,,,3
+nusfgwfAmV1g8JamlkKOqA,La Vecchia,Italian,3.2,11,$$,,0.675,100.0,0.0,5
+5dX-hp32AThuu2upsSH2aQ,Min Thai Takeaway,Thai,4.7,3,,,,,,3
+j7Ba6XFJn3TtaUjIwCBQpQ,D'Taste,"Vietnamese, Chinese",5.0,1,,,,,,3
+X-R60RhXSX6BDVKIeGlaww,Bodrum Pizzeria,"Burgers, Fast Food, Pizza",2.7,3,$,,0.448,100.0,0.0,0
+1gyawNJOcGNvJQrmmYMnWA,Mors Køkken,"Barbeque, Scandinavian, Steakhouses",3.7,6,$,,0.248,100.0,0.0,0
+aAdoFSaZlK8tbOSPx7Ozyw,Café Moccador,Restaurants,2.9,21,$,,0.459,100.0,0.0,0
+Anw0NqXKkHc2cP2bRtP6GA,Gastro Commercial Pizzaria,"Italian, Pizza",2.6,7,$,,,,,0
+GHbXLKwL92PvRao7L0gMJQ,The Bronx Burger Bar,Burgers,2.9,9,$$,,0.728,100.0,0.0,5
+SgsFk1qAC_LnvorSDOqV-w,Pizzicato,Italian,4.6,7,$,cozy,0.711,75.0,0.0,0
+oPQb2vcd_yFMe_sgDt7bhQ,Pizzeria Pescara,"Italian, Pizza, Sandwiches",3.0,5,$,,0.214,100.0,0.0,0
+yGew4kSxi-tRVvnrXAupkQ,Seoul Koreansk BBQ,"Korean, Buffets",3.9,27,$,,0.225,57.1,28.6,0
+m9jYjb6txSJ0-jnA7Awgkw,Sans Souci,"French, Danish",3.5,11,$$,,0.762,100.0,0.0,5
+LIt2Uuk4YqqPnMKiyL7PJA,The Sandwich,Sandwiches,3.7,3,,,,,,5
+8cwRfLT0ekeRophK9CydYw,Pizzeria Ciao Ciao,Pizza,4.8,5,,,,,,3
+NUb7WgJW_1bZXfvgBm2GpA,Restaurant Kadeau,"Danish, Scandinavian",4.8,26,$$$$,,0.563,85.7,0.0,2
+h3u5IdngWQtdo4EmQiHJLQ,LETZ SUSHI,"Japanese, Sushi Bars",5.0,1,,,,,,3
+cQc21K032hrdwXoKZR5NGA,Mangia,Italian,4.3,3,,,,,,3
+OsB7WTFM3xWs_EA1GOTeHQ,Viben Fiskehus,"Seafood Markets, Seafood",3.2,6,$$,,,,,5
+riXaqS0MaqD7s29TyFW85w,Ancestrale,"Restaurants, Wine Bars",4.5,2,,,,,,3
+ClBeeqgCD3fbTclvN5b3OQ,Lones Pølser,"Fast Food, Hot Dogs",4.3,4,,,,,,3
+OQ0qfZLuSvOsnOweOndGLQ,Restaurant Tokyo,"Japanese, Specialty Food",3.4,13,$$,,0.217,42.9,28.6,5
+Uns8cIbuWN4C1ZK_vjrWbQ,DØP,"Organic Stores, Hot Dogs",4.4,30,$,,0.651,85.7,14.3,0
+Xoq_CdD8gQfBfT3D9BWa2g,Ristorante Italiano,Italian,4.1,70,$$,,0.504,71.4,0.0,6
+hd2e7twKTCcC2wci5SBCgg,Sticks'n'Sushi,"Sushi Bars, Japanese",4.4,20,$$,,0.406,71.4,14.3,3
+FoJ8od2HPth7StHheI6KBQ,Thirion,"Belgian, Specialty Food, Beer, Wine & Spirits",5.0,8,$,,0.612,85.7,14.3,0
+QjL97NOjhTGJSEWOrInx_Q,Restaurant Sundby Sejl,Danish,3.9,7,$$,,0.81,100.0,0.0,5
+JEpoayQVKzku2783KEvmhg,WOK,Thai,4.2,18,$,,0.729,85.7,0.0,0
+4hMUT0QpONNDOl5oZBfErg,Ravelinen,"Scandinavian, Landmarks & Historical Buildings, Danish",3.8,19,$$,,0.661,85.7,0.0,5
+d3rY1WF-f8iG5n4sPSXY1Q,Era Ora,Italian,4.5,20,$$$$,cozy,0.657,100.0,0.0,2
+3cLGF7IxosZqsAGQCWB5VQ,Sankt Annæ 8,"Tapas/Small Plates, Wine Bars",4.4,38,$,cozy,0.402,71.4,14.3,0
+F0sNs8EDtlFzsG8KuC1vAA,Morgenstedet,"Vegetarian, Organic Stores",4.5,34,$,,0.387,71.4,14.3,0
+WWJHA8lUxOyVcU4m1DWD9A,Foodie,"Salad, Vegetarian, Sandwiches",4.6,34,$,,0.932,100.0,0.0,0
+jP76S8wDqTHn3_V0pAy8JQ,Almanak,Danish,3.5,40,$$$,,0.537,85.7,14.3,2
+yXY0EaxzpgTKAdrvprrZOg,Den Lille Fede,Modern European,4.2,23,$$$,cozy,0.595,85.7,0.0,2
+qcRM9fAO8xKTR4rnCseu8Q,Nebbiolo Winebar,"Wine Bars, Italian, Specialty Food",4.8,16,$$,cozy,0.724,85.7,14.3,3
+PCr7aIoYEPaXSB3xbBc5sg,Told og Snaps,"Open Sandwiches, Danish",4.5,23,$$,,0.403,71.4,14.3,3
+9a4oOq1hwyKFTDk3U83HHA,no. 2,Scandinavian,4.6,22,$$$,,0.821,100.0,0.0,2
+-MccMTtHoKymY_Oc4r8V7A,Restaurant AOC,"Danish, Scandinavian",4.4,47,$$$$,,0.604,85.7,14.3,2
+gGPVNAVIY04-YczfEwqueA,Restaurant Kanalen,"Scandinavian, Modern European",4.0,21,$$$,,0.31,71.4,14.3,2
+jmVgciY1U5jVdOLGnbodkQ,Madeinitaly,"Pizza, Italian, Vegetarian",5.0,8,,cozy,,,,3
+S6yr_0zdsRqHqgqXGgTsPg,Restaurant Menuen,Restaurants,4.8,4,$$$,,0.695,100.0,0.0,2
+Vb0GkjyyzrAz0_WHDo5iTg,Diamond Rice,Dim Sum,3.8,31,$$,,0.528,71.4,0.0,5
+864VZGzjhzBfou0mDVavYA,Kong Hans Kælder,"Scandinavian, French",4.7,21,$$$$,,0.495,85.7,0.0,2
+OxPp1KJrMW7lxL3179VWKA,Hos Nicola,Pizza,4.5,14,$$,cozy,0.793,100.0,0.0,3
+AWY_qYNqCVPjN91EKFknqw,Møller Snaps & Smørrebrød,"Open Sandwiches, Danish",4.1,8,$$,,0.807,100.0,0.0,5
+6punqTilYnTJXWMcdiUfLQ,Grillen Christianshavn,Burgers,3.7,31,$,,0.593,71.4,0.0,0
+-CCXF5zQN18J-Gnt6WkqkQ,Søren K,"Scandinavian, Modern European",3.9,23,$$$,,0.624,83.3,0.0,2
+-kR4aAEdzHSowdwDkTETtg,Ché Fè,"Italian, Organic Stores",4.6,23,$$$,,0.592,85.7,14.3,2
+09ACWaLXD6waTwWowN2wHg,Hot Buns,Burgers,3.2,43,$$,,0.531,85.7,14.3,5
+Q8Ng2haViAwnEsWnX0cH-w,PS Bar & Grill,"Modern European, Cocktail Bars",3.4,38,$$,,0.462,71.4,28.6,5
+tZdjg9UqkfQGWzVWEBg94Q,Sahil Restaurant,"Indian, Caterers",4.1,30,$$,,0.698,85.7,0.0,5
+1y71O0ZlrdlQ-N_C4jviDA,Llama,"Cocktail Bars, Mexican, Latin American",4.1,99,$$$,,0.738,100.0,0.0,2
+uYHpHZ7uIJOiKywZhReA-g,MASH,Steakhouses,4.1,72,$$$,,0.639,100.0,0.0,2
+EeCr78G33NPDFOiR3S_qow,Heering,"Danish, Bistros",4.0,21,$$$,,0.197,57.1,28.6,2
+GyIp_1i8AmZN_D3fptjUXA,Grab'n Go Burgers,"Burgers, New American",5.0,2,,,,,,3
+fLYDXRAb7uSFMYkp3lQkkw,Big Apple,"Sandwiches, Juice Bars & Smoothies",4.2,26,$,,0.45,71.4,14.3,0
+xdgshmjBc_ZaWQrxAu_e-Q,Aristo,Bistros,3.7,15,$$,,0.362,71.4,28.6,5
+MZOB0Gq_bQ4NbvOA-SoRLA,Restaurant Le Pavé,French,4.0,13,$$,,0.434,71.4,28.6,5
+3t8lgl1sVk_MPWMg-l4JEw,Halifax,Burgers,3.7,17,$$,,0.73,100.0,0.0,5
+ZGriBfqcXX7Go4k3SIT9rg,Fishmarket,"Seafood, French",3.4,41,$$$,,0.255,71.4,28.6,2
+oviChAHJzcrKyzhI3UVy8Q,Maio Restaurant,Italian,4.1,7,$$,,0.315,66.7,33.3,5
+kJvw7QsbfSmqVH0OmoZv_w,Restaurant Havfruen,Seafood,3.6,29,$$,cozy,0.673,85.7,0.0,5
+sgE0K7RxRMMafRk133nQKw,Fredco's Deli,"Vegetarian, Sandwiches, Juice Bars & Smoothies",3.8,29,$,,0.22,50.0,50.0,0
+VFWJjN9afXxbPz0HwfS3jA,Restaurant Zeleste,Danish,3.9,27,$$$,cozy,0.552,71.4,14.3,2
+zgJQJd9Tdbdj9WxtWcHuaA,Bøf & Ost,"French, Seafood",3.8,13,$$$,,0.59,100.0,0.0,2
+Pygcn947s_EcL8BI0Vf_7g,Khmer Cuisine,Pan Asian,4.3,20,,,,,,3
+B3nEhdBMBre0JrxgwsQoew,Boulevarden,Gastropubs,4.0,4,$$,,0.515,100.0,0.0,5
+xhGal7ajQuaD4xegQzCHgQ,Bistro Royal - Madklubben,"American, Barbeque, French",3.5,71,$$,,0.191,57.1,28.6,6
+kxEWRnQ1HmWxWaYmB3ezCw,Restaurant Kronborg,"Open Sandwiches, Danish, Scandinavian",4.1,51,$$,,0.52,85.7,0.0,5
+z4dOw6rSvLDJouK4W_-ZKg,Nyhavn Pizzeria,Pizza,4.8,12,,,,,,3
+4MqeD-NYwqiPlemQAfTKlw,Spiseloppen Christiania,"Modern European, Bars",4.3,23,$$,cozy,0.382,85.7,14.3,5
+MlfTU_tKZAMW_4Q98onHfQ,Brass,"Vegetarian, Gluten-Free",4.8,4,,,,,,3
+UGtlz82NpJ-McYejVV3Xhw,Rufino Osteria,Italian,4.3,16,$,cozy,0.733,100.0,0.0,0
+SG3XCRMwjJ3AaZdNEVu_vg,Nyhavn 37,Scandinavian,4.0,12,,cozy,,,,5
+hUx0eABwXObSOtF7kNBcFA,Palægade Smørrebrød,"Open Sandwiches, Food Stands",4.7,3,,,,,,3
+jTgbZdazTRdRFzKTxHpr_A,The Organic Boho,"Organic Stores, Vegan",3.8,23,$,cozy,0.796,100.0,0.0,0
+Sx6_cH2al9fis3mEPAW8Lg,Gasoline Grill,"Fast Food, Burgers, Barbeque",4.4,84,$,,0.65,100.0,0.0,6
+J5soC8fVmLpPpxOEPxdVFg,Tony's,Italian,3.5,38,$$,,0.317,71.4,28.6,5
+T1LYrmAI8pL1p-18AJxdAQ,Garbanzo,"Mediterranean, Vegetarian, Vegan",4.8,6,,,,,,3
+45OXq0Rb7Tf2cdnDKiH4lg,Kejser Sausage,"Hot Dogs, Food Stands",4.4,5,,,,,,3
+tWRiJkmmNa84ECnaE4dmmA,Toldbod Bodega,"Pubs, Danish, Open Sandwiches",3.8,16,$$,cozy,0.515,80.0,0.0,5
+WEEhKMbLXwddXvanLYg3hA,Restaurant Sankt Annæ,Restaurants,3.9,11,$,,0.464,85.7,14.3,0
+-AfNFtrGWOGen0BY2jFvsA,Karma Sushi,"Sushi Bars, Asian Fusion",3.9,44,$$,,0.597,85.7,0.0,5
+sRxvDAr1OVHsp0JINby5AQ,Nyhavnskroen,"Open Sandwiches, Danish",3.4,15,$,,0.483,85.7,0.0,0
+-_2BHrs8aDrdTRm_93rbcA,Pølsekompagniet,Hot Dogs,5.0,2,,,,,,3
+xE9ZU7NsmHQcwQdGK5QRTA,Cantina,Italian,3.2,29,$$,,0.17,71.4,28.6,5
+Nm-r-s2KFGVvdSNX9AcsjA,Granberg Brasserie,"Brasseries, French",4.5,4,,,,,,3
+7DrDAPL7A6srRyYTPM48Xw,Kontikibar & Restaurant Færgen Ellen,Restaurants,2.5,2,,,,,,5
+XCmN9AbDx88o3Lfoeq8ozQ,Bulko,"Food Trucks, Korean, Asian Fusion",4.3,9,,,,,,3
+-Gv0BG1QLe66OI9gkjzo8Q,Palæo,"Juice Bars & Smoothies, Gluten-Free, Salad",3.8,24,$,,0.517,85.7,0.0,0
+qsaBLvdVoseGKbMn2g8LAw,FAR's dreng,"Wine Bars, Breakfast & Brunch, Danish",3.8,57,$,,0.56,85.7,14.3,6
+1unSmVnObtLN86mXrJkPig,Hatoba Sushi,Sushi Bars,4.2,12,$$$,,0.855,100.0,0.0,2
+G2yAyiQp4RTyI12aHdTGLQ,Johns Hotdog Deli,"Hot Dogs, Street Vendors",4.8,10,$$,,0.257,57.1,14.3,3
+JtQl_OreAqYuajx2KIZDEQ,The Black Cock,"Food Trucks, Burgers",4.8,6,$,,0.832,100.0,0.0,0
+bgBzrM4eSnuklJ-vio5nuA,Fuego,"Argentine, Lounges",4.4,31,$$$,,0.575,71.4,28.6,2
+ZfjDmUYtoi4-FiAI3zut5w,Nyhavns Færgekro,"Danish, Open Sandwiches, Seafood",3.3,41,$$,cozy,0.58,85.7,14.3,5
+EhMg9Abery3Qz_p3p4mfow,La Fattoria,Food Stands,4.8,4,,,,,,3
+dBqkon_hssUWNSkyPsEzIw,Oink Oink,"Sandwiches, Fast Food, Food Stands",4.2,5,$$,,0.568,100.0,0.0,3
+P6TcyJY-Ipod_cp-GKQwfw,Bridge Street Kitchen,"Food Stands, Fast Food",3.9,13,,,,,,5
+RBOu0yXoUa5FzKARQu0eAA,Boathouse,Brasseries,3.9,7,,,,,,5
+c-p7iHc94qJhbql6LLJKPg,Sanders Kitchen,"Restaurants, Bars",4.8,6,,,,,,3
+XkACdvsX588oyiuFo-SsUA,Latienda,"Food Trucks, Latin American, Vegetarian",4.2,6,$$,,0.262,66.7,33.3,3
+aMYWFgwV3Q-seCmKIiyAAA,Restaurant Det Lille Apotek,Open Sandwiches,3.5,40,$$,,0.564,85.7,0.0,5
+xYBWuHuof8vtUKACFKqhpg,Lagano,"Italian, Food, Pizza",4.2,21,$,,0.317,71.4,28.6,0
+hWASG3_vTmx1wYhyuavhhQ,Mælk & Honning,Themed Cafes,5.0,1,,,,,,3
+2JF0D08KR9VQRtKY8EC2Lg,Halifax,Burgers,3.8,17,$$,,0.326,60.0,20.0,5
+C6YgtsXUiGgSgCwBowY5Dg,Bone's,"American, Burgers, Barbeque",3.3,10,$$,,0.781,100.0,0.0,5
+pVywLmSUElYzUeDBurwnxw,French Chicken,"Pizza, Sandwiches",4.7,3,$$,,,,,3
+Q_1VCeuppvRPfNgDZQGF0Q,Toftegård Smørrebrød,"Open Sandwiches, Danish",4.0,1,,,,,,5
+Ec42Vd63k2gFO2Cvw8ngpA,Den Persiske Restaurant,Restaurants,4.0,3,$,,0.821,100.0,0.0,0
+ZcH6ymEAAttjftlq0y-4mg,Sushi2500,Sushi Bars,3.6,11,$$$$,,,,,2
+v07LzE6FG3gf8-HH2-SBGA,Royal Sandwich,Sandwiches,3.8,4,$,,0.918,100.0,0.0,0
+811nkEKnltFSC-EPNqKLBw,Buffalo Pizza,"Pizza, Italian",3.8,13,$,,0.572,100.0,0.0,0
+uvgrir-4PdYWWWMjUzKqgw,Thai Wok,"Thai, Wok",3.5,4,$,,,,,0
+KksMwlaB8n920PKK0rct1g,La Stella,"Fast Food, Pizza",4.5,2,$,,0.44,100.0,0.0,0
+jUlEOr4a3O9zx-9qzemx_A,Sticks 'n' Sushi,Sushi Bars,3.3,11,$$$,,0.958,100.0,0.0,2
+EbOnv95-7Bt82HDGqRgyfA,Encke & Duers,"Food, Sandwiches",4.0,4,,,,,,5
+2n0LW8Ta2jgYB5NvQk7rdw,Valby Grønne Køkken,Restaurants,5.0,1,,,,,,3
+aST3LQR8TuSfdebnE3imhQ,Ny Ellebjerg Stations Kebab,Kebab,4.0,2,$$,,,,,5
+YmsBxril_Hx1S0TAC8J3-w,Yousef's Spisested,"Fast Food, Pizza, Kebab",3.1,7,$,,0.101,50.0,50.0,0
+5ufqF3aQzOwRXnjF7NMFlA,Rumbles,Burgers,2.7,3,,,,,,5
+cn6R7jgjBRzMWEeakxk7Gg,Pizzeria Cavallino,"Pizza, Italian",4.3,4,$,,,,,0
+wpvmgEFkF3HwdCuo0jhKMA,Burger King,"Burgers, Fast Food",3.5,2,,,,,,5
+IzsXdNIxtogi4eSmK0l6VQ,Banens Pizza,"Pizza, Middle Eastern",3.3,6,,,,,,5
+60blYrVWTsx3PW5QCXUzJg,Dilans Pizzaria og Burgerhouse,Pizza,3.8,6,$$,,0.638,100.0,0.0,5
+xHThmi4POD0zTB-ik8N4og,Que Pasa,Mexican,4.4,14,$$,,0.55,85.7,14.3,3
+UIrMj583BAQDR6DxOIIVdA,Sushi Stop,"Sushi Bars, Japanese, Chinese",4.0,4,,,,,,5
+uEUP01LstVgUPBJ569gKow,VACA Mexican Finger Food,Mexican,2.0,7,$,cozy,-0.219,40.0,60.0,0
+dVnBGW6aEbqiNB-MJoh-QA,Ocak Café,"Mediterranean, Fast Food, Sandwiches",5.0,1,$,,,,,0
+J9GdkoIb2tJMrMgM3wguUA,Jinan Pizza,"Pizza, Sandwiches",4.0,1,$,,,,,0
+uZuiZiOfW8xB8NR8fVRfcA,Tandoori Dehra,"Indian, Pakistani",5.0,1,,,,,,3
+rgx8MaNirk4gXcTIJYZ5Yw,Wabiwabi,Japanese,4.0,1,$$,,,,,5
+KSoUxoRYRQl3g2ui2JKoBA,Antico Forno A Legna,Restaurants,4.5,2,$,,0.76,100.0,0.0,0
+_olXSDLDbjrmoh8oQfWd0A,UMI,Sushi Bars,4.0,3,,,,,,5
+KoFPc_gf2AUaqx5PnJyN3w,Burger Garage,Burgers,4.2,5,$,,0.843,100.0,0.0,0
+ng7TPmNouBWvDyMlFclOVw,Teppan House,"Japanese, Asian Fusion",3.3,8,$$,,0.0,0.0,0.0,5
+jwXoWSMfL839V9bBnhQGnw,Sandwich X,Sandwiches,4.5,2,$,,,,,0
+Tqxn3G4BjjWW8KkjznZt3w,Mae Pen,Thai,4.0,3,$,,0.935,100.0,0.0,0
+s6RGwbKE6yZhbi4L0dVeCw,Chaophraya,Thai,3.5,8,$,,,,,0
+kTWN9AYe2a0s3TP4oEF8tw,Den Gyldne Okse,Danish,5.0,1,,,,,,3
+QJi8VGsEI7NR-KiwVJxIcA,Pomodoro & Mozzarella,"Food, Italian, Pizza",4.1,8,$,,0.652,100.0,0.0,0
+PjLv4lDNvvOuJIxx7068gg,Marco's pizza bar,Pizza,4.2,5,$,,,,,0
+qfDZRrLdRwR_dKETRntHew,Hos Trine og Christian,Restaurants,4.7,3,$$,,0.44,100.0,0.0,3
+h735_Vv2QVwMEmnml0L1pg,Zeybek Pizza,Pizza,1.8,5,$$,,0.0,0.0,0.0,4
+83bPuhfqCUrHlsJCeKsJNA,Café A,"American, Breakfast & Brunch",3.0,8,$,,0.318,66.7,33.3,0
+B1lJM9ZvxbMrA1MuiQa6PQ,La Buca,Italian,3.9,8,$$,,0.779,100.0,0.0,5
+uRuzqfxaLx6sF2nYgIujQw,Sallingvej Selskabslokaler,Restaurants,5.0,1,,,,,,3
+olKVn55kxtU0oB2kc7gSBQ,Letz Sushi,Sushi Bars,4.0,1,,,,,,5
+JoBZBvqEpO9YgiZoT3eLwQ,Oki Sushi,"Sushi Bars, Japanese",3.9,29,$$,,0.294,80.0,20.0,5
+DO5P6-MvLb0pRNX4D4zw3A,Famosi E Golosi,Italian,4.1,9,$$,,0.693,100.0,0.0,5
+V2L2O1gxM7XHfry7koJYCQ,Ristorante & Pizzeria DUEMILA,"Italian, Pizza",4.0,1,$,,,,,0
+jFCUweRGD52NxgCT4rKPXw,Chai Wong,Thai,3.1,18,$$$,cozy,0.554,100.0,0.0,2
+L0QhVI-Z6vpC1bc7ZC5buw,Madhus 24,Danish,4.4,9,$,,0.023,50.0,50.0,0
+iJlVNkvGNEtCMGZZfipiwg,Restaurant Lazio,Restaurants,4.0,2,$$,,,,,5
+-8UF14UutougxfZ5LP65qA,Mit Lille Køkken,"Open Sandwiches, Danish",5.0,1,,,,,,3
+MA42QTrccHqpeVBFb3Kc3A,Safir Kebab,"Barbeque, Middle Eastern, Turkish",3.7,25,$,cozy,0.643,85.7,14.3,0
+Cv3eiXerzysKQ69IdBj5Tw,Grillen Nørrebro,"Burgers, Fast Food",3.7,94,$,cozy,0.646,100.0,0.0,6
+iQag_gtRHWxxrdGtVNMvMA,Oyami Nudler & Sushi,Asian Fusion,4.0,3,$$,,,,,5
+Ek_i05hGiph7cvS0Al5NUQ,Cafe Phønix,"Breakfast & Brunch, Burgers",3.1,14,$,,0.567,66.7,0.0,0
+0c_yHY2Kyp1PmnehzLjoHA,Royal Agra Palace,Indian,4.3,3,,cozy,,,,3
+exkSwt6KouVKzY1JIbId1Q,Ristorante La Rosa,Italian,4.7,3,,,,,,3
+43S_yfTXFOpzNAdnjvuwPw,Gastronomia Italiana,"Pizza, Italian",4.5,2,$,,0.869,100.0,0.0,0
+894bElthXCd_-FGOsmSVAA,Chicken and bagels,"Salad, Sandwiches, Bagels",4.5,2,,,,,,3
+tAOGsqZHEBJvqFq9B1VqgQ,Phenix 2,Restaurants,4.0,1,,,,,,5
+dhPF5yNhHrE28y2oD22Hew,Jasmin Rice,Thai,3.5,2,,,,,,5
+cPQvasGlgq2AJjloQ0aFNQ,Tribeca NV,"American, Italian",3.6,26,$$,,0.286,50.0,0.0,5
+2adHsHuaIgBHOykviVh9Rw,Husum Kebab,Kebab,4.8,5,$,,,,,0
+MU7k0r3_KzaNXGcB__vDAw,Café Ramz,Themed Cafes,5.0,1,,,,,,3
+uiwMK3mdnK00qHFrHP7-WA,Spigadoro Italiano,Restaurants,4.3,3,,,,,,3
+M5RvN055JhW_4ELhldngEw,Viet Thai,"Vietnamese, Thai",3.4,14,$,,0.812,100.0,0.0,0
+Zvd1cRKkQ6-xnYcVp0I_Eg,Yaya Sushi,Restaurants,3.1,8,$$,,0.454,100.0,0.0,5
+Ba0E1Tj1PayDUYpESWk7QQ,Chicken And Bagels,Restaurants,5.0,1,,,,,,3
+xWjDdF-PoefEyF0BCSDRog,BISTA Breakfast & Crepes,"Breakfast & Brunch, Creperies",5.0,1,,,,,,3
+mKwcH5hIBN1qJivmCSLIdg,Dhaba,"Indian, Asian Fusion",4.5,4,$,,0.784,100.0,0.0,0
+PG2IDoXgttG2xukrxeFbxw,Indian Flavours,Indian,4.0,4,$,,0.709,100.0,0.0,0
+j713xnnZG9zwhYgMk_htyg,Trattoria Campo De Fiori,Italian,4.5,2,$$$,,,,,2
+qqNrpSTHb9sjs83R68OUEA,Cowboy Burger,"American, Burgers",3.8,6,$,,-0.053,50.0,50.0,0
+3y8Gq_RYGDtUwqUXw3ddUQ,Temporada Tapas & Vinbar,"Tapas Bars, Tapas/Small Plates, Wine Bars",4.4,18,$$$,cozy,0.79,100.0,0.0,2
+v6xhioS_eR-IrmUGHL2wpw,Leifs Pizzeria,"Pizza, Fast Food",3.8,12,$,,0.898,100.0,0.0,0
+vndhtVyZKkBG5FQmnfGh_A,"Nuova Italia Pizzeria, Cafe og Restaurant",Restaurants,4.3,4,$$,,,,,3
+jSaTYh99gGTq4VntQBcDlQ,Gastronomia Italiana,"Pizza, Italian",4.2,5,$,,,,,0
+PvaYoEsxKhqCZhDIZVTpxQ,Fabios Delikatesse,Pizza,4.3,6,$,,0.858,100.0,0.0,0
+Jvv98JuqD0cUOWkmHyP0Jg,Kiwi's,Thai,4.5,2,$,,0.67,100.0,0.0,0
+zUfRhcWLuOOHrCIR8KWIRA,Spiseriet,Danish,4.0,1,,,,,,5
+fh9YwLpVmQfnCq1F9e-o8A,New Delhi,Indian,4.5,2,,,,,,3
+CpjzgmS6-w8jFKN5-9G3dw,Restaurant Mosehuset,Restaurants,0.0,0,,,,,,4
+mtkYKwvHa5zgS7Y_d6aE3A,Katsura Sushi,"Sushi Bars, Japanese",5.0,2,$$,,,,,3
+lMXZ9CRmsOwCgEgzfx33MA,Roma Pizza 2200,"Open Sandwiches, Pizza",4.7,3,,,,,,3
+X0ws5pj7EJ7dhEIIYZzfCQ,Di Minutte,Italian,4.0,8,,,,,,5
+WED9eZXhE1yBLpuw4KoIvA,Brasseriet København,Restaurants,0.0,0,,,,,,4
+4i_gtFCZ-8yzUR-u7vRx5Q,Gastronomi Expressen,Restaurants,0.0,0,,,,,,4
+8csq7T8XSqFlw3K8jteKAw,Casa Tua Pizzeria,Pizza,3.0,1,,,,,,5
+4ylWc4Nt4QNf4UP6bc8Z-g,GRILLBØFFEN,Burgers,4.0,3,$$,,0.784,100.0,0.0,5
+2jsGHxNgrczqCirB3prVWw,Pandekagehuset Nørrebro,Creperies,5.0,1,$,,,,,0
+Il2RSpUW7nN6_Xl4HjQAWA,Restaurant Bellahøj,Restaurants,5.0,1,,,,,,3
+Xuag_WbR7oYBxVbboL-wpA,Armando's Cafe Pizza Bar,Pizza,4.2,5,$,,0.822,100.0,0.0,0
+_86JO1NxNTMwsvS1r564ag,Massive Catering Company,Restaurants,0.0,0,,,,,,4
+Bl85vNgUoMfWfjxS5xOQ0g,Veji,"Vegan, Vegetarian",5.0,1,,,,,,3
+YDGp0cbLEfauqk5FWEKXnQ,Lago Di Garda,"Pizza, Italian",4.8,4,$,,,,,0
+7zqMfjuWYsNCr50vfrPp4A,Sushi Time,"Japanese, Sushi Bars",3.8,6,,,,,,5
+-Q1P6eAfqaiBRggPipvwyA,Zeynos Kebab,"Burgers, Kebab, Lebanese",0.0,0,,,,,,4
+KlTrYFc6AOH4Zl3uLMauDA,The South Indian,"Indian, Vegan",3.7,10,$$,,0.29,50.0,0.0,5
+SSw5W7xvBBKkGwst7G30Xw,Itzi Pitzi Pizza,Pizza,4.5,2,,,,,,3
+T9yn4qI4sUKFAUvCz7NqsQ,La Vita é Bella,Italian,3.5,6,$$$,,0.035,33.3,33.3,2
+vTChg7PKgEj3BSNc9pKe8g,Mei Wei Restaurant,Chinese,3.4,5,$,,0.637,100.0,0.0,0
+JVxkNyyQmTOkNq4akgiX-g,nihao YAO,Taiwanese,4.2,12,$,,0.588,100.0,0.0,0
+tTXyWXFQGlRjfGlCgSGZmg,Curry Nation,"Food Trucks, Food Stands, Asian Fusion",3.9,7,$,,0.0,0.0,0.0,0
+n-tUF3URIcVbxkSpcJLw3w,Nord Falafel,"Middle Eastern, Falafel",5.0,1,,,,,,3
+oRPNG3oZd9093ti3ihM0uA,Utterslev Pizzaria,"Italian, Pizza",4.0,1,,,,,,5
+jGEEgWvrdHpdRr-c7BpnHw,Fitnesso Nørrebro,"Juice Bars & Smoothies, Sandwiches",4.5,2,,,,,,3
+0g7SwkDKrOJdYE4x8lTdjw,Op La restaurant,Vietnamese,4.7,3,,,,,,3
+29ra1wfknwU_evoeqlcN_g,Green Mango,Thai,4.3,4,,,,,,3
+VhPvGLx5MqCIpfGPoFprpg,Tribecanv,Italian,4.0,1,$$,,,,,5
+wOuUswsRkEz_0KVdPT2umg,El Chavo Mexicano,Mexican,3.5,8,$,,0.498,66.7,33.3,0
+_908AGazhKqbiSgo0vU2ig,Restaurant Kreta III,Greek,5.0,2,,,,,,3
+LOIAwKLZ_25VPHuokdfViA,Hong Kong Grill,"Barbeque, Fast Food",4.5,2,,,,,,3
+Ty85PO3g8atwiTALcxkj8Q,FuYi,"Sushi Bars, Wok, Chinese",3.8,4,$,,-0.542,0.0,100.0,0
+lQnjlmHfxRqC2Cng1RMGJA,Marie Snack,Pizza,0.0,0,,,,,,4
+64oN5-0npSrUoCpTUQxFTQ,Dark Waiter,Restaurants,5.0,2,$$$$,,,,,2
+W5yNQMHtwrF4F8PEnbbmmQ,El Jefe,"Food Trucks, Food Stands, Latin American",4.3,4,,,,,,3
+GGNtHyqXMvtGOHfVq706eQ,Samosa House,"Pakistani, Indian",3.9,7,$,,,,,0
+Vz2L7ntuw-p1DLkcjNtDPQ,Pico Pizza,Pizza,4.4,8,,cozy,,,,3
+wpMg3wCDzC30xg3fYr3LcA,Nano Sushi,Sushi Bars,4.5,2,,,,,,3
+lQnCvsk-UdFYvw1CBi3JTw,Jasmin Corner,"Sushi Bars, Thai",2.7,7,$,,-0.156,50.0,50.0,0
+Fa5m6xcp2my2sg5yJ7Ivog,La Spezia,Pizza,5.0,1,$,,,,,0
+HLl138XUln5Iicq-PCyFjQ,Kalimera,Restaurants,0.0,0,,,,,,4
+t-2A4hhSrr0Wfk1aiihhJw,Kogepunktet.Com,Diners,0.0,0,,,,,,4
+2Ro4ai5YHXXl5xYAHnZEjA,Restaurant Bondestuen,"Bars, Restaurants",0.0,0,,,,,,4
+PpDG6SjcvcrclOHArR_9DA,Dragon City,"Chinese, Sushi Bars, Buffets",2.5,13,$$,,-0.659,0.0,100.0,5
+tl4YQC0r5DbHAOwoP4xwmg,Thai Gourmet,Thai,2.8,17,$,,0.86,100.0,0.0,0
+nW4TO_5nzHsF8Wk8DhiojQ,Høst,"Danish, Scandinavian",4.5,301,$$$,cozy,0.816,100.0,0.0,1
+4pPraP634d0oMYKcCUz9GQ,Vækst,Scandinavian,4.5,100,$$,cozy,0.764,100.0,0.0,6
+NrLB0JElwhP4aoz4s_NP2w,Rita's Smørrebrød,"Open Sandwiches, Danish",4.3,9,$,,0.366,57.1,14.3,0
+IofXZt3LLeehHFgGHD_5wA,MAOBAO,"Chinese, Fast Food",4.5,10,$$,,-0.221,50.0,50.0,3
+kSfznO6eKDpayWrpxQrpvQ,Banana Joe,"Burgers, Fast Food",4.7,80,$,,0.575,100.0,0.0,6
+DvSPei5BeHR2wUnjOO2C9w,Fætter Fætter,"Bars, Restaurants",4.2,29,$,cozy,0.56,85.7,14.3,0
+d74Fp-hQbKy9iPjAJzXsKw,Gaarden & Gaden,"Wine Bars, Beer Bar, Bistros",4.3,4,,,,,,3
+aYS_h5qw9lMI4xjh56wpVQ,Manfreds,"Scandinavian, Wine Bars",3.5,124,$$,,0.189,42.9,28.6,6
+WhgwgcCEDhI09Nz4UUzviA,Oysters & Grill,"Seafood, Steakhouses, Modern European",4.0,73,$$,,0.563,100.0,0.0,6
+u5ubeBTddL3pnN4WwOmS2w,Konak,"Kebab, Turkish",4.1,11,$,,0.796,100.0,0.0,0
+JsJ_Lw6_ISor8J3Lxar2aw,The Olive Kitchen & Bar,"American, Steakhouses, Modern European",4.7,86,$$,cozy,0.678,100.0,0.0,6
+u9BXtk0H-xWMvlDiJirWkA,20 A,French,4.0,25,$$,,0.674,100.0,0.0,5
+mbrafBIxsYyAMYI9QAhYJg,Kuma,Japanese,4.1,14,$,,0.54,71.4,0.0,0
+SVzu75PivakjsdqxqZwO-w,Scarpetta,Italian,4.0,40,$$$,cozy,0.696,100.0,0.0,2
+nU2z4Lp5P6JA_8VmVeMpTQ,Bevar's,"Wine Bars, Breakfast & Brunch, Danish",4.1,73,$,cozy,0.721,100.0,0.0,6
+IVL9W4sMggxxapyacS7cBw,Hooked,"Seafood, Burgers, Fast Food",4.3,13,$$,,0.308,57.1,28.6,3
+mtlr1z62z_eEQpUuGk28SA,Protein-Baren,"Salad, Gluten-Free, Sandwiches",4.1,42,$,,0.727,100.0,0.0,0
+3HJgXfWhhFBMleJeWKIrAA,Rebel Food,"Food Stands, Food Trucks, Street Vendors",4.7,3,$,,0.858,100.0,0.0,0
+UZG6f5p48f9pqUN06_c9aQ,Dürüm Symfoni,"Middle Eastern, Fast Food",4.6,15,$,,0.53,85.7,0.0,0
+t7v2HOzq7Kt_UFk7VsIP0w,Grød,"Breakfast & Brunch, Vegetarian, Scandinavian",4.2,128,$,,0.488,85.7,0.0,6
+gLktAuUmduq94SYS-Noxdw,Ramen to Bíiru,"Ramen, Beer Bar",4.2,92,$,,0.636,85.7,14.3,6
+i7vnmRNQwdQy-1y65Pq8jg,Dürüm Bar,"Turkish, Fast Food, Middle Eastern",4.2,42,$,,0.375,71.4,14.3,0
+CmZ7_TVdknEpq4N64mQ5EQ,Ravnsborg Vinbar,"Wine Bars, Tapas/Small Plates, French",4.2,16,$,cozy,0.852,100.0,0.0,0
+mM4WV5dR7rxcMrNu1PvfLQ,Mahalle Birkegade,"Breakfast & Brunch, Vegetarian, Lebanese",4.1,45,$,,0.787,100.0,0.0,0
+NSpoxrBJlz8Y7l8aOfaAVA,Afandi Kebab,"Pizza, Kebab",4.0,2,$,,0.679,100.0,0.0,0
+I15QPGN36sDpoqsXQ8B5FQ,Nepali Bhancha,Himalayan/Nepalese,4.3,8,$$,cozy,0.662,100.0,0.0,3
+XNS0RPZHFUY8xYWoDSn7OA,Grisen,"Barbeque, Danish",4.2,44,$,,0.518,100.0,0.0,0
+gP2nUuSYP1SHUboRB8viYQ,Restaurant Nha Trang,Vietnamese,4.1,30,$$,,0.691,100.0,0.0,5
+_srPGSLHHI0hyaIx7I0qEg,Aamanns Etablissement,"Open Sandwiches, Danish, Bistros",4.3,76,$$,,0.379,57.1,14.3,6
+mSChUFbEhSghzzef2EFptg,Alanya Kebab,Mediterranean,4.6,9,$,,0.72,85.7,14.3,0
+PWQhCukH0EEAIBCeVQdsPw,Kiin Kiin,Thai,4.3,73,$$$$,,0.182,42.9,42.9,2
+GtnnZd3U1ZqTI38U8HR96A,Grød,"Breakfast & Brunch, Vegetarian, Scandinavian",4.5,172,$,,0.464,71.4,0.0,1
+v5dlc7AkipFeq3BlV8Unzw,Asmara Restaurant,African,5.0,3,$,,0.945,100.0,0.0,0
+7mntyYb79_GotDqmfZrBYA,Bæst,"Italian, Pizza, Cocktail Bars",3.6,135,$$,,0.449,85.7,0.0,6
+ccuabP-ykZe_h1LZIt6DvA,Ma'ed Ethiopian Restaurant,African,4.0,51,$,,0.645,100.0,0.0,0
+SOMDzlanYPGzutBZ0z3ZRA,Thai Pan,Thai,4.0,39,$$,,0.507,85.7,0.0,5
+142IJtXl0Z-mGWHth6nYPg,Alabama Social,"American, Barbeque, Cajun/Creole",3.6,34,$$,,0.336,71.4,14.3,5
+nYcwu37fpbkENz0pm_Ywzw,Plant Power Food,"Vegan, Vegetarian, Open Sandwiches",4.8,8,,,,,,3
+s8Zvogv9STlv59pWehvdOg,La Esquina,"Wine Bars, Breakfast & Brunch, Open Sandwiches",3.6,29,$,,,,,0
+MKwH8C0QJ2MExF3HqGIjcA,Nørrebro Bryghus,"Brasseries, Breweries, Pubs",3.5,68,$$,,,,,6
+BDpk9XkoO3rjnRuoP7HsRA,La Rocca,Italian,4.2,36,$$,,,,,5
+VBgHkO1-CfFfWr6XegMkXA,Nittiya Thai Takeaway,Thai,4.6,5,,,,,,3
+GyfXTHTzSfAGsasy9jP_KQ,InDish,Indian,4.4,7,,,,,,3
+su2QlZZ58XUaQTbGA6fXHw,California Kitchen,"American, Vegan",4.2,32,$,,,,,0
+1SMKO4hdnpzYaOj1l-SokQ,Mad & Kaffe,"Breakfast & Brunch, Open Sandwiches",4.4,299,$,,,,,1
+aag2m6wl0pinPWblrV85Tg,Restaurant Relæ,Scandinavian,4.0,101,$$$$,,,,,2
+oh6V-kwR8nm4lTK85to0sQ,La Lua,Vietnamese,4.0,36,$,,,,,0
+L-tK0sjupAuaz_nZB6F4rQ,Gaza Grill,Middle Eastern,4.4,8,,,,,,3
+QZjYZWMkn_VPw82y4QJllw,Banh Mi,"Vietnamese, Sandwiches, Imported Food",4.0,17,$,,,,,0
+72bRIJEcDy-24eP0slq1Jg,Yolkie Egg Joint,"Burgers, American, Breakfast & Brunch",4.5,6,,,,,,3
+pXBQDrXx43RqD8RxKGI25g,Boys Shawarma og Isbar,Fast Food,4.2,12,$,,,,,0
+cUaYTY9kcsB6xjyuHZ8oMg,Cock's & Cows,"American, Burgers",3.9,15,,,,,,5
+mBlHt982LgdNVDwAmR9wKQ,Foodie,"Sandwiches, Salad, Vegetarian",3.3,9,$,,,,,0
+khy8aAKLwqlslCmFC-TMkQ,Taverna Kreta,Greek,3.8,17,$$,,,,,5
+ozf5CDGYHssUu3p7gYYQXA,Cafe Pub 'N' Roll,"Restaurants, Pubs",2.5,2,$$,,,,,5
+1AwnhGvAqyGM7hmNFcc7rg,Smag,"Sandwiches, Vegetarian, Juice Bars & Smoothies",4.0,21,$,,,,,0
+BqF3BOeWBkqH9rJtTE-iTw,Smeralda Copenhagen,Italian,4.0,3,$,,,,,0
+hWnsafCBy_4d6v9Drx8tBw,Slurp Ramen Joint,Ramen,4.2,83,$,,,,,6
+v9cPXyYF3b7qlPwAcv1yuA,BlueTaco,"Latin American, Mexican",3.9,59,$,,,,,6
+xDjbXYqpOTKT1ImPegIk8w,Liban Cuisine,"Vegetarian, Falafel",4.4,22,$,,,,,0
+WA_Z_tq6bP07LBDeu5QAww,Takii,"Japanese, Sushi Bars",3.8,32,$$,,,,,5
+expN6ceU3fYFOXSNCQenMw,Restaurant Zafran,Persian/Iranian,3.7,17,$$,,,,,5
+YdUTd2zchc7AysIy3ojOww,Spise/Bar 20,"Cocktail Bars, Tapas/Small Plates, Breakfast & Brunch",3.6,31,$$,,,,,5
+rBxzZJzLOFSPR3FHWerPAg,Konya Kebab,"Middle Eastern, Turkish",5.0,2,$,,,,,0
+i7hAkSkVKJl0rfJmnZPlmw,BrewPub,"Gastropubs, Brewpubs",4.1,40,$$,,,,,5
+cPu9Z2QuaMjzw8GB0DYjEg,Restaurant Skindbuksen,Scandinavian,4.4,52,$$,,,,,5
+3ABiD7ErSmh98PEojfdpLQ,Søpromenaden,"Open Sandwiches, Danish",4.1,19,$,,,,,0
+gsYQKohBtJ_p3WwZAzTJvg,Mahalle Nansensgade,Lebanese,4.5,13,,,,,,3
+nn2Hf7GovGLW0tl-V7unCw,Restaurant PUK,Danish,4.2,197,$$,,,,,1
+I3xJ8_gWx1dE2VK1DPSNuA,Burgerklubben,Burgers,3.9,18,$,,,,,0
+zAqPf83HcFTZjIuJhi-vXg,Selma,"Open Sandwiches, Bars, Scandinavian",4.4,21,,,,,,3
+0rtJLyIAagosKx02YkNSRA,Restaurant Krebsegaarden,Scandinavian,4.7,19,$$$,,,,,2
+-ZpPcubgpuIhVNyqEbn2Lw,Selfish sushi,Sushi Bars,4.0,22,$$,,,,,5
+PdpFOy5Zk9NW3eO6DX4Wzg,Harry's Place,"Fast Food, Hot Dogs",4.2,13,$,,,,,0
+RO_uYW7TO-PMpFtEfQV2_A,Go Away,"Japanese, Sushi Bars",3.3,9,$$,,,,,5
+1geyPz7LjS2BWySW8IDB5A,Ninos Pizzaria,"Italian, Sandwiches, Pizza",4.3,18,$,,,,,0
+qXb0-2jPxsiAZNEZYb2sVw,London Pub,"Gastropubs, Pubs",4.1,16,$$,,,,,5
+ou6yaAvDwwW1REKwy4e3PA,Restaurant Pluto,Modern European,4.3,57,$$$,,,,,2
+H-Z4n3m17kgYn8aIF8_jcw,Smagsløget,Sandwiches,4.5,220,$,,,,,1
+Xm7GsA4GXRo0U5q6v1TuGg,Pizzeria La Fiorita,"Italian, Pizza",4.3,46,$,,,,,0
+eDW8uDXupuZ8iUBtAJOI9g,Nicecream Copenhagen,"Vegan, Ice Cream & Frozen Yogurt, Desserts",4.3,38,$,,,,,0
+ZxJ2arKam9vBTbHR8tu0zQ,Geranium,Scandinavian,4.6,112,$$$$,,,,,2
+oSvs88fyHF-OpuUKzRBApg,Rudo,Restaurants,5.0,2,,,,,,3
+0GeniAQzKu-dyZ5xvrfJhA,Restaurant Schønnemann,"Open Sandwiches, Danish",4.5,80,$$$,,,,,2
+q95mzsmUwB6DWBbRDEr4Kg,Restaurant Akropolis,Greek,3.8,10,$$,,,,,5
+W2Hy4xzNo_Dj8FVF8PSzJQ,Café Livingstone,"Scandinavian, Breakfast & Brunch, Vegetarian",3.7,25,$$,,,,,5
+tTtjbQmZGIiSi1Yjyjtvyg,Garden Restaurant & Vin bar,"Scandinavian, Modern European, Danish",4.9,16,,,,,,3
+bGmA426GIt2cyjgJ6JIUog,Nonsolo Pizza,Pizza,4.1,11,$,,,,,0
+4Rrpo1L5E_wCksnWz1L0ZQ,Sliders,Burgers,3.7,86,$,,,,,6
+fyXA-YXfg_WIGopTsQWCnA,Cafe Klimt,"Danish, Scandinavian",3.4,30,$,,,,,0
+1hcPQU8xDkO-9O53pJU8Ag,Avenue Hotel Copenhagen,"Hotels & Travel, Restaurants",3.5,11,$$,,,,,5
+M-8pejbqRoSeAAjFxQyGwA,Terroiristen,"Wine Bars, Beer, Wine & Spirits, Tapas/Small Plates",3.9,14,$$,,,,,5
+cldgqcBv4x4h4smDBmRPrg,Halifax,Burgers,3.9,73,$$,,,,,6
+peRb6NprLKjp4zGv7VUpXA,Toves Smørrebrød,"Meat Shops, Open Sandwiches, Danish",4.5,2,$,,,,,0
+TIk03iMG5lLHknmbrAFOQw,Il Locale,"Beer Bar, Italian, Gastropubs",4.5,8,$,,,,,0
+1ogzlHV41s9_ZY-h8-m4GQ,Kösk Kebab,Middle Eastern,4.1,54,$,,,,,0
+FjhdQEREDCYC0wj6GHMLQA,Kødbyens Fiskebar,Seafood,4.2,281,$$$,,,,,1
+0KR7gw9Idl3XZs8jdYjXpg,Falafel Factory,"Vegetarian, Falafel",4.0,42,$,,,,,0
+yiEgS0XLLwF5XT-lvg8tbw,Uformel,"Scandinavian, Modern European",4.6,67,$$$,,,,,2
+k7dpTBHim47sVQHytsinfg,Kebabistan,"Turkish, Fast Food",3.9,21,$,,,,,0
+QW1KfriT9fpcWc6hF_eC2A,Stefanos KAFFE & MAD,"Imported Food, Delicatessen, Sandwiches",3.5,25,$,,,,,0
+xgOqcx5VBMiH4FcehCubXg,Silberbauers Bistro,Bistros,5.0,1,,,,,,3
+Sx8f7NP8WKeUuvama1Lbyw,Spaghetteria La Perla,Italian,4.5,81,$$,,,,,6
+IcfdqE1bpVZ-cuBBcUuYeg,District Tonkin,Vietnamese,4.6,19,$,,,,,0
+qycdIw4HOP9eEwq5GeKR9Q,Beyti,"Vegetarian, Barbeque, Middle Eastern",3.3,34,$,,,,,0
+Oj5DK6bpdyvdpsQ7nmT0KA,Hallernes Smørrebrød,"Danish, Open Sandwiches",4.3,69,$,,,,,6
+Zy-NyBqpwcc083n1hgQiVQ,Chun Bo,"Chinese, Sushi Bars",3.5,11,$,,,,,0
+rBo4fnlemsSK0P7spxlKZA,Kung Fu II,"Japanese, Dim Sum, Asian Fusion",3.6,35,$$,,,,,5
+5VxQuK8JNh8EmNVGALvL-Q,Gro Spiseri,Restaurants,4.2,5,,,,,,3
+INjunnv4Xl3kCqqLtQYf-g,Restaurant Fabio,"Wine Bars, Italian",4.0,23,$$$,,,,,2
+ILTOBxVVuCxWHmYpS0RaEg,Anarki,French,4.0,9,$$,,,,,5
+tlpkl1fgkNQgprJwGNWqkw,Gao,Chinese,3.1,16,$,,,,,0
+DkZAyD0A1pP8CznO276Irw,Pastis,"French, Seafood, Bistros",4.1,69,$$,,,,,6
+KYWRdqbI2lJutKhkLYxS5w,Mad & Kaffe,Breakfast & Brunch,4.4,10,,,,,,3
+zesaOdLtw4LurmJoeGeB9Q,NEIGHBOURHOOD - Organic Pizza & Cocktails,"Pizza, Cocktail Bars, Italian",4.1,136,$$,,,,,6
+QOwZULVfl3xu7wEQoYX4bg,Sapore D'italia,Pizza,3.7,10,$,,,,,0
+dDwvVxOlhgo55ry5OUtEhg,Thaiaway,"Thai, Wok",3.8,12,$$,,,,,5
+8vEGeZLXm75Je_jRZRaPuA,Kato Sushi,Sushi Bars,4.5,26,$$,,,,,3
+tKqLYMdhLbbMICiWM-UGQw,Smag Østerbro,"Salad, Burgers, Vegetarian",3.8,17,$,,,,,0
+bUYFRtBLTXr0hRk60BjkSQ,Barr,Modern European,4.3,79,$$$,,,,,2
+saaH08kE4asZvKgMWyD2WA,Mae Pen,Thai,3.5,20,$,,,,,0
+qYXIh7kVncz6QIBsiQ8PFg,Fleisch,"Gastropubs, Beer Bar",4.4,58,$$,,,,,6
+E-n0P_GRGMmUkFSlMfU5Lg,Viet-namnam,Vietnamese,4.1,9,$,,,,,0
+yks-XU6F8B-6sfej2ZKDFw,Feed Bistro,"Scandinavian, Modern European",4.4,21,$$$,,,,,2
+p-ymrfwMGV5kbrVokVfxhg,Aamanns 1921,"Open Sandwiches, Danish",4.3,46,$$,,,,,5
+JJkyoXv0Gq5ftPHDUB6mWg,Chao Viet Kitchen,Vietnamese,4.3,28,$,,,,,0
+8H1VufVtzW293RKygD--bQ,WooWok,"Thai, Wok, Vegetarian",3.2,15,$,,,,,0
+8ao5k9lzHzHLQ8Qyw-2Byw,Fælledvej Pizza & Grillbar,Pizza,3.2,5,$,,,,,0
+d6GAbmhFt8kknb8WfE67Xg,Trattoria Sud,Italian,4.1,8,,,,,,5
+Ht0JxMM88Ql7NtWi37wpkg,Hos Fischer,Italian,3.7,27,$$$,,,,,2
+Q0otb42d_wceft5DUqBbZw,Kopan Rice,Korean,4.5,8,,,,,,3
+3DxrdSo2Ibn4hzcbg-Fv5g,Ravnsborg Kitchen and Bar,"Bars, Breakfast & Brunch",3.1,12,$$,,,,,5
+87mljity9_JjU3bptxwM4w,Pronto Pizzaria,Pizza,4.6,5,$,,,,,0
+NNAT5a7dcYM6eHfeoJWCDg,Papa Ramen,Ramen,4.1,18,$,,,,,0
+Wl8Uv2vCxYiAss2KQFoXoA,Qandil,Middle Eastern,4.5,2,,,,,,3
+82-oBuY36Deq4Q3JJZBheg,Restaurant Karla,Scandinavian,4.2,94,$,,,,,6
+3xF6FtNlc7NKjvZHEZhurw,Café Lindevang,"Scandinavian, Danish",4.5,21,$$,,,,,3
+g5itL8EW7swX1MKRLeogaA,Shawarma Grill House,Mediterranean,3.9,76,$,,,,,6
+rccrXX1qb-73CQP4VDsmig,Candido,"Italian, Pizza, Meat Shops",4.8,11,$$,,,,,3
+WuHL1zfOtqaX8l8PEO5Fhg,Cock's & Cows,"Cocktail Bars, Burgers",3.4,26,$$,,,,,5
+Wx-C5olt9t9tBTB2Aa2Kvg,Aamanns Deli,Open Sandwiches,4.3,32,$,,,,,0
+8gZvSq0PmYPWVzbVh1_Ezw,Restaurant Naert,Scandinavian,4.7,10,$$$,,,,,2
+tbJ68UMObeqcN5ngrx2z3A,Sasaa,African,4.5,4,,,,,,3
+ypWTF135OlW2xOBJ7Z30dA,Le Petit Vinbar,"Wine Bars, Champagne Bars, French",4.3,15,,,,,,3
+1u9qTH_rMhU-K81Vvc-Hxw,Yang Cheng Grill,"Barbeque, Chinese",3.8,6,,,,,,5
+ZjnwAz6fAZHL6TMJQFabYA,Abusamra,Middle Eastern,5.0,1,,,,,,3
+zNyB3DPVIhO-bb7vwCoLag,Dilans,Pizza,3.7,3,$,,,,,0
+yH8_uEiLKo-gzqqarvK96g,Kolonial 2100,Pizza,4.6,25,$,,,,,0
+VicX_1v3GFP_Ed-j_uUGTw,Restaurant M,Danish,4.4,16,$$,,,,,3
+wCO3sdfYrUSFjAxtb88sdg,Healthy Hunter,"Salad, Juice Bars & Smoothies, Sandwiches",3.5,13,$,,,,,0
+2w78G-u0zup1ocFuxCEsCw,Behov,"Pizza, Wine Bars",4.3,39,$,,,,,0
+PBgY4Q5Wp01YQBMrx8RLMA,La Neta,Mexican,3.6,17,$,,,,,0
+mczuwWb4wRAiu7m9sL6d8A,Café Auto,"Breakfast & Brunch, Scandinavian",3.8,50,$,cozy,0.606,85.7,0.0,0
+W2CW7gDMZ-okaiDX_6QS-A,Det Eksotiske Hjørne,"Turkish, Mediterranean",3.5,13,$,cozy,-0.369,0.0,100.0,0
+o8u1Eo3Kw_bXj6ZryrOfzg,Ahaaa Det Arabiske Madhus,Middle Eastern,3.3,17,$,cozy,0.432,80.0,20.0,0
+wdpWGN0Ch2yEr6rWQekcfg,WokAmok,"Thai, Wok, Asian Fusion",3.3,4,$,,,,,0
+dtldKRv4rGCtJOdNSoZW2g,Forno a Legna,"Pizza, Italian",4.3,78,$,,0.472,85.7,14.3,6
+o3q7pnrpv_qK2X-5GnZMSw,District Tonkin,"Vietnamese, Vegetarian, International Grocery",4.2,84,$,,0.382,71.4,28.6,6
+H91gUwnuM2Yy-32ynaXXhQ,Efess Pizza Bar,"Pizza, Wraps, Burgers",4.3,3,$,,,,,0
+XTAd5Y5FbzMxxgnbjOQUZA,Kopan Street,"Korean, Food Stands",4.5,10,$,,0.507,71.4,14.3,0
+WQ2iVYenylZ1Gg5umSZPpQ,Phago,Mediterranean,5.0,1,,,,,,3
+sSjZnhh0jZBZlxhBpbMoHg,Hooked,Seafood,4.4,40,,,,,,5
+RqoWzPyLfqw6AN1XLhAMwg,Men-O Ramen,Ramen,4.0,3,,,,,,5
+ePmoWerzRZ3oihJOwvGxSw,Clarke's,"Bars, Beer, Wine & Spirits, Breakfast & Brunch",3.7,17,$,,0.549,100.0,0.0,0
+HbZRkkwGn051AkCtuL_XzQ,Restaurant Tio Marios,"Italian, Burgers, Pizza",4.8,20,$,,0.841,100.0,0.0,0
+XQGl2H_Bao2I7YTYrJCbZQ,Restaurant Under Uret,Open Sandwiches,4.0,12,$$,,0.618,83.3,0.0,5
+Rf-MaKRLQGKyOxiXq-fNdA,GRØD,"Scandinavian, Breakfast & Brunch, Vegetarian",3.8,12,$,,0.547,75.0,0.0,0
+KVg8nMZpOPz7PvwyKk1iTA,Sushi Lovers,"Sushi Bars, Japanese",4.4,37,$$,,0.594,85.7,14.3,5
+cKRqSx7jwiygTzFerNx1cA,Restaurant 1733,"Open Sandwiches, Danish",4.6,13,,,,,,3
+KJcyGslh1DkpT1Dl0_sqvw,Ayuttaya,"Thai, Imported Food",3.3,8,$,,0.463,100.0,0.0,0
+7eyvRvq65v63oX6S3hwR2w,Tacopop Taquería,"Food Trucks, Mexican, Latin American",4.2,10,$$$,,0.697,83.3,0.0,2
+vLf0bUTO10mCsFj36pkLbw,Palæo,"Specialty Food, Scandinavian, Salad",3.9,45,$,,0.485,71.4,14.3,0
+K4n7Er9E3dHl0GipNWQaAw,Scurry Hub,"Asian Fusion, Thai",4.0,27,$,,0.803,100.0,0.0,0
+x39xYLOxWfxisy6myfawsw,Halifax,Burgers,3.6,45,$$,cozy,0.307,71.4,14.3,5
+S6uTQecILk4dJASWxB4t2Q,Wafu Ramen,Ramen,4.5,6,,,,,,3
+Iti_-dy2CL5l_O755SRFMQ,Orangeriet,"Danish, Scandinavian",3.9,29,$$,,0.543,85.7,14.3,5
+BLXBOvFqAEgeNnW_ukYmRg,Sticks 'n' Sushi,"Sushi Bars, Japanese",4.0,35,$$,,0.626,71.4,0.0,5
+3Ewngtuop4je7URHx2N2jg,Riz Raz,"Vegetarian, Buffets, Mediterranean",4.1,130,$,cozy,0.638,100.0,0.0,6
+4B5g_UqfwC4gpuUdJ4Y44w,Halifax,Burgers,4.2,86,$$,,0.681,85.7,0.0,6
+7b2HH72vNEJdF701r42kbg,La Vecchia Signora,Italian,4.4,66,$$,cozy,0.608,71.4,0.0,6
+2wawHUBRijBzej0d65zqZw,gorm's i Magstræde,"Italian, Pizza",3.9,77,$$,cozy,0.179,42.9,42.9,6
+NynoohvPT2TIsrCm6agFJQ,Atlas Bar,"Modern European, Mediterranean, Vegetarian",3.9,55,$$,,0.478,85.7,0.0,5
+zb3QVJPreJB8EcuxTgx2_A,Gastronomia Italiana Tre,"Pizza, Italian",4.3,29,$,,0.546,85.7,14.3,0
+SfLu-0sHY_R2NQvoKftKpw,KöD København,Steakhouses,4.3,43,$$,,0.46,57.1,0.0,5
+-ws7yx-9dNdsD95S-3460Q,San Marco JUNIOR,Italian,5.0,5,,cozy,,,,3
+LAs8Q5sZ2rYQaP7u1K4gHg,Tivoli Food Hall,Food Stands,4.0,54,$$,,0.445,71.4,0.0,5
+WOpDD67yCmXBN5rizvqePA,Da Aldo Pizzeria,"Pizza, Italian",4.8,9,$,,0.307,57.1,28.6,0
+lhqWPE-RLVEZOYczGJevMA,Café Flottenheimer,"Burgers, Desserts",4.2,44,$$,cozy,0.691,100.0,0.0,5
+t8WoOCblNkTHu71pd1t9Eg,Nordic Noodle,"Thai, Gluten-Free, Vegetarian",3.6,26,$,,0.254,57.1,14.3,0
+qdBdXU7bBoSMg1av_GEOzA,La Pétanque,"French, Creperies",3.8,24,$$,cozy,0.63,100.0,0.0,5
+wzUG4fmV5Bdw5u1iLQjA7w,The Coffee Collective,Cafes,4.6,16,$,cozy,,,,0
+hijTSfwFhF3sdl5uOqGn3A,Meyers Bageri,"Desserts, Bakeries",4.4,38,$$,,,,,5
+rg9Ll_VIrdXe69cW6LWtIg,Andersen & Maillard,"Bakeries, Cafes",4.4,40,$,,,,,0
+KkPhfM_XDpYCQMBJKOaAOg,Møller Kaffe & Køkken,"Cafes, Breakfast & Brunch",3.9,100,$$,,,,,6
+Oebon5OZBubs2dtM6q2Ifw,Kaffekilden,"Cafes, Coffee & Tea",3.7,25,$,cozy,,,,0
+O8bPJgmgAoMf9njoIlwfow,Souls,"Breakfast & Brunch, Vegetarian, Cafes",4.5,96,$,cozy,,,,6
+GOUSDHMfV3kbnWNGyOFEfA,Sidecar,"Cafes, Breakfast & Brunch, Cocktail Bars",4.4,101,$,,,,,6
+RUZ27d0mLsO82xxKIlkeYg,Mirabelle,"Bakeries, Organic Stores, Breakfast & Brunch",3.4,44,$$,cozy,,,,5
+Bo3ixYo_iRqxyNye6zu57A,The Coffee Collective,"Cafes, Coffee & Tea, Desserts",4.8,48,$,,,,,0
+BLsYalw2vPyoD1k3W-9nKg,Brødkunsten,Bakeries,4.4,11,$$,,,,,3
+H1fOqsIePlWvyrSX3dyeeg,Original Coffee,Cafes,4.3,12,$$,,,,,3
+UbmWzeUsG5p3xckOPU0inA,Djuus Copenhagen,"Breakfast & Brunch, Cafes",4.6,38,$,cozy,,,,0
+-2KIGxyqLwOEl2SExzA9WA,Naturbageriet,"Bakeries, Gluten-Free",4.4,47,$,,,,,0
+Y7mnLYj3l5wxDftH2EfZgg,Ali-Bageri,Bakeries,4.7,6,$,,,,,0
+ec-BcKj-bnWEFUajWj5d6A,Elly's Kaffebar,Cafes,4.3,11,$,,,,,0
+bEMIylW09wrhKeHvtnZ1aw,Mokkariet,"Cafes, Breakfast & Brunch, Juice Bars & Smoothies",3.9,18,$,cozy,,,,0
+PlSiSYLxZvqXIxgJEaSRWQ,Social,"Coffee & Tea, Breakfast & Brunch, Cafes",4.5,72,$,,,,,6
+TtQAlQeuHZEBcs9xT55x9A,Cafe Viking,"Dive Bars, Beer, Wine & Spirits, Coffee & Tea",4.4,12,$$,,,,,3
+sUKdVIH3FFnbZbOoFsJe5w,Kafe Katholt,"Cafes, Breakfast & Brunch",5.0,1,,,,,,3
+BOsyEAd2VpjGKKjhr1OJ_g,Kaf,"Cafes, Vegetarian, Vegan",4.6,37,$,,,,,0
+J0qXu_y7S_vyv6VI3zzPXw,Lygtens Kro,"Dive Bars, Pubs, Cafes",3.6,5,$,,,,,0
+s0bNk8iebNRVAADYpE5fZw,Cafe Gavlen,"Cafes, Bars",3.8,36,$,,,,,0
+VFjv-6_N9RaM62_7MZ101Q,Isværket,"Coffee & Tea, Ice Cream & Frozen Yogurt, Chocolatiers & Shops",4.3,16,$$,,,,,3
+qvuG63s1VKvf2SnWkIp0OA,Cafe 22,Cafes,3.0,44,$,cozy,,,,0
+8mjAG17StSRarfbp2aMqNQ,Woolstock,"Cafes, Knitting Supplies, Hobby Shops",5.0,3,,,,,,3
+BFRwFEN6pV75jpxGEpjcXA,Taxa,"Cafes, Breakfast & Brunch, Steakhouses",3.2,57,$$,cozy,,,,5
+QcK5ItYdldNXL-kT1tRpDA,Kösem,"Cafes, Turkish, Kebab",3.2,29,$,,,,,0
+m8ETTRP8uk7yCMUUBuAyyQ,Tjili Pop,"Cafes, Breakfast & Brunch, Bars",3.7,37,$,,,,,0
+l8MNckNRrV7wtr-ddvVCBg,Kalaset,"Cafes, Breakfast & Brunch, Vegetarian",3.9,112,$,,,,,6
+6Q7Uo-7hvibT1s94hgjVFg,Røde Roses Kaffebar,"Cafes, Coffee & Tea, Juice Bars & Smoothies",4.0,21,$,,,,,0
+aigwhsN9eQ_v0I8nAZZrFA,Café Feel Good,"Cafes, Vegetarian, Vegan",4.6,32,$,cozy,,,,0
+Bs_EhkExJxKN9FO6biTAxA,The Laundromat Cafe,"Cafes, Laundromat",3.8,85,$,,,,,6
+1kZe1j9Gc9UIEuVkgm08Yw,Wulff og Konstali,"Cafes, Breakfast & Brunch",4.1,8,,,,,,5
+TUXhPCybQ6e63f-jHiCM6w,Mellemrummet,"Bars, Music Venues, Cafes",4.1,10,$,,,,,0
+rrQhUbBCbZEkdmrAluVM0Q,Jægersborggade,"Shopping, Local Flavor, Cafes",3.7,10,$$$,,,,,2
+PuJeXkJd2m787hIFY0MFhQ,Ø12 Coffee & Eatery,Cafes,4.6,17,,cozy,,,,3
+9Fgyio0jBHWIYcb9kbAPuA,Brødflov,"Patisserie/Cake Shop, Breakfast & Brunch, Bakeries",4.5,37,$,,,,,0
+eY0pxt2A19QWzs9LSP_RmA,Det Rene Brød,Bakeries,4.1,15,$$,,,,,5
+_E46qEer1pB2IcdYICPYUA,Gravy,"Organic Stores, Cafes, Coffee & Tea",4.7,6,$,,,,,0
+w50WDdFurHAnqgzvpruBsg,Juno the Bakery,Bakeries,4.8,81,$$,,,,,6
+k-v2QFk3AMas3aDPQL1K5A,Café Blågårds Apotek,"Bars, Music Venues, Cafes",3.6,14,$,,,,,0
+f8Eu6u2pDzdsammMaydRYw,Kaffeplantagen,"Coffee & Tea, Cafes",3.8,26,$,,,,,0
+tjRzDCPbezy7tnmJkQfKuw,ShaBaz - Kaffebar & Køkken,Cafes,4.5,4,$,,,,,0
+0NQAVDJgsDggDGjGbcCHLA,The á la Menthe,"Cafes, Moroccan, Tea Rooms",3.7,20,$,cozy,,,,0
+gZ6UEWVD85lPUetkOOKGpA,Sebastopol,"Cafes, Breakfast & Brunch, French",3.0,28,$$,,,,,5
+bY-8ef7mYvDYCno33DyIDQ,Sankt Peders Bageri,"Bakeries, Breakfast & Brunch, Sandwiches",4.5,137,$,,,,,6
+jh513qEE97KRklUODXyCGw,Props Coffee Shop,"Bars, Coffee & Tea, Cafes",4.1,17,$$,,,,,5
+ozA0RJRf8YYEB1uXsqbPWg,Paludan Bog&Café,"Cafes, Bookstores, Breakfast & Brunch",4.2,286,$,cozy,,,,1
+lWNRq56dJ96JdKj3AjRYJg,Next Door Cafe,"Cafes, Juice Bars & Smoothies, Breakfast & Brunch",4.7,264,$,,,,,1
+p47HZUtWucx_YLne3FgTsA,Cafe Le Rouge,"Beer, Wine & Spirits, Coffee & Tea, Cafes",3.5,13,$,,,,,0
+ljI0SE6MHLv12IsmhqGzSw,Kaffehuset 44,Cafes,3.9,16,$,,,,,0
+u-SOp3MDuahQFwPfxmNp4Q,Bastard Café,Cafes,4.4,47,$,,,,,0
+FKbgq1LxZHVfYlGWLihrlQ,Håndværkers Bageri,Bakeries,0.0,0,,,,,,4
+DXVPI5719dUUadlOw7pLYg,Designcafeen,"Cafes, Home Decor, Coffee & Tea",3.9,9,$,,,,,0
+afHh4PKaJIrqIVuN5XsjHw,Ipsen & Co.,"Cafes, Breakfast & Brunch",4.4,36,$$,cozy,,,,5
+wJwlk1EHbjISvEO2s9qpIg,Riccos Kaffebar,"Coffee & Tea, Bars, Cafes",3.8,19,$$,,,,,5
+TOZbl7oVGf3lp9plxscAyw,Garagen,Cafes,5.0,1,,,,,,3
+haXlks5ePW8Um-M2YjZgqw,Café Griffens,Cafes,3.7,6,$,,,,,0
+Wr6aOqMLrrqUlHiplioxdQ,Hey Darling,"Cafes, Cocktail Bars",4.8,4,,,,,,3
+KLr-Wu7PP1OnOfT9E1J6Pw,Pixie,"Breakfast & Brunch, Cafes, Bars",3.2,52,$$,cozy,,,,5
+aXxSSoK0RO0q8phuSsaCEg,Kaffesalonen,"Bars, Coffee & Tea, Cafes",3.3,35,$,,,,,0
+MAnVFZ_oliHk9nhPJOzWvA,Meatery,"Cafes, Steakhouses",5.0,1,,,,,,3
+yT80bot_avHqmaQ-S1us1g,Café AE,"Sports Bars, Breakfast & Brunch, Cafes",3.3,16,$,,,,,0
+sj41EPHz1jc15tAa3wVrCw,Det Rene Brød,"Bakeries, Breakfast & Brunch",4.2,14,$,,,,,0
+okydpNhxNHyxJXy79IK1hQ,Feelgood Bakery,"Bakeries, Gluten-Free",4.0,1,$$,,,,,5
+niCkFlWZq-ptrOim7eSLhw,Harbo Bar,"Bars, Cafes, Coffee & Tea",3.7,21,$,cozy,,,,0
+2N8VAWkwGKEdJfgQ9IuFJw,OLUFs is,"Ice Cream & Frozen Yogurt, Coffee & Tea, Desserts",4.3,19,$$,,,,,3
+5mgrCQ0C02L6vWemjSO5Gg,Fata'Morgana,"Cafes, Coffee & Tea",3.3,21,$$,cozy,,,,5
+ck_7nu7Hem_RijPlWZmExQ,Café Plenum,"Bars, Coffee & Tea, Cafes",3.5,35,$$,,,,,5
+1m6zahKVmwGbwEiapV9s0g,Arrebo,Cafes,4.0,3,,,,,,5
+SqorrQHMv3ezqytTtSeGDA,Hønen og Ægget,"Cafes, Breakfast & Brunch",4.3,6,$$,,,,,3
+t6h46kgIfkH9am8WkbIqrw,Bertels Kager,"Coffee & Tea, Tapas Bars, Bakeries",4.2,56,$,,,,,6
+3ct9aTyCyYe3A2xiX1_h8Q,Cafe Norden,"Cafes, Breakfast & Brunch, Sandwiches",4.0,150,$$,cozy,,,,6
+bcipoGML-6UEk1PVKEU3JQ,Kogebogeriet,"Bookstores, Cafes",5.0,1,,cozy,,,,3
+bTQTOEfXO5TfJjH7Pq2KLw,Café Castro,"Coffee & Tea, Beer, Wine & Spirits, Cafes",2.8,26,$$,,,,,5
+J-xnCbqDe7LZkKd81OJQnQ,Hart Bageri,Bakeries,4.7,50,,,,,,3
+5v9Xnbb3x2AJI1P-jkDcqQ,Den Lille Gule Kaffebar,"Coffee & Tea, Cafes",4.4,16,$$,cozy,,,,3
+GZ52jPGOgaC3cic6QZohSg,Original Coffee,"Breakfast & Brunch, Cafes",4.2,26,$,cozy,,,,0
+9pC1gYB9ZtbNdV7z7Z9WDw,The Coffee Collective,"Coffee & Tea, Cafes",4.2,91,$,cozy,,,,6
+wdVClx28XFTNHYLOx6Is4A,Sokkelund Cafe & Brasserie,"Brasseries, Cafes, Breakfast & Brunch",4.2,107,$$,cozy,,,,6
+PJed24HWJ4SIn8eZM5gYrw,Emmerys,"Coffee & Tea, Bakeries, Cafes",3.8,8,,,,,,5
+ZXjdJes0jZ9IlslhIZMl-Q,Café Munk,"Cafes, Indian",3.6,39,$$,,,,,5
+Sv2GBNC9AyDoD85iQreqKg,GoodLife,"Cafes, Coffee & Tea, Vinyl Records",5.0,1,$,,,,,0
+Y5mpYpGiC0cGrlM602k6mQ,Cortado Kaffebar,"Cafes, Coffee & Tea, Sandwiches",3.5,23,$,cozy,,,,0
+AAfXw_dm52FxhlhjRFFJ3g,Lagkagehuset,Bakeries,4.4,10,$$,,,,,3
+ZWhv7KIu8GlQ_Q7xiOoHWA,Rosetta Østerbro,"Pizza, Bakeries, Sandwiches",4.1,9,$,,,,,0
+hsjwzVqlF4fD-5UP9lJ8Ow,MOQA,"Cafes, Coffee & Tea",4.0,1,$,,,,,0
+c4KA0OBJkX4I15-GYA3v1w,Arabica,"Coffee & Tea, Cafes, Soup",4.1,14,$,cozy,,,,0
+l7GYIOlVDfMcuvGZEpP_lQ,The Mudhoney,"Cocktail Bars, Beer Bar, Cafes",5.0,2,,,,,,3
+xn2t243dVsLR2av-9Fxsrg,Kaffestuen,"Coffee & Tea, Breakfast & Brunch, Juice Bars & Smoothies",3.7,26,$,cozy,,,,0
+G9nZokxPVAnxsEo1PyLReg,Bowl Market,"Cafes, Breakfast & Brunch",4.5,49,$,,,,,0
+avUr5VNkjNcshWfurfLWUQ,Lagkagehuset,"Desserts, Bakeries",3.6,8,$$$$,,,,,2
+dFUZTboFyZMZFn5Gk_TikQ,Original Coffee,"Breakfast & Brunch, Cafes",4.4,40,$,,,,,0
+qL-Bs5qvonN4qdu0Z5fqBA,The Living Room,"Bars, Juice Bars & Smoothies, Cafes",4.1,97,$$,,,,,6
+bcb2J89XxG6JUyh_5wl8Fw,Din Nye Ven,"Bars, Cafes, Social Clubs",3.9,31,$,,,,,0
+6PVhq2e-m7EYS_jzgkEddw,Darcy's Kaffe,"Cafes, Bookstores",4.8,4,,cozy,,,,3
+Vvpc_3sX6M6wsG6_9jwylw,Christianshavns Bådudlejning og Café,"Coffee & Tea, Boating, Cafes",4.2,17,$$,,,,,5
+tmytR2cxCKV4S1GnxQIaUQ,The Laundromat Cafe,"Cafes, Laundromat",3.6,50,$$,,,,,5
+BO9ODUuzeqJveVwhCwVLQw,Hope Bar,"Salad, Vegan, Cafes",4.0,30,$,,,,,0
+_IAwsy8qYTFtUDcr0RINTQ,Det Rene Brød,Bakeries,3.3,7,$$,,,,,5
+AK5JxY8_l4Jb1gMhL2ikAw,X-Camp,"Cafes, Arcades, Internet Cafes",5.0,2,,,,,,3
+fm51EvHkluIT3A-r_G7H9Q,S A Y - Concept Store,"Coffee & Tea, Concept Shops",5.0,1,$$,,,,,3
+q-cbBbpjZ4c4-56j8IIXlA,Asia Bazar Food Bar,"Coffee & Tea, Cafes",4.0,1,,,,,,5
+zDYjyusw-L6Y4axz5nUwYQ,Kafferiet,Cafes,5.0,1,,,,,,3
+2TweHPfeJvFby3QrQlg3KA,Grams Lækkerier,"Cafes, Sandwiches",4.7,22,$,,,,,0
+U9ErXY8e57UyG09ilhX4BQ,Kaffehuset 183,"Cafes, Coffee & Tea",3.0,10,$,,,,,0
+ptJCyB4SgcNVo_4tCeUbig,Cafe Bopa,"Coffee & Tea, Bars, Cafes",2.8,46,$$,cozy,,,,5
+IWVvfOw8NaE8XtJspN6wdg,Café Rosa,"Bakeries, Desserts, Coffee & Tea",4.2,25,$$,,,,,5
+vts_cYq05-w_sHfyO1t4oA,Det Rene Brød,"Bakeries, Coffee & Tea, Desserts",4.0,25,$$,,,,,5
+h59nQtF8Qx0tEdJUo_61Lg,Café Phønix,"Breakfast & Brunch, Cafes, Coffee & Tea",3.6,32,$,,,,,0
+uDzdIyUZ4PNlSS0Xbqj_dA,Zaggi's Coffee,"Coffee & Tea, Cafes",3.7,25,$,cozy,,,,0
+T-7R_IPoPqfuyYpijLm_nA,Kulinaris,"Coffee & Tea, Pizza, Sandwiches",4.1,9,$$,,,,,5
+gKcbzyXPw1HBdkElD62tYA,Overfor,"Danish, Cafes",3.2,16,$$,,,,,5
+T2Jyeg8tSkT1LMADRc_yKw,Kitchenette,"Cafes, Coffee & Tea",3.8,17,$$$,cozy,,,,2
+-YPMhMUkozKtCnqMMkgccQ,Meyers Bageri,"Delis, Bakeries",4.5,29,$,,,,,0
+O55nVUQGJh7vEV9m_Uz1sQ,Kaffebiksen,Cafes,4.7,3,$,,,,,0
+Oc7z477HnGAo2luBAD1RiQ,Hart Bageri,Bakeries,4.5,13,,,,,,3
+-T9uUMrwjFtrrBto4k5Vjw,The Coffee Collective,Cafes,4.8,17,,,,,,3
+Bm2a-NxLOrKXQ77VsBD_hQ,Cafe Ermanno,Cafes,4.7,13,$,cozy,,,,0
+DHc9V8q8AaW2wmI9jvIamA,Munch,"Bakeries, Cafes, Coffee & Tea",2.9,20,$$,,,,,5
+2xw3NB1EOZhRvAy1-LXasQ,Ingolfs Kaffebar,"Bars, Cafes",4.2,40,$$,cozy,,,,5
+xyrU1vi2dmGmHZtvnYaCHw,Lagkagehuset,"Bakeries, Coffee & Tea, Desserts",4.3,21,$,,,,,0
+oLMCmpxLjHWLObOZBl0pUQ,Charlottehaven Café,"Cafes, Breakfast & Brunch, Hotels",4.1,8,$$,,,,,5
+2FgQJLIIBz7xr2PbgeuHAQ,20 Grams,Cafes,5.0,6,,cozy,,,,3
+WaL7si0-r9kCxtLmXX5-Fw,Brioche Dorée,"Bakeries, French, Cafes",4.1,17,$,,,,,0
+60tSNcLjBZhUKq-1_IF8-g,Verdensrummet,"Organic Stores, Bakeries, Cafes",4.0,4,$,,,,,0
+dnrJke8wfHesazSljyGKDg,Tea:licious Café,"Bubble Tea, Coffee & Tea, Waffles",4.1,11,$,cozy,,,,0
+jdak7g6g6eK9guNK8VBfog,Neringa Café,"Juice Bars & Smoothies, Cafes",4.5,16,$,cozy,,,,0
+SEDDO0onNCKZdRZKIeNa8g,Coffee Industry Sweden,Cafes,4.5,10,$$$,cozy,,,,2
+qoyOYu2GSrvV2he-9w0v6Q,Grannys House,"Desserts, Coffee & Tea, Bakeries",4.1,19,$$,,,,,5
+6ZtVjLi-JB5uBwDxGTFCPQ,Cafe Noura Antik,"Cafes, Cafeteria, Breakfast & Brunch",4.3,4,,cozy,,,,3
+VJa2qf1s1e7lsxOS_S9lgQ,Leckerbaer,"Desserts, Patisserie/Cake Shop, Cafes",4.1,18,$,,,,,0
+lAhqfnubTLESa8d52PmrXw,Tante T,"Coffee & Tea, Chocolatiers & Shops, Cafes",4.2,18,$$,,,,,5
+pOVvdV-E1_zYxocX-oJubA,Resso Espressobar,Cafes,4.1,11,$,,,,,0
+jptVzSRvP7bq6WfXO4NkjQ,Meny,"Grocery, Bakeries, Specialty Food",4.2,10,$$$,,,,,2
+GLjb1z73ukEEU-CIDLsKjQ,Voulez Vous?,"French, Cafes",3.9,14,$,cozy,,,,0
+FXGoGVr4RRs6mR0iYIENmA,Mad & Kaffe,"Cafes, Breakfast & Brunch",4.3,66,$,,,,,6
+PKC2ewu9UD_hVPlw8zsy1w,Askov Fonden Café A,Cafes,4.0,1,$,,,,,0
+AADGbW93TV_KH1iqvAA_aA,Baryl,"Cafes, Breakfast & Brunch",4.5,12,$,,,,,0
+yV79JYHN_iThP8RK-K4MWg,Cafe Wilder,"Cafes, Coffee & Tea",4.1,43,$$,,,,,5
+g7uOOY2DJ8BgEYWghhtbIA,Snabel B,"Coffee & Tea, Breakfast & Brunch, Cafes",4.2,29,$,cozy,,,,0
+h5e0P3dUhwFJ-HYogPaVWw,La Banchina,"Seafood, Wine Bars, Cafes",4.7,26,$,,,,,0
+zYpYci5QeuckMCkhE5kYkw,ShaBaz - Kaffebar & Køkken,"Cafes, Coffee & Tea, Breakfast & Brunch",4.5,4,$,,,,,0
+WVvP58sLEM7f9K34wzWjBw,Dag H - café og restaurant,"Coffee & Tea, Beer, Wine & Spirits, Breakfast & Brunch, Cafes",3.2,44,$$,,,,,5
+iYs4CZRYTvRV6WE5XfznyQ,Kaffebar 78,"Cafes, Salad, Breakfast & Brunch",5.0,2,$,,,,,0
+1A3Py4X14kJFcyFgFvfh5w,Barcelona,"Dance Clubs, Cafes, Lounges",2.2,10,$$,,,,,5
+2eBbcKP2dhD6DYG388_Flg,Funder,"Cafes, Coffee & Tea",4.3,13,$,,,,,0
+R7ystNbJkJ0VvrA29EMCQQ,O Bom Português,"Portuguese, Beer, Wine & Spirits, Coffee & Tea",4.0,1,,,,,,5
+j913tP1GGtvo-7DeIWXSOg,Kafe Kapers,"Cafes, International, Breakfast & Brunch",2.9,27,$$,cozy,,,,5
+TX5TBY9QaX9BgR6vZJfqZA,Kaffedepartementet,"Coffee Roasteries, Coffee & Tea, Cafes",5.0,6,,,,,,3
+3Gm7cLrkr3McYwprZ7G9PQ,Baklavaci,"Bakeries, Coffee & Tea, Turkish",4.7,3,,,,,,3
+wa8QR1M4w_FrWNSEnmdydw,Superkaffeforsyningen,"Coffee & Tea, Cafes",3.3,13,$$,cozy,,,,5
+_l7xx9uzB5pRRr-t3e9tNA,CUB Coffee Bar,"Coffee & Tea, Cafes",4.3,40,$,,,,,0
+QWjaJbnVh6vYOX2mcwQsUA,Lagkagehuset,"Coffee & Tea, Bakeries",4.6,5,$$,,,,,3
+Vi_GqXDFpm0k-Esyj1w6ww,Andersen Bakery,Bakeries,4.5,35,$$,,,,,3
+EbslkQXFndj_eK8VIXBVQA,Reinh Van Hauen,Bakeries,4.5,13,$$,,,,,3
+pwpdEgtJN-RH2VibZiE1Kg,Klint - Design Museum Denmark Cafe,"Cafes, Coffee & Tea, Scandinavian",4.7,9,$,,,,,0
+-d3xgdkPLYZuNwMETg3Avg,Café Spis,"Coffee & Tea, Breakfast & Brunch, Burgers",4.0,17,$,,,,,0
+waF42OQ2hJe3OhXzCEGFEA,Riccos Kaffebar,Cafes,4.0,2,$$,,,,,5
+HLqznMliyB2gu1fELI0HOg,Hotel Chocolat,"Chocolatiers & Shops, Cafes, Desserts",4.4,41,$$,,,,,5
+RxTOOqEyiD5AyqMQ8GT5Xg,Café Sirius,Cafes,3.4,9,$,,,,,0
+PeQiEJYc3c2WV-EBjWF6Fg,Café Bankeråt,Cafes,3.7,39,$$,,,,,5
+npJqCZNCL6D959SVa7aC-w,KarmaMan,Coffee & Tea,4.0,1,,,,,,5
+nMfplJbDRetZaTtKh1_A8Q,Taste of Taiwan Bubble Tea - Indre by,"Tea Rooms, Coffee & Tea, Bubble Tea",4.2,22,$,,,,,0
+neYYzjcgcjKChGJ5tjbC2Q,Mokkariet Odensegade,"Juice Bars & Smoothies, Cafes, Breakfast & Brunch",3.7,12,$$,,,,,5
+Kj1f3Cj-ZU0ZWf4Pt7fhwg,Brødrene Grim,"Cafes, Sandwiches",4.0,1,,,,,,5
+2mIYmFegEE0-HkSZ1ahlmg,7-Eleven,"Convenience Stores, Coffee & Tea, Grocery",3.0,1,$$$,,,,,2
+MPnHYl9woNGE_EE2klVyug,Kaffevaerk,"Coffee & Tea, Cafes",4.1,16,$,,,,,0
+6mStSf8kqt96O0bHWID3Pw,Kaffe,"Coffee & Tea, Cafes",4.4,26,$,cozy,,,,0
+o2vZXe2NNWSf9Hjgnil_Lg,Los Nørrebro,Cafes,3.5,4,$$,,,,,5
+QXL2lkS27ynr9OgOk1DPPw,Heaps Good Cafe,"Breakfast & Brunch, Cafes",3.0,4,,,,,,5
+9oIfPY6YROTR2leTua9gDA,Buzz Kaffebar,"Cafes, Juice Bars & Smoothies",4.0,25,$,,,,,0
+xkq58QB2s1cJAeuy1VMPLg,Kontra Coffee,"Coffee & Tea, Coffee & Tea Supplies",4.6,5,$$$,,,,,2
+KQH5Uflt3ymrWqMLq8ZaAA,Cafe Blasen,"Bars, Coffee & Tea, Cafes",5.0,3,$,,,,,0
+ZYDYHx028Y1n3H9WZfpq_g,Cafe Delight,Cafes,3.0,4,$,,,,,0
+ZfO87ew3NH3C5kP1qYLsVQ,Taste House Of Cascabel,"Restaurants, Bakeries, Desserts",4.2,14,$,cozy,,,,0
+iu400KMVgXv3eHSEFYFFAw,Espresso House,Cafes,4.6,9,,cozy,,,,3
+OZz3pObROTUrowUR90_Kag,Reinh. Van Hauen,Bakeries,4.3,8,$$,,,,,3
+fCcng280F2LPKcFc-RZaNA,Café kopenhag,Cafes,4.7,20,,,,,,3
+C3iuuGLleR-v0ShSfuLaew,Forloren Espresso,"Cafes, Coffee & Tea",4.3,11,$,,,,,0
+yOeeSvM1iAhhnUDh9yc5DQ,Krejl & Kaffe,"Coffee & Tea, Furniture Stores",4.0,4,$$,,,,,5
+wHHoCqjgDo1iVNeRl-1fgg,Blomst,"Desserts, Cafes",5.0,1,,,,,,3
+RLIiVISTFRGlbphQ3o3VxA,Bertels Salon,"Desserts, Cafes",3.9,68,$$,,,,,6
+nIv8G7Zd0WzfYhgt16PUGw,Massimo,"Italian, Pizza, Bakeries",4.6,18,$,,,,,0
+mguMbKPbwIVCjoGkhoyP-w,A.C. Perchs Thehandel,"Coffee & Tea, Tea Rooms, Desserts, Cafes",4.1,41,$$,,,,,5
+GPXzvVZc8YFvmf4XhYfy0g,Ny Carlsberg Glyptotek,"Museums, Cafes",4.3,84,$,,,,,6
+79a5J5ccQupjo3EVuFjpoA,Bageriet Bodega,"Coffee & Tea, Pubs, Dive Bars",5.0,1,,,,,,3
+4oe1xQmXerGxCI9eF4bgRQ,Democratic Coffee Bar,Cafes,4.2,75,$,,,,,6
+jQ51tU9Fy3SgB5zJ0YCTNw,Lagkagehuset,"Bakeries, Sandwiches",4.3,67,$$,,,,,6
+eqBme5o3m6acYYKCFHc2-A,Café Tilda,Cafes,4.0,1,,,,,,5
+tZlQbXv6fDYxH67p6zwpzw,Mormors,"Desserts, Coffee & Tea, Sandwiches",3.8,41,$,cozy,,,,0
+7WBAoA6kAoHrjcPE62cb4g,Lagkagehuset,"Bakeries, Desserts",4.2,87,$$,,,,,6
+aiX50QOXODa56zXNo-0AsQ,Kagestuen 43,"Desserts, Cafes, Coffee & Tea",4.1,10,$,,,,,0
+SZnPuN9qP3fDrSOjv1wjLQ,Cassiopeia,"Cafes, Buffets",4.5,4,$$,,,,,3
+Ek0Y08ljHkAYdxvEUHk7yw,Navnløs Kaffebar,"Coffee & Tea, Cafes",3.9,23,$$,,,,,5
+X55KSPpxGQneg7wwLYf5wA,Kaffix,"Patisserie/Cake Shop, Cafes",4.3,3,$,,,,,0
+U0JK3sr_sLLitxUoGuUgsQ,Vinbørsen,"Beer, Wine & Spirits, Coffee & Tea",4.5,6,$$,,,,,3
+pPJz_9cn_BSIzwH7rg1Odw,Hermod Bodega,"Pubs, Dive Bars, Coffee & Tea",4.0,4,$,,,,,0
+sE-P664Xu7ttCMvRVG-fZA,The Garden Café,"Cafes, Sandwiches",4.3,6,$$,,,,,3
+HTxZiwFUW70gOqWrn7Zx3A,Mokkariet Istedgade,"Cafes, Coffee & Tea, Breakfast & Brunch",4.8,4,,,,,,3
+ZaaVHy1iJGpypS-6xBkSBQ,Prolog Coffee Bar,"Coffee & Tea, Cafes",4.8,35,$,,,,,0
+A3bUmtsktu1fh3Q2EkNphA,Petról,Cafes,4.8,6,$$,,,,,3
+fDjmb9JtgphxF7Ekt62Flg,South Harbour Café,"Cafes, Moroccan",4.9,7,,,,,,3
+S5YhwZSOdLQLeUr9TcKIIA,Enghave Kaffe,"Beer, Wine & Spirits, Cafes",4.3,20,$,,,,,0
+9llgG4Sf8u7Y17hpf0-nwA,Risteriet Halmtorvet,"Breakfast & Brunch, Cafes, Sandwiches",4.2,61,$,,,,,6
+vWS4-AbfmGO2zo696qHw2Q,Bageriet Brød,"Bakeries, Breakfast & Brunch",4.5,44,$,,,,,0
+EFJueGHxBlNrn5zKTVdcOg,Kaffeslabberasen,"Breakfast & Brunch, Bakeries, Cafes",3.8,31,$,cozy,,,,0
+-c0jjCGzrfjQKroHgj6jZg,Wulff og Konstali,"Bakeries, Cafes",4.3,32,$$$,,,,,2
+0JjRaroKcpraZITHMazaZQ,Coffee Fellaz,Cafes,5.0,1,,,,,,3
+9WFf4FGvedg-KSEnShU7ag,South Harbor Café,Cafes,5.0,2,,,,,,3
+QRbniHRSwDwU1-WyjFbW3Q,Barbar Bar,"Cafes, Sandwiches, Bars",3.4,17,$$,cozy,,,,5
+bEodOkIJZ6I3UKDWKZNdZw,Carlton Cafe,"Cafes, Breakfast & Brunch, Burgers",3.4,19,$$,,,,,5
+dya3sdg-OjlETrGPcAwJrw,Apropos,"Breakfast & Brunch, Cafes, Coffee & Tea",3.6,51,$,,,,,0
+vpmk1OF6Uad2IHzSIg3QuA,Bang og Jensen,"Bars, Breakfast & Brunch, Cafes",3.8,61,$,,,,,6
+7wP5O1LLfjlb7rQtFeJ60g,Frede & Vester's,"Coffee & Tea, Breakfast & Brunch, Sandwiches",4.3,9,$,cozy,,,,0
+5b1R1l616rn9ukX3-fXFHw,Cafe Skammekrogen,"Bars, Coffee & Tea, Beer, Wine & Spirits",4.5,4,$,,,,,0
+5SIOQE1-Ci9nPqzmYGDXeg,Granola,"Cafes, Breakfast & Brunch, Sandwiches",3.3,75,$$,cozy,,,,6
+2JwV8xhLKvb4wInemI7aBA,Brød,Bakeries,5.0,1,,cozy,,,,3
+BtlJIvMvVkF7Y_VurhVdIQ,Stempel Bar & Kitchen,"Bars, Cafes",3.3,28,$,,,,,0
+_gxWLxWE27tnZMSIQNrsYw,Espresso House,Cafes,4.3,3,,,,,,3
+sD1GlvFgxUq7BHOOlkM_AQ,Kellermans Cafe,"Cafes, Venues & Event Spaces",5.0,2,,,,,,3
+_8EvYM5dMATONGKy_zTivA,Kaffestuen Vesterbro,"Coffee & Tea, Internet Cafes, Sandwiches",3.6,18,$,cozy,,,,0
+kFvu1gAJPIUWN5wY7oEJSA,Sweet Surrender,"Cafes, Coffee & Tea",3.8,5,$,,,,,0
+os0XTO19CPxHcwwS2PWGkw,Rist Kaffebar,"Breakfast & Brunch, Cafes",3.7,28,$,,,,,0
+4X26IY7RvokFE7QdSUmUYg,Café Du Nord,Cafes,4.0,1,,,,,,5
+NF4rEESo8EW9nJfw9ITayw,Craft Coffeeshop,"Arts & Crafts, Cafes",4.5,4,$$,,,,,3
+OwO4EXYuwsHacuNjcypqlw,Coffee First,"Coffee & Tea, Cafes, Cocktail Bars",4.1,27,$$,,,,,5
+CHiLHTCTQtVRyCjT-YLLQQ,Café Alma,"Cafes, Modern European, Breakfast & Brunch",3.2,54,$$,,,,,5
+MLRw97gDKx0oFlPdkNp3nA,Café Mandela,"Cafes, Bars, Coffee & Tea",3.5,28,$$,,,,,5
+I6ZCKRIwbm1DBi6mJCZ-ZA,Sonny,Cafes,4.1,9,$,cozy,,,,0
+XoLeE4DgdRT7cc4o7WCzlQ,Sort Kaffe og Vinyl,"Cafes, Coffee & Tea, Music & DVDs",4.0,21,$$,,,,,5
+AFMKLpZqaTzSSFK-b04R7w,Boulevard Cafeen,"Bars, Coffee & Tea, Cafes",5.0,2,,,,,,3
+LA3DjHXWPqz9wT3ewN1Heg,Græsk Smag,"Cafes, Coffee & Tea, Greek",4.2,9,$,,,,,0
+gV5URnf-dXSgxxYvMDZchw,Bagerdygtigt,"Delicatessen, Bakeries, Cafes",3.1,7,$,,,,,0
+gAHr1iqgLRC2bDSYeqowHg,Café Høegs,"Bars, Cafes, Burgers",3.2,34,$,cozy,,,,0
+7qf7SCTGW9TWT9NaRQMrJQ,Le Kaff,"Coffee & Tea, Juice Bars & Smoothies",4.3,6,$$,,,,,3
+QIC_bbmQonavepomfzeCjA,ORSA Coffee,Coffee & Tea,4.5,2,,,,,,3
+J7pb3CA-U1JZwZRDwVm32w,Lauras Bakery,Bakeries,4.3,4,$$,,,,,3
+jfCuOkK2cmdJZy6nZf5SUQ,Kødbyens Høker,"Bakeries, Restaurants",5.0,1,,,,,,3
+tJAMNrEO0nxJey5VDvtN4A,Roast Coffee,"Cafes, Coffee & Tea",4.8,32,$,,,,,0
+MZswK-TBmVFnVDAbtczVXg,Café Georg,Cafes,4.0,1,$$,,,,,5
+h167hNgVPVyqGTnXL6bRcA,Café Viggo,"Cafes, French, Bars",3.6,19,$$,,,,,5
+S2qFCsgDTSeEWLi1HlLGBQ,Lagkagehuset,"Bakeries, Cafes",3.4,19,$,,,,,0
+e5xz83FcKNGgkY6THQd62Q,Statement Coffee,Cafes,4.2,9,,,,,,3
+ykbWPQEr-BukZN-4jX_73w,Central Hotel & Café,"Cafes, Hotels",4.3,7,$$,,,,,3
+ut4cQi5zwYqF1ets2-FgCQ,Woodah Hostel,"Cafes, Hostels",4.5,8,,,,,,3
+i-maIPuvj6iVwdgifhcyWg,Cafe Vivaldi,"Cafes, International, Breakfast & Brunch",2.8,40,$$,,,,,5
+TnOTTLBrCr07D6NMksjuZg,Kaffeplantagen,"Coffee & Tea, Cafes",3.2,16,$$,,,,,5
+ajQJDOjYmz12VMFYBM8TSA,Gestus,Cafes,4.0,2,$$,,,,,5
+uChoEdFyJiBnApt4y1jrKg,Lagkagehuset,"Bakeries, Cafes, Coffee & Tea",3.5,19,$$$,,,,,2
+DMhWhvZn5SyDtWrU39amVg,Flisen Bar and Burgers,"Cafes, Burgers",2.9,8,$,,,,,0
+pbiwjidhHNQ5FWguqDH4pQ,Cafe Emma,"Cafes, Sandwiches",1.8,30,$$,,,,,5
+TkNywlSTNFl7Afd6uI5iMg,Café Sonja,"Cafes, Breakfast & Brunch",3.3,6,$,,,,,0
+UEAW78TYgUpwckoRrB4R9g,Sweet Valentine,Bakeries,5.0,1,,,,,,3
+ERd_bqdduHNfvatvJkP3dQ,Byens Bogcafé,"Coffee & Tea, Breakfast & Brunch, Internet Cafes",4.5,2,$$,,,,,3
+JdxPHfCcrQJAfX_9g9TBHw,Helges Ost,"Cheese Shops, Bakeries, Delicatessen",4.7,3,$$,,,,,3
+_exr0Lb9qfLjiW1a_-x2Gw,Bodenhoffs Bageri,Bakeries,4.5,2,,cozy,,,,3
+spVkora36exmMh8dQMhdzw,Café Katz,"Lounges, Cafes, Coffee & Tea",3.4,30,$,cozy,,,,0
+OtFptdustjPs_m4_DUWJJg,Naturbageriet Sattva,Bakeries,5.0,1,$,,,,,0
+xJbWptJcgbSm8UFOeoYekQ,Riccos Kaffebar,"Cafes, Coffee & Tea",3.4,14,$$,,,,,5
+48LQ9QNQpV9s_ttuU1hiJg,Sing Tehus,Tea Rooms,4.8,5,,cozy,,,,3
+94ETPxyFEBhLDlvkt6cnUQ,Thiemers Magasin,"Bookstores, Coffee & Tea",4.8,4,$$,,,,,3
+jmBbjCDjq2psWGGV0MBVbQ,Den Go'e Kaffebar,Cafes,5.0,2,,,,,,3
+QBlaha1aAf1ogNIj-s1c2Q,Rock Bar Royal,"Bars, Cafes",4.0,1,$$,,,,,5
+hAdt43NHgJddWbX_HV9_PQ,N to Go,"Cafes, Coffee & Tea",5.0,1,,,,,,3
+4rYGMNqNpI48E8VyRqTkWA,Café High Q,"Coffee & Tea, Sports Bars, Hookah Bars",2.4,5,$,,,,,0
+QZnh_iSjo5sScMvTFVyP-A,Coffee & The Gang,"Cafes, Coffee & Tea",5.0,1,$,,,,,0
+j5XejEZmzX6oeFrGiClH4w,Kaffe lladro Vesterbro,Cafes,3.8,5,$,cozy,,,,0
+CHOjNliJkzW1hy-CkX817w,Joe & The Juice,"Cafes, Coffee & Tea",3.3,10,$,,,,,0
+h2Ldxok6gPmxxHdyWMjg4A,Creative Space,"Arts & Crafts, Home Decor, Cafes",4.1,9,$$,,,,,5
+sWdlwmFUTHDfKyb_7s3MhA,Kellerdirk,"Cafes, Cocktail Bars",3.6,5,$$$,,,,,2
+e4lyFs7Gn413UhKzd5f59A,Atelier September,"Breakfast & Brunch, Vegetarian, Cafes",3.8,70,$,,,,,6
+m8KhjtGQ-WJvb-hOcYRsWQ,Café Altanen,Themed Cafes,3.6,7,$,,,,,0
+mfmnN8Znk8JPpZlICAFRIA,Frederiksberg Allé,"Local Flavor, Cafes, Shopping",4.1,8,,,,,,5
+cOUwptcU2Y7vJ1cdwDQIyw,Meyers Deli,"Delis, Cafes, Scandinavian",3.5,29,$$,,,,,5
+1rWQO4JWlAgI-hEo2CVhTw,Købenkaffe,"Cafes, Food Trucks",4.5,2,$,,,,,0
+cVGIbeM0NpJBJUsA9dMntQ,Emmerys,"Coffee & Tea, Bakeries, Cafes",4.1,12,$$,cozy,,,,5
+yA6UuzmRQb0PC7Hf3m8F5g,Resso Roasthouse,"Cafes, Coffee & Tea",4.0,1,$,,,,,0
+UMMR2DwXsktGJjkl8oVVfQ,Kaffebaren,"Coffee & Tea, Desserts, Bakeries",3.5,6,$,,,,,0
+NEeDLbdR33aQsrsBdcGAsg,Café Hytten,"Bars, Coffee & Tea, Cafes",4.0,1,$,,,,,0
+D5dHjUgndnw2GZ7AYmczng,Streckers,"Breweries, Coffee & Tea, Barbeque, Bars",2.3,10,$,,,,,0
+ktIQmXdTPaTyxn5pbWHmMQ,Lagkagehuset,Bakeries,3.7,7,$$$,,,,,2
+JOk0xmnTq9nNhJNGxZK8Xg,Cph Cocktail,"Bars, Coffee & Tea, Cafes",4.0,2,,,,,,5
+AQDl14xqvB9bw0CXbbr6_g,Peter Beier Chokolade,"Chocolatiers & Shops, Bakeries",4.4,8,$$$,,,,,2
+3hFzKI2RMgfL5A9SqoQKZA,Antons Køkken,"Danish, Breakfast & Brunch, Cafes",3.1,9,$$,,,,,5
+nd3sQ558lwMPKxxaCbEQtA,Café Dalle Valle,"Buffets, Cafes, Breakfast & Brunch",2.6,10,$,,,,,0
+8HwHXj1qJFL31h5lTOp9MQ,Kaffebaren på Amager,"Cafes, Breakfast & Brunch",4.1,31,$,cozy,,,,0
+Vhes0atbVlDEkDg653ZHfw,Matcha Bar,Cafes,4.3,3,,,,,,3
+dAOUoUrOWpNz1T_Mt6rpaw,Dons Brød,Bakeries,4.0,2,$$,,,,,5
+gzo5YqJdj7tOzFMVu_ZYRA,Chaplon Tesalon,"Cafes, Tea Rooms",4.0,2,$,,,,,0
+b0uHokeDY7GlU6r0OhOQrg,Restaurant Nytorv,"Coffee & Tea, Scandinavian",3.4,15,$,,,,,0
+ai0qAm6WSOH2YYKNl9QBFA,Parterre,"Breakfast & Brunch, Open Sandwiches, Cafes",4.4,44,$,,,,,0
+kYHyKpWkw3jjLFk0evJUEA,Henckell,"Coffee & Tea, Juice Bars & Smoothies, Cafes",3.8,9,$,,,,,0
+82ltR16B4y9bGuuOiZDj-A,Risteriet,"Coffee & Tea, Cafes",4.1,12,$,,,,,0
+byQFdtQVvU9IfwO5LJxY_Q,Engelbert Petersens Bageri,"Bakeries, Patisserie/Cake Shop",3.7,3,,,,,,5
+6XRn5JlxjdS4QlKtno0OpA,Meyers Bageri,Bakeries,4.2,17,$$,,,,,5
+--bLPwlomL_UuGoPqG6NRA,Bryggens Spisehus,Cafes,3.5,8,$,,,,,0
+NLoWaqF9fm0fH1Bsb27Krg,Espresso House,Cafes,3.0,26,$,,,,,0
+32mLfSxEZDgNIpShOFaafQ,Baresso,Cafes,4.0,1,,,,,,5
+8X-etrKuBa08Ybp9WT3goA,Restaurant Smör,Cafes,4.7,3,,,,,,3
+_h9FOpRYRUW3fjVIBdf7dQ,The Bagel Co,"Bagels, Juice Bars & Smoothies, Cafes",4.1,12,$,,,,,0
+Ff2dDJtV_p5lbqXwh8MmCQ,Cafe Bjørg's,"Cafes, Sandwiches, Coffee & Tea",2.8,16,$$,,,,,5
+nl8Iyg4g1Cha8Bkz4q-l3Q,Wild Kiwi Pies,Bakeries,4.5,12,$,,,,,0
+xMEamX2nQ7QvuEKKtpTdOA,Mood Food,"Cafes, Burgers, Coffee & Tea",2.6,7,$$,,,,,5
+HIBF2KpTKtDY1Mf6_3WlZQ,Roast Coffee,"Coffee Roasteries, Coffee & Tea, Cafes",4.9,7,,cozy,,,,3
+QDTzXl7XaC2S68OVQeeMSA,NOHO café og cocktailbar,"Cocktail Bars, Cafes",1.0,1,,,,,,4
+C3dmsa2Wy_cWabYCkAnMhQ,Starbucks,"Cafes, Coffee & Tea",2.8,5,,,,,,5
+RdiZmLyiC5J5f20XpRF_rw,42Raw,"Juice Bars & Smoothies, Cafes, Breakfast & Brunch",4.0,102,$$,,,,,6
+6UcRqudsrid-d8O9pit99Q,Woodstock,"Coffee & Tea, Dive Bars, Pubs",4.2,5,$,,,,,0
+ktKl9KD7rMPqYsUEdnNHtw,Brødflov,Bakeries,3.3,3,,,,,,5
+phR4KAsMUwRucuE6ewtcUA,Kaffekværnen,Coffee & Tea,3.0,1,$$,,,,,5
+7jac67ESPveYle-m5cgZDA,Conditori & Cafe H.C. Andersen,"Bakeries, Sandwiches, Patisserie/Cake Shop",3.4,12,$$,,,,,5
+JFVpc8VcMoAl7G7vx6NOzw,Monellies,"Coffee & Tea, Cafes",4.3,7,$$,,,,,3
+ygtlekOCuSIBlWOtXGCi1w,Menu Space Café,Cafes,4.5,2,,,,,,3
+lYro1sqZv3S6gvZ-NBQtKQ,Original Coffee Nordhavn,Cafes,5.0,1,,,,,,3
+hTArMBLFPKB5yrIKSglh0g,Shabaz Kaffebar,"Coffee & Tea, Cafes",3.4,22,$,cozy,,,,0
+RA1Fp5js736zWDaEonuvHg,Bager Bosse,"Bakeries, Desserts",3.5,15,$$,,,,,5
+n9x5MfdRCP2TEQrrI_YAGA,Ehlers Bageri,"Bakeries, Patisserie/Cake Shop",4.0,6,$$,,,,,5
+MWHX_zCUnEZ9BJMdL0EjJA,Emmerys,"Bakeries, Specialty Food",3.3,6,$$,,,,,5
+UcGSl0rzSocfgt6j5JzC4Q,Meyers Bageri,Bakeries,4.1,9,$$$,,,,,2
+i4-BNKLdmc7Q-G9eZ60FsA,Goga's Kaffebar,Cafes,5.0,1,,,,,,3
+16p7zpg60BQGCTW8m7X_LA,Creative Space,"Arts & Crafts, Cafes",4.5,2,,,,,,3
+kTsTEbJFimkC0aiBSbp-Pw,Kaffekværnen,"Coffee & Tea, Food Trucks",4.0,1,$,,,,,0
+sTuXgcAR3wQi04RiDi7VSA,T in the park,"Desserts, Coffee & Tea, Cafes",3.7,9,$$,,,,,5
+5RceTW5mSSHIrz9G3rCSSQ,Vedels Konditori & Bageri,"Patisserie/Cake Shop, Bakeries, Sandwiches",4.6,9,,,,,,3
+y8e61m7aZpF6Qs2kgpXXQQ,Den Franske Cafe,"Coffee & Tea, Cafes",2.6,25,$$,,,,,5
+Lko9XI9dMMzfcO7iwKf53g,Emmerys,Bakeries,3.5,4,$$,,,,,5
+xu-GVpxHCkt_DOEUollxhw,Joe & The Juice,"Sandwiches, Coffee & Tea, Juice Bars & Smoothies",3.2,13,$$,cozy,,,,5
+Ic-F9q3ByKtzhXkGZz5LYg,Shakes & Cakes,"Desserts, Juice Bars & Smoothies, Cafes",4.0,1,,,,,,5
+94sNkAnhzwBpc3EIInFf7Q,Salonen,"Cultural Center, Cafes",5.0,1,,,,,,3
+FGcdq029gl2pz9VAbmRS9A,Joe & The Juice,"Juice Bars & Smoothies, Cafes",4.0,1,,,,,,5
+PLkOGlcyVBHG2WyvS_rOBw,Café Efternøleren,Cafes,5.0,1,,,,,,3
+BY0T5T8dEO0AzcjEkAlKHA,Lille Bakery,"Breakfast & Brunch, Bakeries",4.1,15,,,,,,5
+cl7MtuP3dxdyTPVoAwgXOg,Café A,Cafes,1.9,13,$,,,,,0
+MG9Dki4M9-ZuJUzeXwVNbw,Apollo Bar,"Breakfast & Brunch, Canteen, Cafes",4.7,3,,,,,,3
+zX8pY959_v1vNARSJIncAA,Lagkagehuset,"Bakeries, Coffee & Tea, Cafes",3.8,4,$$,,,,,5
+wn9W-0bLN63VVrsl93b83A,Reinh. Van Hauen,Bakeries,3.2,6,$$$,,,,,2
+mqaxsyMOfzXdL_qN0-SZJQ,Emmerys,"Bakeries, Coffee & Tea, Cafes",4.1,9,$$,,,,,5
+TZZrQCVc8tiAx-mmp_zTeg,Cafe Break,"Cafes, Juice Bars & Smoothies",4.0,1,$,,,,,0
+mjxVtE83GrSLcmV43T6Eig,Strand Bageri,Bakeries,2.7,3,,,,,,5
+2dzCfJUthCmt1nrp0fJuog,Caffé Mokarico,"Coffee & Tea, Cafes",4.0,1,$,,,,,0
+FGtscpPQuO3CZb7wxCxeiw,Espresso House,Cafes,3.2,6,,,,,,5
+NOXn5NRdWUtP5xJ88y39Dw,Trekroner Søfort,"Cafes, Museums, Landmarks & Historical Buildings",5.0,2,,,,,,3
+MUunkFiMK333b02eKOmZew,Neru,Cafes,3.2,5,$$,,,,,5
+hRCFxHHz-GbPKg9cUMGZlg,Wulff og Konstali Food Shop,"Breakfast & Brunch, Cafes",4.1,11,$$,,,,,5
+FDmtlwqudmVWNjPJT8MmGg,Original Coffee,"Breakfast & Brunch, Cafes",4.9,7,$$,cozy,,,,3
+k9weMKf5YYNg5Y0i3Sz3bA,Ambassaden & Konsulatet,"Cafes, Danish, Open Sandwiches",5.0,1,,,,,,3
+fiRsUCtKMmLyWs4NPtMmyg,Cafe Pelikan,"Bars, Cafes, Steakhouses",3.7,18,$$,,,,,5
+cYBqG7JkAWbtvOfa4NtXbg,Royal Bagel,"Coffee & Tea, Bagels, Cafes",3.5,2,$,,,,,0
+e4YUq8prWgPEGLK38cMtqg,Kafferiet,"Bakeries, Coffee & Tea, Desserts",4.2,29,$$,,,,,5
+VNSJXmOAMBlS6r2-jDL5tg,Café Sospesso,"Cafes, Breakfast & Brunch, Desserts",3.0,3,$,,,,,0
+wxOzFhUwvidJRPFkStVdJA,Emmerys,"Cafes, Delis, Bakeries, Specialty Food, Coffee & Tea",3.0,6,$$$,,,,,2
+3sji5HUhh0r8fKoXVGGAFg,The Coffee Factory,"Cafes, Breakfast & Brunch",3.9,33,$,,,,,0
+lfVRDQ11jI1AM2_-kIWVEw,Blue Bike Café,"Cafes, Breakfast & Brunch, Sandwiches",4.0,8,$,cozy,,,,0
+B7fgPV7Id0l_tXYB1MlrrQ,Cafe Midtown Bar,"Hookah Bars, Cocktail Bars, Cafes",3.8,4,,,,,,5
+oXWv80flFjCPIhT-DYU1tA,No 95 En Kaffebar,"Breakfast & Brunch, Cafes",4.1,18,$,,,,,0
+0D8cVOKRS1Kcb_ztSAoPxA,Le Coin,Cafes,4.7,3,$,,,,,0
+vmbVNfCVHuGtKCVZOAsWmQ,Pappa's Pizza & Café,"Coffee & Tea, Pizza, Barbeque",4.0,1,,,,,,5
+RV89djkOXfGk3Y0-iIXnPg,Det Vide Hus,"Juice Bars & Smoothies, Cafes",4.1,35,$,,,,,0
+qZtVLMQ3WKge6szxDUtj8w,Mocca Kaffebar,"Cafes, Sandwiches",2.0,2,,,,,,5
+hvdJAy9aM8jTVyoFijuR2Q,Emmerys,Bakeries,4.0,19,$$,,,,,5
+VrDIXmeFRgyx8LnQiqFLfA,Le Kaff,"Coffee & Tea, Bagels, Cafes",4.8,12,$,cozy,,,,0
+aR7GDlXFrNVVB91ECzqUSA,Sweet Treat,"Coffee & Tea, Breakfast & Brunch, Cafes",4.4,46,$,cozy,,,,0
+z-qsEeAKVHRT4QQFRX56mA,Kaffehytten,"Coffee & Tea, Cafes",4.0,1,,,,,,5
+jfrtgNsfE_CyqLNHFLg36w,The Union Bar,"Bars, Coffee & Tea, Cafes",3.2,11,$$,,,,,5
+3gBXEcBgoiov0M-S0-NqIg,Original Coffee,"Coffee & Tea, Cafes",4.4,32,$$,,,,,5
+nU8SXAR43jaNJBctdnjXsA,Oderberger Bog & Pladecafé,"Coffee & Tea, Vinyl Records, Bookstores",5.0,1,$,,,,,0
+l-ZlYA0uBrMbLUR9HOSS7Q,Strand Bageri,Bakeries,0.0,0,,,,,,4
+-DHNAqLKMdHDz63dWZl-bQ,Enigma Kantina,Cafes,3.0,2,,,,,,5
+4pWCg0dHlV1kNfzS302myg,Lauras Bakery,"Desserts, Bakeries",3.6,36,$$,,,,,5
+cH959nJiQ6qYXAXweneHmg,Blue Dot Café,"Coffee & Tea, Sandwiches",2.5,2,$,,,,,0
+lO0ldNuSmyaOhTwmD4hHxw,Konditori La Glace,"Bakeries, Patisserie/Cake Shop",4.0,129,$$,,,,,6
+ZWLadq6W3e2y84VvjHo2Iw,Det Rene Brød,Bakeries,4.3,6,$$,,,,,3
+IyQN2So1cC1kY1ZpaDocRw,Big Apple,"Sandwiches, Coffee & Tea, Juice Bars & Smoothies",4.0,31,$,cozy,,,,0
+KAxYRu7aVPpDc7z-OmLHtQ,Cafe Svejk,"Bars, Coffee & Tea, Cafes",3.7,15,$$,,,,,5
+mseeAF1LP73pXY9z7JlrBA,Is à Bella,"Cafes, Desserts, Ice Cream & Frozen Yogurt",4.8,5,$,,,,,0
+jjkXzUL0a4IK5tg0hqcqvQ,Cafe Oha,"Cafes, Breakfast & Brunch, Juice Bars & Smoothies",4.6,8,,cozy,,,,3
+2hFicXFOIEfXZBr_QoBefw,Café Domhuset,"Dive Bars, Cafes",4.3,4,,,,,,3
+l-dxI6jE4CcbPpwz0VKV6Q,Godthåb & Kaffe,Cafes,4.4,7,$,,,,,0
+KvwHUdBTY1SkJfMqvi-r-A,SuperBrugsen,"Bakeries, Kiosk, Grocery",3.5,4,$$,,,,,5
+Xsw5d1YgRXxE8wfhqo3ymg,Café Nexus,"Bars, Cafes",3.2,6,$,,,,,0
+LdjupEZTguDszr2OGyQcvw,Metropolitain,Cafes,2.6,19,$$,cozy,,,,5
+AWD1yP50PmsT9Cq4RapWTA,La Bonne,"Coffee & Tea, Sandwiches, Cafes",4.5,2,,,,,,3
+Tu0HZXUXGb96P_TIbDf2vw,Café Væksthuset,Cafes,3.3,13,$,,,,,0
+G7lB52sM0tBUwuepkVdXPw,Maude's,"Coffee & Tea, Breakfast & Brunch, Beer, Wine & Spirits",3.1,20,$,,,,,0
+0W-LQ1V4zZ5x5WdjAQ9JvQ,Cafe Den Blå Hund,"Cafes, Coffee & Tea",2.7,29,$$,,,,,5
+6j7RoM3vN-0dT0ViPq5SHA,Joe & The Juice,"Coffee & Tea, Juice Bars & Smoothies, Sandwiches",2.7,9,$,,,,,0
+DFw-WQs3G4LY3uKYL_AGAQ,Blaabjerg & Madsen,"Coffee & Tea, Burgers, Juice Bars & Smoothies",3.7,6,$,,,,,0
+wVQrGgwDcGBy6LvQiJH6Xw,Allegade 10,"Bars, Cafes, Venues & Event Spaces",4.0,7,,,,,,5
+2Hr1KExRI0BAdKCjNtI9-Q,Starbucks,Cafes,3.0,7,$$$,,,,,2
+-QtjG5OSTalI94oiKPNuuQ,Porcelænshaven CBS kantine,"Coffee & Tea, Sandwiches, Buffets",3.8,4,$,,,,,0
+l4OtD8FFkuijWl_nI2CPFg,Kaffe Lladro,"Cafes, Coffee & Tea",3.3,9,$,,,,,0
+CsyNdYW4nWLn2weNWnELMg,Bodenhoffs Bageri,Bakeries,3.9,14,$$,,,,,5
+fTcb0ZX3GoPkgxpRpuyvKw,Café Kaleidoskop,"Cafes, Breakfast & Brunch, Coffee & Tea",3.1,11,$,,,,,0
+lGHFpfYQVoLwDnRaeBYeew,Cafe Vivaldi,"Cafes, International",2.1,8,$,,,,,0
+zdl4T1i8rs-lv5hSG9AF9A,Bagels Ringen,"Juice Bars & Smoothies, Bagels, Coffee & Tea",4.0,2,,,,,,5
+0KxQNiKLiedwkNwqWYJG7A,Nanis,"Hookah Bars, Cafes, Coffee & Tea",3.3,3,$,,,,,0
+nvPrjPmomOtATV28T4MnSw,Konsjös,"Wine Bars, Cafes",4.3,3,,cozy,,,,3
+_JXzRIe323_wLb1sGbtdrw,Reinh Van Hauen,Bakeries,4.1,7,$,cozy,,,,0
+rNHrCDcohLj35w93__cEmA,Emmerys,"Bakeries, Coffee & Tea, Breakfast & Brunch",3.2,5,$$$,,,,,2
+8DQeC8rsXkTFq-bsLkrOrw,Original Coffee,"Coffee & Tea, Cafes",4.0,1,,,,,,5
+HT7q63r5vv65LdFKrbHCPg,Promenaden,"Bars, Cafes, Coffee & Tea",2.9,19,$$$$,cozy,,,,2
+dMD9c3uLReT1el-00fNhUg,Risteriet,Cafes,3.5,2,$,cozy,,,,0
+wiII1FCVP_8-83jymgD1_Q,Coffee No24,"Coffee & Tea, Internet Cafes",3.8,6,$,cozy,,,,0
+viFXPB7FskDe2u2Nn_3cPA,Havana,"Coffee & Tea, Bars",3.0,1,,,,,,5
+1gQwKeP4xO61VjfhBUXoDA,7-Eleven,"Grocery, Convenience Stores, Coffee & Tea",4.0,1,$,,,,,0
+JQeNrkSuZeP4w6jBjdo_MA,Cake My Day,"Desserts, Bakeries",4.3,3,$$,,,,,3
+CvQejRIjhHmKzwoJf4ai_A,Olivers Oase,"Cafes, Sandwiches, Ice Cream & Frozen Yogurt",3.6,9,$$$,,,,,2
+0fDRz9lC9iwsEu6Mtr2uOA,Munch Coffeeshop and Bakery,"Bakeries, Cafes",5.0,1,,,,,,3
+LQEIWY1mhHHp85hpKBuC8Q,Café Phenix,"Cafes, Mediterranean",2.9,18,$$,,,,,5
+GUjdKNYNcvrPqSwRF1zZew,Tamu,"Chocolatiers & Shops, Coffee & Tea",4.5,2,,,,,,3
+jGiF_xNAZn98ayPD9Ak7IA,Smallegade Smørrebrødsbar,Cafes,3.0,2,,,,,,5
+ow0uH_AND7DHhuxU-1njqA,Lagkagehuset,"Bakeries, Coffee & Tea, Sandwiches",3.3,8,$$$,,,,,2
+9DlVFt_kHlnb3t1_6WvZIQ,Les Deux Amours,"Coffee & Tea, Italian, French",3.0,5,$$,,,,,5
+Y705yWnrUAX5qEvvPl0PfA,Fru Jensens Fristelser,"Cafes, Coffee & Tea",4.0,6,$,,,,,0
+x1cYF2FUf3B8bPOvEaVvtg,Frb. Allé 45 - Café & Antik,"Sandwiches, Breakfast & Brunch, Cafes",5.0,2,,cozy,,,,3
+ZlLT74kmbvSjIvRfHlzDfA,Starbucks,"Coffee & Tea, Cafes",3.0,3,$,,,,,0
+Rtif0YuZduVXiQlLB-DOzg,Hadis Café,"Cafes, Bars, Coffee & Tea",3.3,3,$$,,,,,5
+ozpvxT-svohZubfxQS8zXA,CoffeeQueen,"Juice Bars & Smoothies, Cafes, Breakfast & Brunch",2.9,8,$$,,,,,5
+OpMziNcrFKtEYxgALm3Q_g,Hubbly Bubbly,"Coffee & Tea, Tea Rooms, Juice Bars & Smoothies",5.0,1,,,,,,3
+mY8JIKJHnzbJBnFoEMgHZQ,Impact Roasters,"Coffee Roasteries, Cafes",5.0,5,$,,,,,0
+H7vnWngQ6k7Dp73Jpj9Xrw,Godthåbskonditoriet,"Bakeries, Patisserie/Cake Shop",4.0,4,$$,,,,,5
+QcO8BhlW0_YFi9yhykSYCw,IceQueen,"Ice Cream & Frozen Yogurt, Coffee & Tea, Juice Bars & Smoothies",3.0,7,$$,,,,,5
+neacr5cYzz5mDcbd6ga7Hg,Te Amo,Tea Rooms,4.0,1,$,,,,,0
+W6kTqepL8pNYHRHMgybOfg,Peter Beier Chokolade,"Chocolatiers & Shops, Bakeries",4.3,4,$$$,,,,,2
+k17GqXMJWXkY2TOc3gXpUA,Vores Brød,Bakeries,4.6,9,$$,,,,,3
+zxNcQEAk6R4Xwh9OLOG9Kg,MB Steak House Pizza & Cafe,"Steakhouses, Cafes, Pizza",4.0,1,,,,,,5
+4jp0LtYTYKc83jCSqMzCPA,Riccos Kaffebar,"Coffee Roasteries, Coffee & Tea",4.3,8,$,,,,,0
+DX1lIcLVJa1fO6gSPwaSCA,Holm's Café,"Cafes, Breakfast & Brunch",2.7,3,$,,,,,0
+vpTuivh1QOUXKGJB5PkMiw,Kaffeværket,"Coffee & Tea, Cafes",3.6,7,$$,cozy,,,,5
+p3R_eceY-_zKRTNQIKV-Qw,Dalgas Have - Copenhagen Business School,"Colleges & Universities, Coffee & Tea",3.7,3,$$,,,,,5
+KJOuKL-Bd7Qg56_P_voJMA,Krumme & Co,"Bakeries, Candy Stores",3.6,5,$$,,,,,5
+nqdkRybAWkoX17TPmy9RzQ,Engelhardt,Bakeries,4.0,3,,,,,,5
+5V6gBZ3y-RzrhRlmPCtH4A,Café På Hjørnet,"Dive Bars, Coffee & Tea, Cafes",4.0,3,,,,,,5
+zc72CD34LnHm4NJPik_qgw,Emmerys,"Bakeries, Sandwiches",3.7,6,$$$,,,,,2
+9OAiMKxKQqA5g6aJj2z4Jg,Aster,"Cafes, Vegan",3.5,2,,,,,,5
+LxjUaWB63OMSr94kF7tkGQ,Café Juicy,"Cafes, Sandwiches, Juice Bars & Smoothies",4.0,1,,,,,,5
+SGqE7VmQXLIXRLIZ0w_Cew,Joe & The Juice,"Cafes, Sandwiches, Juice Bars & Smoothies",3.7,10,$,,,,,0
+EKYOPq2nlchAsLa1aImHMw,Café Grækenlandsvej,Cafes,5.0,2,$,,,,,0
+4bzk5S50TVF290eKV9Pjqw,MJ Coffee,"Coffee & Tea, Cafes",3.1,34,$$,,,,,5
+cxTmz837SQlvgguXPabjuQ,Natur Tørst,"Cafes, Fruits & Veggies, Juice Bars & Smoothies",4.7,7,$,,,,,0
+AHGmCj2GxIqRNDaXoHoOIQ,Cafe Under Elmene,"Bars, Coffee & Tea, Cafes",3.5,22,$$,,,,,5
+vJJ48KAAhyLt9Ibtr_k3EA,Wecycle Copenhagen,"Bike Shop, Cafes",4.5,4,$$,,,,,3
+FgowVeBwCEvZiHxgBRH3cw,Kaffadeli,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+q8Zdnyu4l_az04b_nxT38Q,Kafe Kys,Cafes,3.8,19,$,,,,,0
+z7oX73b5K7yY2goYHJFelw,Orango Coffee,Cafes,4.5,8,$,,,,,0
+yMCVS-JNpreYRzGdIlQESw,Wulff og Konstali Food Shop,"Bakeries, Breakfast & Brunch, Cafes",4.2,82,$,,,,,6
+8rczEYJFaoieOt0WwvV57w,Forsamlingshuset Operaen,"Dive Bars, Coffee & Tea, Music Venues, Restaurants",4.3,4,$,,,,,0
+u1O_f6ZScBWnKBIAyXEX8w,Månefiskeren,"Coffee & Tea, Cafes",4.1,9,$,,,,,0
+yP-S4rZd_63qU9L3KywGfg,Chill-ee,"Sandwiches, Cafes",5.0,5,,cozy,,,,3
+qUxZ4QzGLK6GS93WlmGA-Q,Amadeus,"Coffee & Tea, Bakeries, Cafes",3.8,13,$$,,,,,5
+mhCeEn6m6YD-lW-0Zbag6Q,Cafe Oven Vande,"Cafes, Coffee & Tea, Beer, Wine & Spirits",2.7,21,$$,,,,,5
+sfvN2ZYKRp5pd8VwncGA2A,ReTREAT,Cafes,4.2,5,$,,,,,0
+JHGJVo2jNoaISbD9AOy0Dw,Café Blå Time,"Cafes, Coffee & Tea",4.0,13,$$,,,,,5
+MniAPQJoFtnmpb-3216bYQ,Tak For Kaffe,Cafes,4.0,14,$,,,,,0
+Obi4FxA_33AQI4GjJgr74Q,No. 11,Cafes,3.7,11,$$,,,,,5
+e-61Zm0tMWlrrdCjXlHkLg,The Corner at 108,"Bakeries, Cafes",3.6,8,$$,,,,,5
+XHoalSAZbz018nuCfPtBIw,Luftkastellet Ophelia,"Bars, Cafes, Music Venues",5.0,3,,,,,,3
+FQV_vLM8-BxyL2isS20hrA,Cub Coffee Bar,"Coffee & Tea, Coffee Roasteries",4.3,4,$,,,,,0
+nrKSLgD2lXI8K-qjoI7bng,The Nomad and the Bean,"Cafes, Coffee Roasteries",5.0,6,,cozy,,,,3
+Ry-RC5DDu9Ql62SIMD6uoA,Kaf' Bar 9,"Coffee & Tea, Cafes, Sandwiches",4.0,20,$,cozy,,,,0
+RLHupnMALQc0sLXVryge1Q,Kafferiet,"Coffee & Tea, Cafes",4.8,4,$,cozy,,,,0
+j9vqKsKTueVWTUA5aud3Ew,K96,"Salad, Coffee & Tea, Sandwiches",4.3,6,$$,,,,,3
+ERLaIS0C20_Ov55JUBI4YQ,Analog,Cafes,4.4,5,$,,,,,0
+_0ZR-E6fFBI3togPFBgzCA,Dessertdragens Kageværksted,"Bakeries, Desserts",4.5,8,$$$,,,,,2
+DWHWrI-alm85EHXJYYAoqg,Lagkagehuset,Bakeries,4.0,30,$$,,,,,5
+pmvk-FYYpIF3XVzpDPhKDA,Cafe Leo,"Cafes, Italian",3.7,10,$,,,,,0
+LJELklcFTsfSzW-IxUua7w,Espresso House,Cafes,3.7,18,$,cozy,,,,0
+NKRNgRG6LnPCSXsA9W57OQ,Kontiki Bar,"Coffee & Tea, Cafes",2.0,1,$$$,,,,,2
+cyTbsCml0nPhjBnE5p6B8w,Kafferiet,Cafes,4.0,8,$,,,,,0
+YZaxKxpkOLQMi-P8ccVKrA,The Packhouse,"Cafes, Breakfast & Brunch",4.6,5,,cozy,,,,3
+ccuDhSdGU3hfP5p3DMCHAw,Silver Streak Coffee Club,Cafes,3.0,3,$,,,,,0
+tfY6Ho3rO9KyQDZId2UAFQ,Sofie Kælderen,"Jazz & Blues, Dive Bars, Cafes",3.8,8,$,cozy,,,,0
+6CGmp9Yk8brpIGPWU5r7PA,Holm's Bager,Bakeries,3.3,9,$,,,,,0
+mW4xlK8PqI1QuIyZBYOdzQ,Hoppes Café & Bar,"Cafes, Cocktail Bars",2.8,33,$,,,,,0
+D9GzTfjYwZedreREtS_Ceg,Café Spicy Kitchen,"Indian, Pakistani, Cafes",3.3,19,$,,,,,0
+bFBXHU9ntmW8oZxm5srrJw,Sunshine Bakery,"Bakeries, Convenience Stores",3.6,5,$,,,,,0
+-RuT5X850z3Okv2Yuia6zQ,Frenchy,"French, Cafes, Breakfast & Brunch",3.9,16,$$,,,,,5
+MbPtrcP82IT7icSFtjBliQ,Coffee Room,"Coffee & Tea, Breakfast & Brunch, Cafes",3.7,20,$,,,,,0
+nTOXagqj9qOmekBKCJTkNQ,Joe & The Juice,"Juice Bars & Smoothies, Cafes",4.0,3,,,,,,5
+GSl-inRBRlaZP7Olcn-PKQ,Café Victor,"Bars, Cafes, Coffee & Tea",3.3,41,$$$,,,,,2
+jOR99-hN2Kp5RnY0Ktr8Qg,Krôyers,Cafes,4.0,5,,,,,,5
+NUs_YVTTto34EgBQcinuZg,Resso Espressobar,"Coffee & Tea, Cafes",4.3,7,$,,,,,0
+ulUw8KJwkB0K_36lHVSMXQ,Happy Cup,"Desserts, Coffee & Tea, Ice Cream & Frozen Yogurt",4.5,2,,,,,,3
+ViNb6YlPi4gumKz7lY9v3Q,Joe & The Juice,"Cafes, Juice Bars & Smoothies",4.0,1,,,,,,5
+H7Uh33foR--F7EdZ88JyoQ,Meyers Deli,"Cafes, Delis, Bakeries",3.2,18,$,,,,,0
+dfn3AJv20bv_gK4NqagC_Q,Marble Church Café,"Cafes, Juice Bars & Smoothies, Breakfast & Brunch",5.0,1,,,,,,3
+tlZBn_QmD6q_dwLOR-_faQ,Espresso House,Cafes,4.5,2,,,,,,3
+Y5iGYyaL1XkAvbv1nodvyw,Cafe Europa 1989,"Cafes, Coffee & Tea, Bars",3.2,59,$$,,,,,6
+4ElB-qBWytF-mDzL8RQdKA,Kompa'9,"Breakfast & Brunch, Cafes",4.3,56,$,,,,,6
+vox1A9-xVbxTm-5fs_pF7Q,Café G,"Cafes, Modern European, Breakfast & Brunch",3.3,30,$$,,,,,5
+sPg-ri76kcnoAohx5XYZlQ,Cafe Rabes Have,"Danish, Cafes",4.4,9,$,,,,,0
+oIIXJgtP23of0HsYZ8dDzw,Nespresso,"Coffee & Tea, Cafes",4.0,17,$$$,,,,,2
+jlrm_wj5-NHbRS_fmfxECw,Studenterhuset,"Arts & Entertainment, Cafes, Bars",3.3,31,$,cozy,,,,0
+e1Ajai24UAt2VUIQ51GifA,Joe & The Juice,"Sandwiches, Coffee & Tea, Juice Bars & Smoothies",3.2,21,$$,,,,,5
+Z-AKriWA40P6X6UbbLNFDA,Café Paris,"Breakfast & Brunch, Bagels, Cafes",5.0,1,,,,,,3
+o85kK2jYE8ILADGBif6Ckw,August B,Cafes,3.7,3,$,,,,,0
+qByXgaN_64t8Xfug601rmQ,Zalt,"Breakfast & Brunch, Cafes",3.0,29,$$,cozy,,,,5
+E7Ojuaps7fl1aQ445A_58Q,Cafe Dalle Valle,"Cafes, Breakfast & Brunch, Buffets",2.5,74,$,,,,,6
+7Lyomq5QTfmTIeRupCchcw,Cafe Ørstrup,"Open Sandwiches, Coffee & Tea, Danish",4.0,4,,cozy,,,,5
+TD4f52PTWIrCOyBYzA2xbA,Alice Ice Cream & Coffee,"Coffee & Tea, Ice Cream & Frozen Yogurt",3.8,9,$$,cozy,,,,5
+g63fypAg_MyAUe2uLQ4Vjw,Toldbodens Juice og Grønt,"Salad, Cafes, Juice Bars & Smoothies",4.0,2,,,,,,5
+_N3FGrtmFwbm7JYGb_nGEA,Riccos Kaffebar,"Cafes, Coffee & Tea",4.0,7,$,,,,,0
+bEdvvXGhswlw235sN0Purw,Holm's Bager,"Cafes, Bakeries, Coffee & Tea",3.5,24,$,,,,,0
+iXurgM1VAO8eRfMCBdk39g,Rooty,Cafes,4.3,3,,,,,,3
+bV1M3GCyjRKUbjcCreWHJQ,Vigerslev Kro,"Coffee & Tea, Real Estate",0.0,0,,,,,,4
+sx_n7TMcwYNxGEob7eGXlQ,Dream Team Valby,Bakeries,0.0,0,,,,,,4
+3ijMLE1Y9FIfTcaJplLwMw,Café Phenix,"Cafes, Coffee & Tea, Bars",2.5,19,$$,,,,,5
+cFWdz895qQBj2rJCqkLG0Q,Impact Roasters,"Cafes, Coffee Roasteries",5.0,1,,,,,,3
+d3JDZGjhUucaEgzCTibTtQ,Coffi,Cafes,5.0,2,,cozy,,,,3
+NudfkqjAdZP1A3W8HhOSOQ,Coffee Empire,"Juice Bars & Smoothies, Cafes",3.5,8,$,,,,,0
+HCbJgXir67HdLc4meCOhQQ,Joe & the Juice,"Sandwiches, Coffee & Tea, Juice Bars & Smoothies",3.5,2,$,,,,,0
+h9e2ncEIoGhwHxWX75pGkw,Alle'konditoriet,Bakeries,2.0,4,$,,,,,0
+afAgESTj4NtyyR-9aMys_A,Cafe Ciré,"Bars, Cafes, Coffee & Tea",2.8,19,$$,,,,,5
+LoAdCCrtKAwHwxCVrbMG7g,Musik Conditoriet,"Patisserie/Cake Shop, Coffee & Tea, Bakeries",3.3,6,$$,,,,,5
+V3kc4zqGG65LV339CNXZWg,Café Emil,"Cafes, Burgers, Mexican",2.4,15,$$,,,,,5
+BzTDdvgQEMgEHRA22V62NA,Mosters Te & Kage,"Cafes, Tea Rooms",5.0,2,,,,,,3
+AuHUsoaRQlOz7Cvd0U6LNA,Emmerys,Bakeries,4.0,1,$$,,,,,5
+CNNfP__tWZ2LVaKTL02iQg,Midt Cafe & Restaurant,"Burgers, Breakfast & Brunch, Cafes",3.0,1,,,,,,5
+mksUQDXbyO4f-SHonEPRUg,Cafe Asta Hotel Fy og Bi,"Hotels, Cafes, Beer, Wine & Spirits",2.3,4,$$$,,,,,2
+_oOd35cRGfePVKq69_BI0g,Cafe Sommerfuglen,"Coffee & Tea, Lounges, Cafes",3.0,5,,,,,,5
+db5SVUL3VEQ68d5pJsl9JQ,Rallys,"Cafes, Sandwiches, Breakfast & Brunch",3.9,11,$,,,,,0
+wBgpyrmIthFlVGQcCNHUxQ,Kazims,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+7RKvzV6pbq6-aLrzBx5Aag,ristorante avanti,"Cafes, Italian, Coffee & Tea",2.8,5,$,,,,,0
+sXqqSkhPV04xq3vTSYwMOg,Cafe Casual,"Cafes, Hookah Bars",0.0,0,,,,,,4
+fAka1B4S0r8AHb_q-pdSjw,Mæt Café,"Cafes, Coffee & Tea",2.0,2,,,,,,5
+YzzRXKVca5aHOar4z7nhhg,Lantz Food,"Bakeries, Restaurants",0.0,0,,,,,,4
+MzmjewhpawKQ5nsxUegeDQ,Lisa Jensen,Bakeries,0.0,0,,,,,,4
+2SXoMdnz4bkLv4OATAq9tg,Bagerdygtigt Valby,Bakeries,5.0,1,,,,,,3
+eBTPUoV-elrEQQeeJfo4qg,COFFI Cph,Cafes,0.0,0,,,,,,4
+xH_BfB_uDmV2Nq9gYj_uvA,Valby Kulturhus,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+MbwsRljNqbdnuvGXvVAUfw,Lulus Kaffebar,"Cafes, Danish",4.0,1,,cozy,,,,5
+5T2lbJ3VMB_dxdGGqtMALw,Espresso House,Cafes,0.0,0,,,,,,4
+qk4TlAYKfJJs-lvILR4nmw,Lifli Konfekture,Bakeries,0.0,0,,,,,,4
+6QTgzfLsFM-swtOoF0mIOA,Cafe Cunst,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+4VuRZcqGQnNmGT4yw81-Mw,Lagkagehuset,Bakeries,4.5,2,$$,,,,,3
+ZpF4Rz8eCaVOvXcEfV_pTA,Gimme Coffee,"Cafes, Coffee & Tea",4.0,2,,,,,,5
+vkDyVuU6vtK-Fp2WXPWvoA,Cafe Phister,Cafes,3.3,9,$,cozy,,,,0
+GVAQJiW9IQE3-f9tE5rEzw,Café Staalvand,"Cafes, Coffee & Tea, Sandwiches",3.4,31,$,,,,,0
+d2gH5QDNgh-lHKqBRWMYrQ,Det lille fællesskab,"Cafes, Coffee & Tea",4.0,1,,,,,,5
+SNCiFLHQEQobqlJoOtlLnA,Espresso House,"Cafes, Coffee & Tea",4.0,1,,cozy,,,,5
+jMOt11Z24DKqgJXanbj3AQ,Bodenhoffs Bageri,Bakeries,3.7,3,,,,,,5
+YO9w7kNSYdtuQawX7t_l_w,Kirstens Konditori,"Bakeries, Patisserie/Cake Shop",4.7,7,$$,,,,,3
+rR6iAdZB932_7cFPKeU9xQ,Grannys House,"Breakfast & Brunch, Bakeries",3.8,27,$$,,,,,5
+-ZQibCaQBte3EJWry1pXKA,Café Juicy,"Juice Bars & Smoothies, Coffee & Tea, Sandwiches",4.0,1,,,,,,5
+FvUnTkHx4hGPCc7m67Kj_w,Basement BB,"Cafes, Coffee & Tea",1.5,4,$$$,,,,,4
+AbtCBf_NsqqHzN8LerIOFg,Café Risico,Cafes,3.8,10,$$,,,,,5
+1VFk2O2lNCb9UjmstMc7Tw,Renards Bageri og Konditori,"Bakeries, Patisserie/Cake Shop",4.0,1,,,,,,5
+SYkjYU8DMBtYa9dJ-wtyQA,Kaffekontoret,"Cafes, Sandwiches",4.0,4,$,,,,,0
+IJBIcfag93lPFAiDGvLuCw,Ipsens Kaffebar,"Open Sandwiches, Danish, Coffee & Tea",5.0,1,$,,,,,0
+Z4hOKEZiZf5DS-vMwEXQUQ,Café Pilos,"Cafes, Breakfast & Brunch, Sandwiches",5.0,2,$,cozy,,,,0
+fSlBRJfrqvBzT5M7gchuTA,Fovl,Cafes,3.8,6,$,cozy,,,,0
+-nr91V0zZ-Ys48YDXpICXg,Provstevej 10,Coffee & Tea,5.0,2,$$,,,,,3
+Za9RXi5N7zQAx7IJ94auww,Café Fik-Ret,"Turkish, Cafes, Buffets",2.6,8,$,,,,,0
+F6-8D4l71TvpqqJxDe3ldg,Super Kebab,"Coffee & Tea, Cafes",4.7,3,,,,,,3
+nyrHeMSUgOtw8t50yA8zlA,"Sorte Gryde, Den","Coffee & Tea, Cafes",5.0,1,,,,,,3
+vz7YXo8rh7oGeXGtm2Ui8w,Cafe Nostalgia,Cafes,0.0,0,,,,,,4
+PHyKCWn82HNQFWEk-WP8Ag,Mulles Thehus,"Coffee & Tea Supplies, Coffee & Tea",0.0,0,,,,,,4
+NyZEufXSH65mxZJHKvRMLQ,Vibe & Tone,Cafes,4.0,1,,,,,,5
+GprzonOUYd53un42yYNtYQ,Kaffe K,"Coffee & Tea, Cafes",4.5,2,$$,,,,,3
+isd4ePLJBufcnJtevzZjew,Café Zakanda,Cafes,4.0,1,,,,,,5
+LF7HwHeNzZve41gVxuq-Qw,Café Engelhardt,"Cafes, Coffee & Tea",3.4,5,,,,,,5
+hP9waDws3WirhiW0C0Ztsg,Carlsro Bageri,Bakeries,4.0,1,$$,,,,,5
+lkcK99hj5xuf4arw1O11eg,Søborg Kaffehus,Cafes,5.0,3,,,,,,3
+w3QdgESjsbs_-RN2HhPAMg,Bageriet Sløjfen,Bakeries,4.0,2,$$,,,,,5
+eFylJ1C5m6vljba29MPbbg,Bagermester Erling Jakobsen,Bakeries,0.0,0,,,,,,4
+EUeUpfKy-tVlRiG_AtKPsg,Bagerhjørnet,Bakeries,3.3,3,$,,,,,0
+OSD8Oy-Ubg7KUlT0eifcbg,Brønshøj Is,Bakeries,0.0,0,,,,,,4
+vW9ijnSplE4a6P7lOK8YCQ,Café Montenegro,"Cafes, Dive Bars, Coffee & Tea",4.0,1,,,,,,5
+JBPrFW6qK7BpnYsx-kw7fA,Kaffebaren Ålekistevej,"Coffee & Tea, Bars, Cafes",4.0,2,$$,,,,,5
+Di6QS-BUnbg580cLqSlOog,Kræmmercaféen,Cafes,3.0,3,,,,,,5
+r7a8S5ShyrNqi_tatYviEg,Ørnebageriet,Bakeries,3.3,3,$$,,,,,5
+ba2eTMZlG73QswQgKMyrpQ,Brød Værten,Bakeries,3.0,9,$$,,,,,5
+o36pcqoW9QnF0CKg4c07dw,Bagermester Erik Johansen,Bakeries,2.0,2,$$,,,,,5
+3Pco2yzyZ2uZOkiWfQcwqA,French Chicken,"Salad, Cafes, Sandwiches",3.0,1,$,,,,,0
+YgTKgzsIWLF_I4vh3c_bRQ,Damhuskanten,"Bakeries, Coffee & Tea, Cafes",3.0,5,$$$,,,,,2
+G7S_FtN4Xfsu4zF3lEBrWA,Cafe Ristet Rug,"Cafes, Sandwiches, Open Sandwiches",0.0,0,,,,,,4
+XjUgk3K-rv5ps7pFEV_WpA,Khorn,Bakeries,2.3,3,,,,,,5
+6r-UIDNsnex1E-GsQlNilg,Beta Boulders,"Climbing, Yoga, Cafes",0.0,0,,,,,,4
+v1oDJdUby3aQtK05aCYRiA,Kvickly,"Grocery, Bakeries, Coffee & Tea",2.7,3,$$,,,,,5
+2G5QfExB-VOy-2ncTEKARQ,Spise/Bar nr. 15,"Cafes, Breakfast & Brunch",3.0,1,,,,,,5
+1EooZfm0mYEVRdyXhJ6RCA,Miklagaard Cafe,"Cafes, Bakeries",1.0,3,,,,,,4
+YObScEfFy3D_r10uaRBj9Q,Vagns Konditori,"Bakeries, Patisserie/Cake Shop, Cafes",3.3,3,$$,,,,,5
+Zba6u7tz3Hpk1xxNkxJQBQ,Cafe Palmen,"Coffee & Tea, Cafes",1.0,1,,,,,,4
+a7b1A5ANP2MxDEniP4_iPg,Kaféen,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+mXZQVNqrhozbV3DtV3XlcQ,Grannys House,Bakeries,2.2,5,$$$,,,,,2
+TTu7zDylBxZPoejscwpOQg,Heimdalsgade22,Cafes,3.0,1,$,,,,,0
+gwm72GntC6zieUWG13wMhw,Lagkagehuset,"Cafeteria, Coffee & Tea, Bakeries",3.0,4,,,,,,5
+lZuvpYXip9kmKrZQ-c2tyw,King of el Manakish,Bakeries,3.0,1,$,,,,,0
+mwXSE_K4DsL4fstOneCqzA,Pain D'or,Bakeries,1.5,2,,,,,,4
+K_OwPxqrUogeS8ZScZ39Bg,Cafe Cubanito,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+6_TbfMc_oa5osVwd5a2r5Q,Jørgens Konditori,Bakeries,0.0,0,,,,,,4
+eWlPIAgq-RztxE3I_UZ_2Q,Iqbal Kiosk,Bakeries,0.0,0,,,,,,4
+nBaygFqcvZY4hL6_ycG4dw,Finn Førgaard,Bakeries,0.0,0,,,,,,4
+T9RX4htnebXyX_N29xqWDQ,Cafe Under Elmene,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+OYmAR7jQM9xohsCRDowDww,Pappas Pizza & Cafe,"Cafes, Pizza",0.0,0,,,,,,4
+4bnHHIF9ifiZOqFxvacbsA,Din Håndværksbager,Bakeries,2.0,1,,,,,,5
+M0hwMRb-aW3C4Vfcm6gd6w,Taffelbays Konditorier,"Bakeries, Patisserie/Cake Shop",0.0,0,,,,,,4
+MJThD1swmsr6RTpBrHASrg,Royal Park,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+WPHF6zgKaLVoRrnsZyq7aw,Coco Clementine,"Cafes, Scandinavian",0.0,0,,,,,,4
+b4Hgciz27QSnAnD03Xfhgw,Charity Bakery,"Bakeries, Desserts",0.0,0,,,,,,4
+EzfZ35vmVg0nLCNJT7zp1Q,A/S Detaillas,Bakeries,0.0,0,,,,,,4
+2nvW851rPJxvfQRq3Q7UPA,Kjeldsmark Retail,Bakeries,0.0,0,,,,,,4
+MOT0v_aDZrO_xeHXifuExQ,King Chicken,"Coffee & Tea, Fast Food, Cafes",0.0,0,,,,,,4
+UlprCauDhZZq3dk9thq2SQ,Café Parken,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+luSqdUkT5pwq8NEON4x3ew,Cafe Butterfly,Cafes,0.0,0,,,,,,4
+yqb5dkld8qs3DiRL3-8Yqw,Heimdals Genbrug,"Junk Removal & Hauling, Thrift Stores, Cafes",0.0,0,,,,,,4
+fZDT9Sm1n7ARWaw0sjREfw,Casa Kok & Catering,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+DDZOIqHVDuW7auyVm_wo3A,Café Plenum,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+pHkinWi_85lGwiKgejbhwA,Cafe Piccolo,"Coffee & Tea, Cafes",2.7,3,,,,,,5
+M_pgAEq3vC28aZE6eTeDBw,Kaffebroen,Cafes,0.0,0,,,,,,4
+MwjcqrzkYYbsNjIqgFZ2lA,Destilleriet,"Bars, Coffee & Tea, Cafes",0.0,0,,,,,,4
+bL-dp7qoDm3C0hu9F94j3A,Kaffebar Asmara,Cafes,0.0,0,,,,,,4
+DZBFQWFYJ9Z9hgDSMf7ELA,Cafe Lunden,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+2hbDOpf3baax5Oz_nqYt9A,ring Cafeen,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+T1O4p0i1Xs8s9o28TTjBDg,Cafe Paraplyen Frederiksberg,"Coffee & Tea, Health & Medical",0.0,0,,,,,,4
+8ehayI9I0mTkH1OAhDt7Bw,Schous Bageri,Bakeries,0.0,0,,,,,,4
+QryWO1ndhUEOAIvmJ39HLw,Veloropa,"Coffee & Tea, Bikes",0.0,0,,,,,,4
+5w1ql5dqL1zAZzVIUnpafg,Pain D or Bageri,Bakeries,0.0,0,,,,,,4
+eBf7LiABq5dcHhvFqj_reg,Saray Pastanesi,Bakeries,0.0,0,,,,,,4
+32zCbV9OM7T23JlFjXLO4g,Unik Bageren,Bakeries,0.0,0,,,,,,4
+iZS5QPFj54YF3XbqYzFFBA,Bondebageriet I Gladsaxe,Bakeries,0.0,0,,,,,,4
+Rp9AEJZVeaZfPi-xcFDu0Q,Mejeriudsalg,Bakeries,0.0,0,,,,,,4
+doz6YW7yko5Vwgo9ir-aGQ,Kaffesalonen Stefan,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+iVI0cfpB-8GeYuVvZXSs2A,Damn Good Coffee,"Coffee & Tea, Breakfast & Brunch",0.0,0,,,,,,4
+3lzlK574898ixwJDFDsTiQ,Coffee and Juice,"Cafes, Coffee & Tea",0.0,0,,,,,,4
+3QCoJ_wH8sscQGagtgVUjA,Brødudsalg,Bakeries,0.0,0,,,,,,4
+tbKRHI3ZppdiihQsU9nSLg,Joe & The Juice,"Coffee & Tea, Juice Bars & Smoothies, Cafes",0.0,0,,,,,,4
+nJ13y2TL3jq5PEKpAPlg0g,Det Nye Bageri,"Bakeries, Desserts",3.0,1,$,,,,,0
+IdVyHWY1WbxUJzHFU2g1tw,Pandekagevognen,Bakeries,0.0,0,,,,,,4
+XZdXm0D9znh1B292LJ0RWw,Vanløse Brødhus,Bakeries,0.0,0,,,,,,4
+LkRsrbEdSe3NvI5f88NFHw,Cafe Exotic,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+tV16OUAdDKDsYTV9FtWTQg,Cafe Francke,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+IfiJ41gecmEVRCeEISuKEw,Emdruplund Kaffe Risteri,"Coffee & Tea, Grocery, Cafes",0.0,0,,,,,,4
+whBMQuUNvwKPHMcrKtacRA,Parcel-Konditoriet,Bakeries,0.0,0,,,,,,4
+MwgNooAK4cli4RDetexgDw,Vanløse Kulturhuse Cafe,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+BVUJo31v5MapsQ6fld5lew,La Parisienne,"Desserts, Cafes, Patisserie/Cake Shop",0.0,0,,,,,,4
+51X7Uu_XlKPMWEGltgErQQ,Sportscafeen I Gladsaxe Sportscenter,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+F5PFzMLkruG9yhmdHuxqDQ,Cafe Kif Kif,"Cafes, Coffee & Tea",0.0,0,,,,,,4
+G_I39aEcCrL2MG57AhWEeA,Exclusive Pastries,Bakeries,0.0,0,,,,,,4
+y19wxfSxsNyTh0DryIDx5w,Aladdin Bageri,Bakeries,0.0,0,,,,,,4
+LyMv5W2S1xoeEWuU4Fvqvg,Pariser Konditoriet,Bakeries,0.0,0,,,,,,4
+RoafHrvMs9H_WEd_CvYyBQ,Morgenkompagniet,Bakeries,0.0,0,,,,,,4
+z52J_YidPtj6LLxefefImA,Byens Bager og Konditor,Bakeries,0.0,0,,,,,,4
+8vLeF6dWM1VvJJi8V1dlAA,Café Engelbrekt,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+5r_d5mEgZOo2X_dlF6oL8w,Taffelbays Konditorier,"Bakeries, Patisserie/Cake Shop",0.0,0,,,,,,4
+YBsQdX-w6m2FZsGUR-feIA,Sangsvanen Restaurant & Café,"Cafes, Coffee & Tea",3.0,1,,,,,,5
+1Qm0Js3dGKvxsI46MBO3rA,Café Dams,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+Cauw1oneLstShoevKFgR6w,Terroiristen,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+4BZEgamQf-5asxkrt9Lauw,Netværkscaféen,"Cafes, Coffee & Tea",0.0,0,,,,,,4
+HJhYP_lT8WTW-aBKgb0b4Q,Cafe Diverso,"Coffee & Tea, Cafes",0.0,0,,,,,,4
+hox0Pz0Sxft1bq0YROusYQ,Holm's Bager,Bakeries,2.0,1,,,,,,5
+0U0U1epteaGv9lEECbyEPA,Stop n Shop,Bakeries,0.0,0,,,,,,4

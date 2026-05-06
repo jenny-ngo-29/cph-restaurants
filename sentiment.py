@@ -236,3 +236,16 @@ if __name__ == "__main__":
     plot_sentiment_vs_stars(summary)
 
     print("\nDone.")
+
+def __init__(self):
+        self.analyzer = SentimentIntensityAnalyzer()
+
+def score_reviews(self, df):
+        scores = df["review_text"].apply(lambda t: self.analyzer.polarity_scores(str(t)))
+        df["vader_compound"] = scores.apply(lambda s: s["compound"])
+        return df
+
+def summarise(self, df):
+        return df.groupby("Yelp ID").agg({
+            "vader_compound": "mean"
+        }).rename(columns={"vader_compound": "mean_compound"})
