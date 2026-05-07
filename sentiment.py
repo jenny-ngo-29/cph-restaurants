@@ -20,7 +20,7 @@ from tqdm import tqdm
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # ── Config ──────────────────────────────────────────────────────────────────
-CSV_FILE       = "copenhagen_restaurants_merged.csv"
+CSV_FILE       = "copenhagen_places_merged.csv"
 OUTPUT_REVIEWS = "reviews_sentiment.csv"
 OUTPUT_SUMMARY = "business_sentiment_summary.csv"
 USE_TRANSFORMER = False  # set True for higher-accuracy transformer scoring
