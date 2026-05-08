@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from streamlit_extras.stylable_container import stylable_container
 
 st.set_page_config(
     page_title="Copenhagen Food Recommender",
@@ -24,6 +25,10 @@ st.markdown(
     }
 
     h2 {
+        color: #0b1f3a !important;
+    }
+    
+    h3 {
         color: #0b1f3a !important;
     }
 
@@ -184,82 +189,85 @@ cluster_choice = st.selectbox(
 filtered = filtered[filtered["cluster"] == cluster_choice]
 
 # Recommendation button
-if st.button("Recommend a place", use_container_width=True):
+if st.button("Recommend placs", use_container_width=True):
 
     if filtered.empty:
         st.warning("No matching places found. Try another cluster or type.")
 
     else:
-        recommendation = filtered.sample(1).iloc[0]
+        num_recommendations = min(10, len(filtered))
+        recommendations = filtered.sample(num_recommendations)
 
         st.markdown("---")
 
-        # Recommendation card
-        # Recommendation card
-        st.markdown(
-            f"""
-            <div style="padding: 24px; border-radius: 18px; background-color: #f9f6f1; border: 1px solid #e6ded3; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-                <h2 style="margin-bottom: 4px; color: #0b1f3a !important; font-weight: 700;">
-                    {recommendation['Business name']}
-                </h2>
-                <p style="font-size: 16px; color: #555 !important;">
-                    {recommendation['Category']}
-                </p>
-                <p style="font-size: 18px; color: #0b1f3a !important;">
-                    ⭐ <b>{recommendation['Average star rating']}</b>
-                    &nbsp;&nbsp; | &nbsp;&nbsp;
-                    📝 {recommendation['Review count']} reviews
-                    &nbsp;&nbsp; | &nbsp;&nbsp;
-                    💰 {recommendation.get('Price', 'No price data')}
-                </p>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+        st.subheader(f"Here are {num_recommendations} recommendations:")
 
-        st.write("")
+        for i, (_, recommendation) in enumerate(recommendations.iterrows()):
 
-        # Yelp button
-        yelp_url = recommendation.get("Yelp profile URL")
-
-        if pd.notna(yelp_url) and str(yelp_url).strip() != "":
-            st.link_button(
-                "View on Yelp",
-                yelp_url,
-                use_container_width=True
-            )
-
-        # Business information
-        with st.expander("📍 Business information"):
-
-            st.markdown(
-                f"**Address:** "
-                f"{recommendation.get('Business address', 'Not available')}"
-            )
-
-            st.markdown(
-                f"**Phone number:** "
-                f"{recommendation.get('Phone number', 'Not available')}"
-            )
-
-            business_url = recommendation.get("Business website URL")
-
-            if pd.notna(business_url) and str(business_url).strip() != "":
-                st.markdown(f"**Business URL:** {business_url}")
-
-            else:
-                st.markdown("**Business URL:** Not available")
-
-        # Review highlights
-        with st.expander("💬 Review highlights"):
-
-            review_highlights = recommendation.get("Review Highlights")
-
-            if (
-                pd.notna(review_highlights)
-                and str(review_highlights).strip() != ""
+            with stylable_container(
+                    key=f"recommendation_card_{i}",
+                    css_styles="""
+                    {
+                        padding: 22px;
+                        border-radius: 18px;
+                        background-color: #f9f6f1;
+                        border: 1px solid #e6ded3;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                        margin-bottom: 24px;
+                    }
+                """
             ):
-                st.write(review_highlights)
 
-            else:
-                st.write("No review highlights available.")
+                st.markdown(
+                    f"""
+                    <h2 style="margin-bottom: 4px; color: #0b1f3a !important; font-weight: 700;">
+                        {recommendation['Business name']}
+                    </h2>
+
+                    <p style="font-size: 16px; color: #555 !important;">
+                        {recommendation['Category']}
+                    </p>
+
+                    <p style="font-size: 18px; color: #0b1f3a !important;">
+                        ⭐ <b>{recommendation['Average star rating']}</b>
+                        &nbsp;&nbsp; | &nbsp;&nbsp;
+                        📝 {recommendation['Review count']} reviews
+                        &nbsp;&nbsp; | &nbsp;&nbsp;
+                        💰 {recommendation.get('Price', 'No price data')}
+                    </p>
+                    """,
+                    unsafe_allow_html=True
+                )
+
+                yelp_url = recommendation.get("Yelp profile URL")
+
+                if pd.notna(yelp_url) and str(yelp_url).strip() != "":
+                    st.link_button(
+                        "View on Yelp",
+                        yelp_url,
+                        use_container_width=True
+                    )
+
+                with st.expander("📍 Business Information"):
+                    st.markdown(
+                        f"**Address:** {recommendation.get('Business address', 'Not available')}"
+                    )
+
+                    st.markdown(
+                        f"**Phone number:** {recommendation.get('Phone number', 'Not available')}"
+                    )
+
+                    business_url = recommendation.get("Business website URL")
+
+                    if pd.notna(business_url) and str(business_url).strip() != "":
+                        st.markdown(f"**Business URL:** {business_url}")
+                    else:
+                        st.markdown("**Business URL:** Not available")
+
+                with st.expander("💬 Review Highlights"):
+                    review_highlights = recommendation.get("Review Highlights")
+
+                    if pd.notna(review_highlights) and str(review_highlights).strip() != "":
+                        st.write(review_highlights)
+                    else:
+                        st.write("No review highlights available.")
