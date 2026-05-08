@@ -9,3 +9,5 @@ Run sentiment analysis after data is obtained: python sentiment.py
 Obtain clusters by running pipline.py. Outputs cluster_plot.png and clustered_output.csv. 
 
 clustered_output.csv contains all restaurants with raw data and which cluster they belong to. 
+
+User interface launched using command: streamlit run app.py
