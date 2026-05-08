@@ -38,15 +38,46 @@ st.markdown(
         color: #0b1f3a !important;
     }
 
-    /* Dropdown label */
-    .stSelectbox label {
-        color: #0b1f3a !important;
-    }
     
     /* Dropdown labels */
     .stSelectbox label {
         color: #0b1f3a !important;
         font-weight: 600;
+    }
+
+    /* Dropdown background */
+    .stSelectbox div[data-baseweb="select"] > div {
+        background-color: #102542 !important;
+        border-radius: 10px !important;
+        border: none !important;
+    }
+    
+    /* Dropdown selected text */
+    .stSelectbox div[data-baseweb="select"] span {
+        color: white !important;
+    }
+    
+    /* Dropdown arrow */
+    .stSelectbox svg {
+        fill: white !important;
+    }
+    
+    details summary {
+        background-color: #102542 !important;
+        border-radius: 10px !important;
+        padding: 10px 14px !important;
+    }
+    
+    /* Expander header text */
+    details summary p {
+        color: #FFFFFF !important;
+        font-weight: 700 !important;
+        font-size: 18px !important;
+    }
+    
+    /* Expander arrow/icon */
+    details summary svg {
+        fill: #FFFFFF !important;
     }
 
     /* Recommend button */
@@ -130,7 +161,7 @@ business_type = st.selectbox(
 )
 
 # Filter by type
-filtered = df[df["Category"].str.contains(business_type, case=False, na=False)]
+filtered = df[df["Business Type"] == business_type]
 
 # Cluster labels
 cluster_descriptions = {
