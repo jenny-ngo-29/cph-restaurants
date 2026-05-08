@@ -1,12 +1,12 @@
 """
 Restaurant Clustering Pipeline
---------------------------------
+
 Features:
   - Raw numeric      : Star rating, Review count, Price
   - Sentiment        : mean_compound, pct_positive, pct_negative (pre-computed)
   - Text embeddings  : Category, Ambience, Review Highlights, Customer Experience
 
-Each group has its own weight so you can tune their influence independently.
+Each group has its own weight so you can tune their influence independently
 """
 
 import numpy as np
@@ -17,7 +17,7 @@ from sklearn.decomposition import PCA, TruncatedSVD
 from sklearn.preprocessing import StandardScaler
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# ── Config ────────────────────────────────────────────────────────────────────
+# Config
 INPUT_FILE   = "final_clustered_restaurants.csv"
 OUTPUT_FILE  = "clustered_output.csv"
 N_CLUSTERS   = 7
@@ -28,13 +28,11 @@ WEIGHT_NUMERIC    = 5.0   # star rating, review count, price
 WEIGHT_SENTIMENT  = 0.5   # mean_compound, pct_positive, pct_negative
 WEIGHT_EMBEDDINGS = 0.4   # semantic text (category, ambience, highlights, etc.)
 
-
-# ── 1. Load ───────────────────────────────────────────────────────────────────
 df = pd.read_csv(INPUT_FILE)
 print(f"Loaded {len(df)} restaurants")
 
 
-# ── 2. Raw numeric features (price, rating, volume) ──────────────────────────
+# Raw numeric features
 def price_to_int(p):
     """'$$' → 2,  '$$$' → 3, etc."""
     return len(p) if isinstance(p, str) else np.nan
@@ -51,7 +49,7 @@ raw_df = df[raw_numeric_cols].copy().fillna(df[raw_numeric_cols].median())
 raw_scaled = StandardScaler().fit_transform(raw_df)
 
 
-# ── 3. Sentiment features ─────────────────────────────────────────────────────
+#Sentiment features
 sentiment_cols = [
     "mean_compound",   # overall polarity (-1 → +1)
     "pct_positive",    # % positive reviews
@@ -62,7 +60,7 @@ sentiment_df = df[sentiment_cols].copy().fillna(df[sentiment_cols].median())
 sentiment_scaled = StandardScaler().fit_transform(sentiment_df)
 
 
-# ── 4. Text embeddings (semantic richness) ────────────────────────────────────
+# Text embeddings 
 text_series = (
     df["Category"].fillna("") + " | " +
     df["Ambience"].fillna("") + " | " +
@@ -77,13 +75,13 @@ tfidf_matrix = tfidf.fit_transform(text_series.tolist())
 svd = TruncatedSVD(n_components=TFIDF_DIMS, random_state=42)
 embeddings = svd.fit_transform(tfidf_matrix)
 
-# L2-normalise so cosine similarity is preserved
+# L2-normalization
 norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
 embeddings = embeddings / np.where(norms == 0, 1, norms)
 print(f"Embeddings shape: {embeddings.shape}")
 
 
-# ── 5. Combine all feature groups with independent weights ────────────────────
+# Features with weights
 X = np.hstack([
     raw_scaled        * WEIGHT_NUMERIC,
     sentiment_scaled  * WEIGHT_SENTIMENT,
@@ -91,7 +89,7 @@ X = np.hstack([
 ])
 
 
-# ── 6. Elbow method (runs if N_CLUSTERS is None, skips if already set) ────────
+# Elbow method
 if N_CLUSTERS is None:
     print("\nRunning elbow method to find optimal k…")
     K_RANGE = range(2, 12)
@@ -117,13 +115,13 @@ if N_CLUSTERS is None:
     N_CLUSTERS = int(input("\nEnter k to use for clustering: ").strip())
 
 
-# ── 7. Cluster ────────────────────────────────────────────────────────────────
+# Cluster
 kmeans = KMeans(n_clusters=N_CLUSTERS, random_state=42, n_init="auto")
 df["cluster"] = kmeans.fit_predict(X)
 print(f"\nCluster sizes:\n{df['cluster'].value_counts().sort_index()}")
 
 
-# ── 8. Build cluster labels from top categories ───────────────────────────────
+# Build cluster labels from top categories
 def top_categories(group, n=3):
     cats = group["Category"].dropna().str.split(r"[,/]").explode().str.strip()
     return " / ".join(cats.value_counts().head(n).index.tolist())
@@ -137,7 +135,7 @@ for cid, label in cluster_labels.items():
     print(f"  {label}")
 
 
-# ── 9. Visualise ──────────────────────────────────────────────────────────────
+#  Visualise
 pca = PCA(n_components=2, random_state=42)
 pts = pca.fit_transform(X)
 variance = pca.explained_variance_ratio_ * 100
@@ -174,7 +172,6 @@ plt.savefig("cluster_plot.png", dpi=150, bbox_inches="tight")
 print("\nPlot saved → cluster_plot.png")
 
 
-# ── 10. Save ──────────────────────────────────────────────────────────────────
 keep_cols = [
     "Yelp ID", "Business name", "Category", "Average star rating",
     "Review count", "Price", "Ambience",
