@@ -43,13 +43,23 @@ st.markdown(
         font-weight: 600;
     }
 
+    .stSelectbox > div:first-child,
+    .stSelectbox [data-testid="stWidgetLabel"] {
+        background-color: transparent !important;
+        border: none !important;
+        padding: 0 !important;
+    }
+
     .stSelectbox div[data-baseweb="select"] > div {
         background-color: #102542 !important;
         border-radius: 10px !important;
         border: none !important;
     }
 
-    .stSelectbox div[data-baseweb="select"] span {
+    .stSelectbox div[data-baseweb="select"] span,
+    .stSelectbox div[data-baseweb="select"] div,
+    .stSelectbox div[data-baseweb="select"] p,
+    .stSelectbox [data-baseweb="select"] * {
         color: white !important;
     }
 
@@ -147,7 +157,7 @@ st.markdown(
 st.markdown(
     """
     <p style="font-size: 18px;">
-        Choose what kind of place you want, and we’ll recommend places from your Yelp dataset.
+        Choose what kind of place you want, and we'll recommend places from your Yelp dataset.
     </p>
     """,
     unsafe_allow_html=True
