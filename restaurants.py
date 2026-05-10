@@ -134,6 +134,7 @@ def get_existing_ids_from_files(*filenames):
         if not os.path.exists(filename):
             continue
 
+
         with open(filename, "r", encoding="utf-8") as file:
             reader = csv.DictReader(file)
             ids.update(row["Yelp ID"] for row in reader if row.get("Yelp ID"))
