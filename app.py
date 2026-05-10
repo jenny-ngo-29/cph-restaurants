@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from streamlit_extras.stylable_container import stylable_container
 
 st.set_page_config(
     page_title="Copenhagen Food Recommender",
@@ -16,84 +17,99 @@ st.markdown(
     }
 
     h1, .main-title {
-        color: #0b1f3a;
+        color: #0b1f3a !important;
         text-align: center;
         font-size: 52px;
         font-weight: 800;
         margin-bottom: 10px;
     }
 
-    h2, h3 {
-        color: #0b1f3a;
+    h2 {
+        color: #0b1f3a !important;
+    }
+    
+    h3 {
+        color: #0b1f3a !important;
     }
 
     .subtitle {
         text-align: center;
         font-size: 20px;
-        color: #0b1f3a;
+        color: #0b1f3a !important;
         margin-bottom: 35px;
     }
 
     p {
-        color: #0b1f3a;
+        color: #0b1f3a !important;
     }
 
+    
+    /* Dropdown labels */
     .stSelectbox label {
-        color: #0b1f3a;
+        color: #0b1f3a !important;
         font-weight: 600;
     }
 
+    /* Dropdown background */
     .stSelectbox div[data-baseweb="select"] > div {
-        background-color: #102542;
-        border-radius: 10px;
-        border: none ;
+        background-color: #102542 !important;
+        border-radius: 10px !important;
+        border: none !important;
     }
-
+    
+    /* Dropdown selected text */
     .stSelectbox div[data-baseweb="select"] span {
-        color: white;
+        color: white !important;
     }
-
+    
+    /* Dropdown arrow */
     .stSelectbox svg {
-        fill: white;
+        fill: white !important;
     }
-
+    
     details summary {
-        background-color: #102542 ;
-        border-radius: 10px ;
-        padding: 10px 14px ;
+        background-color: #102542 !important;
+        border-radius: 10px !important;
+        padding: 10px 14px !important;
     }
-
+    
+    /* Expander header text */
     details summary p {
-        color: #FFFFFF ;
-        font-weight: 700;
-        font-size: 18px;
+        color: #FFFFFF !important;
+        font-weight: 700 !important;
+        font-size: 18px !important;
+    }
+    
+    /* Expander arrow/icon */
+    details summary svg {
+        fill: #FFFFFF !important;
     }
 
-    details summary svg {
-        fill: #FFFFFF;
-    }
+    /* Recommend button */
 
     .stButton button {
-        background-color: #102542;
+        background-color: #102542 !important;
         border-radius: 10px;
         border: none;
         font-weight: 600;
     }
 
     .stButton button p {
-        color: white;
+        color: white !important;
     }
 
     .stButton button:hover {
-        background-color: #1f3b63;
+        background-color: #1f3b63 !important;
     }
 
     .stButton button:hover p {
-        color: white;
+        color: white !important;
     }
 
+    /* Yelp button */
+
     .stLinkButton a {
-        background-color: #102542;
+        background-color: #102542 !important;
         border-radius: 10px;
         border: none;
         font-weight: 600;
@@ -105,20 +121,11 @@ st.markdown(
     }
 
     .stLinkButton a:hover {
-        background-color: #1f3b63;
+        background-color: #1f3b63 !important;
     }
 
     .stLinkButton a:hover p {
-        color: white;
-    }
-
-    div[class*="st-key-recommendation_card_"] {
-        padding: 22px;
-        border-radius: 18px;
-        background-color: #f9f6f1;
-        border: 1px solid #e6ded3;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-        margin-bottom: 24px;
+        color: white !important;
     }
 
     </style>
@@ -126,14 +133,13 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-def clean_value(value, fallback="Not available"):
-    if pd.isna(value) or str(value).strip().lower() in ["", "nan", "none"]:
-        return fallback
-    return value
-
+# Load data
 df = pd.read_csv("copenhagen_places_with_clusters.csv")
+
+# Remove missing-data cluster
 df = df[df["cluster"] != 4]
 
+# Title section
 st.markdown(
     """
     <h1 class="main-title">🍽️ Copenhagen Food Recommender</h1>
@@ -147,22 +153,22 @@ st.markdown(
 st.markdown(
     """
     <p style="font-size: 18px;">
-        Choose what kind of place you want, and we’ll recommend places from your Yelp dataset.
+        Choose what kind of place you want, and we’ll recommend one from your Yelp dataset.
     </p>
     """,
     unsafe_allow_html=True
 )
 
+# Business type selector
 business_type = st.selectbox(
-    "Do you want a restaurant, cafe, or both?",
-    ["Restaurant", "Cafe", "Both"]
+    "Do you want a restaurant or cafe?",
+    ["Restaurant", "Cafe"]
 )
 
-if business_type == "Both":
-    filtered = df.copy()
-else:
-    filtered = df[df["Business Type"] == business_type]
+# Filter by type
+filtered = df[df["Business Type"] == business_type]
 
+# Cluster labels
 cluster_descriptions = {
     0: "Budget Eats",
     1: "Casual Dining",
@@ -172,27 +178,18 @@ cluster_descriptions = {
     6: "Hidden Gems"
 }
 
-cluster_long_descriptions = {
-    0: "Affordable, casual places that are good for quick meals, takeaway, coffee, or low-cost eats.",
-    1: "Comfortable mid-range spots for casual sit-down meals, brunch, and everyday dining.",
-    2: "Highly popular Copenhagen places with lots of reviews and strong public recognition.",
-    3: "Higher-end restaurants with a more upscale or fine-dining feel.",
-    5: "Trendy, social, and popular casual spots that work well for groups or relaxed outings.",
-    6: "Highly rated places with fewer reviews, making them feel more like hidden gems."
-}
-
+# Cluster selector
 cluster_choice = st.selectbox(
     "What kind of place are you in the mood for?",
     list(cluster_descriptions.keys()),
     format_func=lambda x: cluster_descriptions[x]
 )
 
-with st.expander("ℹ️ About this cluster"):
-    st.write(cluster_long_descriptions[cluster_choice])
-
+# Filter by cluster
 filtered = filtered[filtered["cluster"] == cluster_choice]
 
-if st.button("Recommend places", use_container_width=True):
+# Recommendation button
+if st.button("Recommend placs", use_container_width=True):
 
     if filtered.empty:
         st.warning("No matching places found. Try another cluster or type.")
@@ -202,28 +199,41 @@ if st.button("Recommend places", use_container_width=True):
         recommendations = filtered.sample(num_recommendations)
 
         st.markdown("---")
+
         st.subheader(f"Here are {num_recommendations} recommendations:")
 
         for i, (_, recommendation) in enumerate(recommendations.iterrows()):
 
-            with st.container(key=f"recommendation_card_{i}"):
+            with stylable_container(
+                    key=f"recommendation_card_{i}",
+                    css_styles="""
+                    {
+                        padding: 22px;
+                        border-radius: 18px;
+                        background-color: #f9f6f1;
+                        border: 1px solid #e6ded3;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                        margin-bottom: 24px;
+                    }
+                """
+            ):
 
                 st.markdown(
                     f"""
-                    <h2 style="margin-bottom: 4px; color: #0b1f3a; font-weight: 700;">
-                        {clean_value(recommendation['Business name'])}
+                    <h2 style="margin-bottom: 4px; color: #0b1f3a !important; font-weight: 700;">
+                        {recommendation['Business name']}
                     </h2>
 
-                    <p style="font-size: 16px; color: #555 ;">
-                        {clean_value(recommendation['Category'])}
+                    <p style="font-size: 16px; color: #555 !important;">
+                        {recommendation['Category']}
                     </p>
 
-                    <p style="font-size: 18px; color: #0b1f3a;">
-                        ⭐ <b>{clean_value(recommendation['Average star rating'])}</b>
+                    <p style="font-size: 18px; color: #0b1f3a !important;">
+                        ⭐ <b>{recommendation['Average star rating']}</b>
                         &nbsp;&nbsp; | &nbsp;&nbsp;
-                        📝 {clean_value(recommendation['Review count'])} reviews
+                        📝 {recommendation['Review count']} reviews
                         &nbsp;&nbsp; | &nbsp;&nbsp;
-                        💰 {clean_value(recommendation.get('Price'), 'No price data')}
+                        💰 {recommendation.get('Price', 'No price data')}
                     </p>
                     """,
                     unsafe_allow_html=True
@@ -239,8 +249,13 @@ if st.button("Recommend places", use_container_width=True):
                     )
 
                 with st.expander("📍 Business Information"):
-                    st.markdown(f"**Address:** {clean_value(recommendation.get('Business address'))}")
-                    st.markdown(f"**Phone number:** {clean_value(recommendation.get('Phone number'))}")
+                    st.markdown(
+                        f"**Address:** {recommendation.get('Business address', 'Not available')}"
+                    )
+
+                    st.markdown(
+                        f"**Phone number:** {recommendation.get('Phone number', 'Not available')}"
+                    )
 
                     business_url = recommendation.get("Business website URL")
 
