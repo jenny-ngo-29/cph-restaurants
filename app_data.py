@@ -4,14 +4,14 @@ import pandas as pd
 places = pd.read_csv("copenhagen_places_merged.csv")
 clusters = pd.read_csv("clustered_output.csv")
 
-# Merge using Yelp ID
+# merge with id
 df = places.merge(
     clusters[["Yelp ID", "cluster"]],
     on="Yelp ID",
     how="left"
 )
 
-# Create Business Type from Category
+# Create Business Type from cat
 def classify_business_type(category):
     category = str(category).lower()
 

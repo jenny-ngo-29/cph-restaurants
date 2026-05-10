@@ -22,8 +22,6 @@ def price_to_num(price):
 
 df["Price"] = df["Price"].apply(price_to_num)
 
-#drop na values for restuarants that dont have reviews..
-
 # Convert booleans (True/False) → 1/0
 bool_cols = [
     "Outdoor seating",

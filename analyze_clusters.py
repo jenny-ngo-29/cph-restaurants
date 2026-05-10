@@ -3,8 +3,7 @@ import pandas as pd
 # Load the file
 df = pd.read_csv('clustered_output.csv')
 
-# Convert Price ($, $$, $$$, $$$$) into numeric values
-# Example: '$$$' -> 3
+#convert price
 df['Price_Numeric'] = df['Price'].astype(str).str.count(r'\$')
 
 # Columns to average
@@ -24,7 +23,7 @@ cluster_averages = (
     .reset_index()
 )
 
-# Optional rounding
+# round
 cluster_averages = cluster_averages.round(3)
 
 # Rename for readability

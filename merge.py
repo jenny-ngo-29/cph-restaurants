@@ -1,7 +1,7 @@
 import pandas as pd
 
 def aggregate_sentiment(reviews_file):
-    """Collapse per-review rows into one row per restaurant."""
+    #Collapse per-review rows into one row per restaurant.
     df = pd.read_csv(reviews_file)
 
     numeric_agg = df.groupby("Yelp ID").agg(
@@ -29,13 +29,13 @@ def aggregate_sentiment(reviews_file):
 def merge_and_save(places_file, reviews_file, summary_file, output_file):
     df_places  = pd.read_csv(places_file)
 
-    # Aggregate raw reviews → one row per restaurant
+    # Aggregate raw reviews into one row per restaurant
     df_reviews = aggregate_sentiment(reviews_file)
 
     # Pull only the extra columns from the summary that reviews don't have
     df_summary = pd.read_csv(summary_file)[["Yelp ID", "weighted_compound", "review_snippets"]]
 
-    # Merge: places → aggregated reviews → summary extras
+    # merge places and reviews and summary
     df = df_places.merge(df_reviews, on="Yelp ID", how="left")
     df = df.merge(df_summary, on="Yelp ID", how="left")
 
