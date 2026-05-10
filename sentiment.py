@@ -1,33 +1,15 @@
-"""
-Sentiment Analysis on Copenhagen Yelp Reviews
-==============================================
-Workflow:
-  1. Load CSV (cafes or restaurants)
-  2. Parse & clean review text from 'Review Highlights'
-  3. Score each review with VADER (fast, lexicon-based, no GPU needed)
-  4. Optionally score with a transformer model (better accuracy)
-  5. Aggregate per-business and export results
-  6. Visualize sentiment distributions
-
-Install dependencies:
-    pip install pandas vaderSentiment transformers torch tqdm matplotlib seaborn
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-# ── Config ──────────────────────────────────────────────────────────────────
-CSV_FILE       = "copenhagen_restaurants_merged.csv"
+CSV_FILE       = "copenhagen_places_merged.csv"
 OUTPUT_REVIEWS = "reviews_sentiment.csv"
 OUTPUT_SUMMARY = "business_sentiment_summary.csv"
 USE_TRANSFORMER = False  # set True for higher-accuracy transformer scoring
-# ────────────────────────────────────────────────────────────────────────────
 
-
-# ── 1. Load & parse reviews ──────────────────────────────────────────────────
+# load and parse reviews
 def load_reviews(filepath: str) -> pd.DataFrame:
     """
     Explode pipe-separated 'Review Highlights' into one row per review,
@@ -53,7 +35,7 @@ def load_reviews(filepath: str) -> pd.DataFrame:
     return df_exploded[[c for c in keep_cols if c in df_exploded.columns]]
 
 
-# ── 2. VADER sentiment scoring ───────────────────────────────────────────────
+# vader sentiment scoring
 def score_vader(df: pd.DataFrame) -> pd.DataFrame:
     """
     Adds columns: vader_neg, vader_neu, vader_pos, vader_compound, vader_label
@@ -76,7 +58,7 @@ def score_vader(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-# ── 3. (Optional) Transformer scoring ────────────────────────────────────────
+# transformer scoring
 def score_transformer(df: pd.DataFrame, batch_size: int = 32) -> pd.DataFrame:
     """
     Uses distilbert-base-uncased-finetuned-sst-2-english for binary
@@ -107,7 +89,7 @@ def score_transformer(df: pd.DataFrame, batch_size: int = 32) -> pd.DataFrame:
     return df
 
 
-# ── 4. Aggregate per business ────────────────────────────────────────────────
+#aggregate per business
 def summarise_by_business(df: pd.DataFrame) -> pd.DataFrame:
     """
     Roll up review-level scores to a per-business summary.
@@ -140,7 +122,7 @@ def summarise_by_business(df: pd.DataFrame) -> pd.DataFrame:
     return agg
 
 
-# ── 5. Visualisations ────────────────────────────────────────────────────────
+# visualizations
 def plot_sentiment_distribution(df: pd.DataFrame):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
@@ -206,7 +188,7 @@ def plot_sentiment_vs_stars(summary: pd.DataFrame):
     print("Saved → sentiment_vs_stars.png")
 
 
-# ── Main ─────────────────────────────────────────────────────────────────────
+# main code
 if __name__ == "__main__":
     print("Loading reviews...")
     reviews = load_reviews(CSV_FILE)
